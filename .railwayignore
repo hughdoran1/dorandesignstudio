@@ -1,0 +1,10 @@
+DDSWebstie2026/
+.claude/
+.DS_Store
+*.py
+*.svg
+prototype.html
+guides.html
+guide.html
+dot-grid-template.svg
+extract_prototype.py
