@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doran Design Studio</title>
+
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Lottie Player -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+  <!-- Shared Design System -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Page-specific: landing / under-development */
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding-top: var(--space-10);
+      padding-bottom: var(--space-6);
+    }
+
+    .hero-content {
+      gap: var(--space-10);
+    }
+
+    /* Under development badge */
+    .dev-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border-surface);
+      padding: 0.35rem 0.75rem;
+      border-radius: 2px;
+      margin-bottom: var(--space-5);
+    }
+
+    .dev-badge .material-icons {
+      font-size: 0.875rem;
+      color: var(--color-orange);
+    }
+
+    /* Lottie container - remove fallback styling once loaded */
+    #lottie-container {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      max-width: 480px;
+    }
+
+    /* Contact form */
+    .contact-section {
+      background: var(--surface);
+      border-top: 1px solid var(--border-surface);
+      padding: var(--space-10) 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-8);
+    }
+
+    @media (min-width: 768px) {
+      .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+      }
+    }
+
+    .contact-intro h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: var(--space-3);
+    }
+
+    .contact-intro p {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+      line-height: 1.7;
+      max-width: 420px;
+    }
+
+    .contact-intro a {
+      color: var(--color-blue);
+      text-decoration: none;
+    }
+
+    .contact-intro a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-field label {
+      font-family: var(--font-mono);
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .form-field input,
+    .form-field textarea {
+      font-family: var(--font-body);
+      font-size: 0.875rem;
+      color: var(--text-main);
+      background: var(--surface-raised);
+      border: 1px solid var(--border-surface);
+      border-radius: 2px;
+      padding: 0.625rem 0.75rem;
+      transition: border-color var(--duration-base) var(--ease-out),
+                  background var(--duration-base) var(--ease-out);
+      outline: none;
+    }
+
+    .form-field input:focus,
+    .form-field textarea:focus {
+      border-color: var(--color-blue);
+      background: var(--surface-overlay);
+    }
+
+    .form-field textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-4);
+    }
+
+    .form-submit {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-white);
+      background: var(--color-blue);
+      border: none;
+      border-radius: 2px;
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      transition: opacity var(--duration-base) var(--ease-out);
+      align-self: flex-start;
+    }
+
+    .form-submit:hover {
+      opacity: 0.85;
+    }
+
+    .form-submit:active {
+      opacity: 0.7;
+    }
+
+    /* Success state */
+    .form-success {
+      display: none;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--color-green);
+      padding: var(--space-4) 0;
+    }
+
+    .form-success .material-icons {
+      font-size: 1.125rem;
+    }
+
+    .form-success.is-visible {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <img src="https://ddspreviewimages.s3.us-east-2.amazonaws.com/DDS2024LogoBlue_BlueDDSIcon.png" alt="Doran Design Studio" class="nav-logo">
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="dev-badge">
+            <span class="material-icons">construction</span>
+            Under Development
+          </div>
+          <h1>Design & Documentation</h1>
+          <h2>For Product Portfolios</h2>
+          <p>Doran Design Studio helps product teams communicate clearly across markets, use cases, and technical requirements. From managing multiple SKUs to supporting global markets and documenting intricate product ecosystems — the visual systems and documentation that make your products easy to understand and sell.</p>
+        </div>
+
+        <div class="hero-animation">
+          <div id="lottie-container"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <h2>Get in Touch</h2>
+          <p>Have a project in mind or want to learn more? Drop a message and we'll get back to you.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="#" method="POST">
+          <!-- FormSubmit config -->
+          <input type="hidden" name="_subject" value="New enquiry from dorandesignstudio.com">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="">
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send Message</button>
+          <div class="form-success" id="form-success">
+            <span class="material-icons">check_circle</span>
+            Message sent — we'll be in touch.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Doran Design Studio</p>
+    </div>
+  </footer>
+
+  <script>
+    // Lottie animation
+    const lottieContainer = document.getElementById('lottie-container');
+    if (lottieContainer) {
+      lottie.loadAnimation({
+        container: lottieContainer,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: './HeroLottie5.json'
+      });
+    }
+
+    // Form config - obfuscate email from source/scrapers
+    const f = document.getElementById('contact-form');
+    if (f) {
+      const u = ['hugh', 'dorandesignstudio', 'com'].join(String.fromCharCode(64, 46).charAt(0) === '@' ? '@' : '.').replace('@.', '@');
+      // Reconstruct: hugh@dorandesignstudio.com
+      const parts = ['hugh', 'dorandesignstudio.com'];
+      f.action = 'https://formsubmit.co/' + parts.join('@');
+      const nextInput = f.querySelector('input[name="_next"]');
+      if (nextInput) nextInput.value = window.location.href;
+    }
+  </script>
+
+</body>
+</html>
