@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Product Renders Strategy - Doran Design Studio</title>
+
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Shared Design System -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Page-specific overrides for guide.html - shared styles in styles.css */
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <img src="https://ddspreviewimages.s3.us-east-2.amazonaws.com/DDS2024LogoBlue_BlueDDSIcon.png" alt="Doran Design Studio" class="nav-logo">
+      <div class="nav-links">
+        <a href="prototype.html" class="nav-link">Home</a>
+        <a href="prototype.html#work" class="nav-link">Work</a>
+        <a href="prototype.html#services" class="nav-link">Services</a>
+        <a href="guides.html" class="nav-link">Guides</a>
+        <a href="prototype.html#assets" class="nav-link">Assets</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Guide Layout -->
+  <div class="guide-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="guide-sidebar">
+      <div class="guide-sidebar-inner">
+        <div class="guide-nav-title">On This Page</div>
+        <ul class="guide-nav-list">
+          <li class="guide-nav-item">
+            <a href="#chunk-1" class="guide-nav-link is-active">Maintaining Visual Consistency</a>
+          </li>
+          <li class="guide-nav-item">
+            <a href="#chunk-2" class="guide-nav-link">Introduction to Product Rendering</a>
+          </li>
+          <li class="guide-nav-item">
+            <a href="#chunk-3" class="guide-nav-link">Production Workflow Setup</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="guide-main">
+      <article class="guide-content">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+          <a href="guides.html">Guides</a>
+          <span class="breadcrumb-separator">›</span>
+          <span>Digital Product Renders Strategy</span>
+        </nav>
+
+        <!-- Guide Header -->
+        <header class="guide-header">
+          <div class="guide-header-meta">
+            <span class="guide-type-badge">Strategy Guide</span>
+            <span class="guide-time">15 min read</span>
+          </div>
+          <h1>Digital Product Renders Strategy</h1>
+          <p>Consistent product visualization across your product portfolio using modular rendering workflows and standardized asset templates.</p>
+        </header>
+
+        <!-- Chunk 1: Task Type (B - First in map) -->
+        <section class="chunk" id="chunk-1">
+          <div class="chunk-header">
+            <div class="chunk-type">
+              <span class="material-icons chunk-type-icon">task_alt</span>
+              Task · Step-by-Step
+            </div>
+            <h2>Maintaining Visual Consistency</h2>
+          </div>
+
+          <!-- Product Chips -->
+          <div class="product-chips">
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">view_in_ar</span>
+              Cinema 4D
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">wb_sunny</span>
+              Redshift
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">image</span>
+              Photoshop
+            </span>
+          </div>
+
+          <p>Establishing visual consistency across your product portfolio requires a systematic approach to <span class="tooltip-term">rendering<span class="tooltip-content">The process of generating photorealistic images from 3D models using specialized software</span></span> and post-processing. This ensures that all products maintain the same quality, lighting, and presentation standards regardless of which team member creates them.</p>
+
+          <div class="callout callout-note">
+            <div class="callout-header">
+              <span class="material-icons">info</span>
+              Note
+            </div>
+            <p>Consistency is critical for e-commerce and marketing materials where customers compare products side-by-side. Inconsistent lighting or angles can create confusion and reduce trust.</p>
+          </div>
+
+          <h3>Step-by-Step Process</h3>
+
+          <ol class="task-steps">
+            <li class="task-step">
+              <h4>Create Your Master Scene Template</h4>
+              <p>Set up a master <span class="tooltip-term">scene file<span class="tooltip-content">A 3D project file containing all objects, lights, cameras, and materials for rendering</span></span> in your 3D application with standardized camera positions, lighting rigs, and <span class="tooltip-term">HDRI environments<span class="tooltip-content">High Dynamic Range Images used for realistic environment lighting and reflections</span></span>. This becomes the foundation for all future renders.</p>
+
+              <div class="chunk-image">
+                <span class="material-icons">image</span>
+                <div class="chunk-image-caption">Example master scene showing camera positions and lighting setup</div>
+              </div>
+            </li>
+
+            <li class="task-step">
+              <h4>Define Material Standards</h4>
+              <p>Create a material library with pre-configured <span class="tooltip-term">shaders<span class="tooltip-content">Programs that define how surfaces interact with light, controlling appearance properties like color, reflectivity, and roughness</span></span> for common product finishes (matte plastic, brushed metal, glass, etc.). Document the exact parameters for each material type.</p>
+
+              <div class="callout callout-tip">
+                <div class="callout-header">
+                  <span class="material-icons">lightbulb</span>
+                  Tip
+                </div>
+                <p>Use physically-based rendering (PBR) materials to ensure consistency across different lighting conditions and render engines.</p>
+              </div>
+            </li>
+
+            <li class="task-step">
+              <h4>Establish Render Settings</h4>
+              <p>Lock in your render engine settings including resolution, samples, <span class="tooltip-term">ray depth<span class="tooltip-content">The maximum number of times light can bounce between surfaces, affecting reflections and refractions</span></span>, and output format. Create presets for different deliverable types (web, print, video).</p>
+
+              <div class="code-block">Resolution: 4096 × 4096 px
+Samples: 512 (adaptive)
+Ray Depth: 8 bounces
+Color Space: ACEScg
+Output: PNG (16-bit) + EXR</div>
+            </li>
+
+            <li class="task-step">
+              <h4>Build Post-Processing Templates</h4>
+              <p>Create Photoshop actions or scripts for consistent color grading, background removal, and final touch-ups. This ensures every render gets the same treatment.</p>
+            </li>
+          </ol>
+
+          <div class="callout callout-warning">
+            <div class="callout-header">
+              <span class="material-icons">warning</span>
+              Important
+            </div>
+            <p>Never manually adjust individual renders unless absolutely necessary. Any changes should be incorporated back into the master template to maintain consistency across all future work.</p>
+          </div>
+
+        </section>
+
+        <!-- Chunk 2: Concept Type (A - Second in map) -->
+        <section class="chunk" id="chunk-2">
+          <div class="chunk-header">
+            <div class="chunk-type">
+              <span class="material-icons chunk-type-icon">lightbulb</span>
+              Concept · Overview
+            </div>
+            <h2>Introduction to Product Rendering</h2>
+          </div>
+
+          <!-- Product Chips -->
+          <div class="product-chips">
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">view_in_ar</span>
+              Cinema 4D
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">category</span>
+              Blender
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">auto_awesome</span>
+              KeyShot
+            </span>
+          </div>
+
+          <p>Digital product rendering has revolutionized how companies visualize and market their products. Instead of expensive photography shoots, teams can now create photorealistic images directly from <span class="tooltip-term">CAD models<span class="tooltip-content">Computer-Aided Design files - precise 3D technical drawings used in product development and engineering</span></span> or purpose-built 3D assets.</p>
+
+          <h3>Why Use 3D Rendering?</h3>
+
+          <p>The advantages of 3D rendering over traditional photography become clear when managing large product catalogs:</p>
+
+          <ul>
+            <li><strong>Scalability:</strong> Once a <span class="tooltip-term">3D model<span class="tooltip-content">A digital three-dimensional representation of an object created in specialized software</span></span> exists, you can generate unlimited views, configurations, and variations without additional photoshoots.</li>
+            <li><strong>Consistency:</strong> Digital lighting and camera settings ensure perfect consistency across hundreds or thousands of products.</li>
+            <li><strong>Iteration Speed:</strong> Design changes can be visualized immediately without waiting for physical prototypes or new photography.</li>
+            <li><strong>Cost Efficiency:</strong> After initial setup investment, the per-image cost drops dramatically compared to traditional photography.</li>
+            <li><strong>Pre-Production Marketing:</strong> Market products before they physically exist, reducing time-to-market.</li>
+          </ul>
+
+          <div class="chunk-image">
+            <span class="material-icons">compare</span>
+            <div class="chunk-image-caption">Comparison: Traditional photography vs. 3D rendering workflow</div>
+          </div>
+
+          <h3>Understanding the Rendering Pipeline</h3>
+
+          <p>A typical product rendering workflow consists of several key stages:</p>
+
+          <ol>
+            <li><strong>Modeling:</strong> Creating the 3D geometry from CAD files, blueprints, or reference images</li>
+            <li><strong>Texturing:</strong> Applying materials and surface details using <span class="tooltip-term">UV mapping<span class="tooltip-content">The process of projecting a 2D texture onto a 3D model's surface, like wrapping a gift</span></span></li>
+            <li><strong>Lighting:</strong> Setting up virtual lights and environments to illuminate the scene</li>
+            <li><strong>Rendering:</strong> The computational process of calculating how light interacts with surfaces</li>
+            <li><strong>Post-Processing:</strong> Final color correction and compositing in image editing software</li>
+          </ol>
+
+          <div class="callout callout-note">
+            <div class="callout-header">
+              <span class="material-icons">info</span>
+              Industry Context
+            </div>
+            <p>Major e-commerce platforms now prefer or require CGI (Computer-Generated Imagery) for product listings due to superior consistency and the ability to standardize image formats across millions of SKUs.</p>
+          </div>
+
+        </section>
+
+        <!-- Chunk 3: Reference Type (C - Third in map) -->
+        <section class="chunk" id="chunk-3">
+          <div class="chunk-header">
+            <div class="chunk-type">
+              <span class="material-icons chunk-type-icon">book</span>
+              Reference · Technical Specs
+            </div>
+            <h2>Production Workflow Setup</h2>
+          </div>
+
+          <!-- Product Chips -->
+          <div class="product-chips">
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">view_in_ar</span>
+              Cinema 4D
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">wb_sunny</span>
+              Redshift
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">source</span>
+              After Effects
+            </span>
+            <span class="product-chip">
+              <span class="material-icons product-chip-icon">folder</span>
+              Asset Management
+            </span>
+          </div>
+
+          <p>Configuring your rendering pipeline for scale requires careful planning of file structures, naming conventions, and <span class="tooltip-term">render farm<span class="tooltip-content">A network of computers working together to render images faster by distributing the computational work</span></span> integration. This reference guide provides the technical specifications needed for production deployment.</p>
+
+          <h3>File Structure Standards</h3>
+
+          <p>Implement a hierarchical folder structure that supports version control and team collaboration:</p>
+
+          <div class="code-block">project-name/
+├── 01_models/
+│   ├── source/        (Original CAD files)
+│   ├── optimized/     (Production-ready geometry)
+│   └── archive/       (Deprecated versions)
+├── 02_textures/
+│   ├── diffuse/
+│   ├── normal/
+│   ├── roughness/
+│   └── hdri/
+├── 03_scenes/
+│   ├── master-template.c4d
+│   └── product-renders/
+├── 04_output/
+│   ├── raw-renders/
+│   └── finals/
+└── 05_documentation/</div>
+
+          <h3>Naming Conventions</h3>
+
+          <table class="reference-table">
+            <thead>
+              <tr>
+                <th>Asset Type</th>
+                <th>Format</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3D Models</td>
+                <td>PRODUCT-SKU_version_element.ext</td>
+                <td>CHAIR-X200_v03_seat.c4d</td>
+              </tr>
+              <tr>
+                <td>Textures</td>
+                <td>PRODUCT-SKU_material_map_resolution.ext</td>
+                <td>CHAIR-X200_fabric_diffuse_4k.png</td>
+              </tr>
+              <tr>
+                <td>Renders</td>
+                <td>PRODUCT-SKU_view_date_version.ext</td>
+                <td>CHAIR-X200_front_20240215_v02.png</td>
+              </tr>
+              <tr>
+                <td>Scene Files</td>
+                <td>PRODUCT-SKU_setup_version.ext</td>
+                <td>CHAIR-X200_beauty_v05.c4d</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Render Engine Configuration</h3>
+
+          <p>Below are recommended <span class="tooltip-term">Redshift<span class="tooltip-content">GPU-accelerated render engine known for speed and quality, commonly used in product visualization</span></span> settings optimized for product visualization workflows:</p>
+
+          <table class="reference-table">
+            <thead>
+              <tr>
+                <th>Setting</th>
+                <th>Web/Preview</th>
+                <th>Print/Final</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Resolution</td>
+                <td>2048 × 2048</td>
+                <td>4096 × 4096</td>
+              </tr>
+              <tr>
+                <td>Unified Samples</td>
+                <td>256</td>
+                <td>512-1024</td>
+              </tr>
+              <tr>
+                <td>Primary Ray Depth</td>
+                <td>4</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Reflection/Refraction</td>
+                <td>4</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>GI Rays</td>
+                <td>128</td>
+                <td>256</td>
+              </tr>
+              <tr>
+                <td>Brute Force Rays</td>
+                <td>256</td>
+                <td>512</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="callout callout-tip">
+            <div class="callout-header">
+              <span class="material-icons">lightbulb</span>
+              Performance Optimization
+            </div>
+            <p>Use adaptive sampling to reduce render times by up to 40%. Enable <span class="tooltip-term">IPR<span class="tooltip-content">Interactive Progressive Rendering - real-time preview that updates as you work</span></span> (Interactive Progressive Rendering) for faster iteration during look development.</p>
+          </div>
+
+          <h3>Metadata Standards</h3>
+
+          <p>Embed the following metadata in all final renders to support <span class="tooltip-term">DAM systems<span class="tooltip-content">Digital Asset Management - software for organizing, storing, and retrieving digital files</span></span>:</p>
+
+          <ul>
+            <li>Product SKU and variant information</li>
+            <li>Render date and version number</li>
+            <li>Camera angle/view identifier</li>
+            <li>Rendering software and plugin versions</li>
+            <li>Color space and bit depth</li>
+            <li>Copyright and usage rights</li>
+          </ul>
+
+          <div class="chunk-image">
+            <span class="material-icons">settings</span>
+            <div class="chunk-image-caption">Render farm dashboard showing distributed rendering jobs</div>
+          </div>
+
+          <h3>Quality Control Checklist</h3>
+
+          <p>Before final delivery, all renders must pass these validation checks:</p>
+
+          <ul>
+            <li>✓ Resolution matches specification (no scaling artifacts)</li>
+            <li>✓ Color space correctly tagged (sRGB for web, Adobe RGB for print)</li>
+            <li>✓ No <span class="tooltip-term">fireflies<span class="tooltip-content">Bright pixel artifacts caused by insufficient sampling or difficult lighting conditions</span></span> or rendering artifacts</li>
+            <li>✓ Shadows are consistent with established lighting template</li>
+            <li>✓ Product properly centered in frame with correct margins</li>
+            <li>✓ Filename follows naming convention</li>
+            <li>✓ Metadata embedded correctly</li>
+            <li>✓ Transparency/alpha channel included where required</li>
+          </ul>
+
+        </section>
+
+        <!-- Guide Footer Navigation -->
+        <footer class="guide-footer">
+          <div class="guide-footer-nav">
+            <a href="guides.html" class="guide-footer-link">
+              <span class="material-icons">arrow_back</span>
+              All Guides
+            </a>
+            <a href="#" class="guide-footer-link">
+              Next Guide
+              <span class="material-icons">arrow_forward</span>
+            </a>
+          </div>
+        </footer>
+
+      </article>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Doran Design Studio • Built with Claude</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for sidebar navigation
+    document.querySelectorAll('.guide-nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+          // Update active state
+          document.querySelectorAll('.guide-nav-link').forEach(l => l.classList.remove('is-active'));
+          this.classList.add('is-active');
+        }
+      });
+    });
+
+    // Update active nav on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          document.querySelectorAll('.guide-nav-link').forEach(link => {
+            link.classList.remove('is-active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('is-active');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.chunk').forEach(chunk => {
+      observer.observe(chunk);
+    });
+  </script>
+
+</body>
+</html>
