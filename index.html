@@ -216,13 +216,18 @@
       display: flex;
     }
 
-    /* Pairwise Review Card */
-    .pairwise-card {
+    /* Tool Cards Row */
+    .tool-cards {
+      display: flex;
+      gap: var(--space-4);
       margin-top: var(--space-6);
+    }
+
+    .tool-card {
       display: inline-flex;
       flex-direction: column;
       gap: var(--space-3);
-      width: 240px;
+      width: 200px;
       aspect-ratio: 5 / 4;
       background: var(--surface);
       border: 1px solid var(--border-surface);
@@ -233,9 +238,16 @@
                   background var(--duration-base) var(--ease-out);
     }
 
-    .pairwise-card:hover {
+    .tool-card:hover {
       border-color: var(--color-blue);
       background: var(--surface-raised);
+    }
+
+    .tool-card-icon {
+      height: 28px;
+      width: 28px;
+      object-fit: contain;
+      object-position: left;
     }
 
     .pairwise-icon {
@@ -279,20 +291,20 @@
       flex: 1;
     }
 
-    .pairwise-text h3 {
+    .tool-card-text h3 {
       font-size: 0.8125rem;
       font-weight: 600;
       color: var(--text-main);
       margin-bottom: 0.25rem;
     }
 
-    .pairwise-text p {
+    .tool-card-text p {
       font-size: 0.6875rem;
       color: var(--text-muted);
       line-height: 1.45;
     }
 
-    .pairwise-arrow {
+    .tool-card-arrow {
       font-size: 1rem;
       color: var(--text-muted);
       align-self: flex-end;
@@ -300,15 +312,19 @@
                   transform var(--duration-base) var(--ease-out);
     }
 
-    .pairwise-card:hover .pairwise-arrow {
+    .tool-card:hover .tool-card-arrow {
       color: var(--color-blue);
       transform: translateX(3px);
     }
 
     @media (max-width: 480px) {
-      .pairwise-card {
+      .tool-cards {
+        flex-direction: column;
+      }
+
+      .tool-card {
         width: 100%;
-        max-width: 240px;
+        max-width: 200px;
       }
     }
   </style>
@@ -335,19 +351,30 @@
           <h2>For Product Portfolios</h2>
           <p>Doran Design Studio helps product teams communicate clearly across markets, use cases, and technical requirements. From managing multiple SKUs to supporting global markets and documenting intricate product ecosystems — the visual systems and documentation that make your products easy to understand and sell.</p>
 
-          <!-- Pairwise Review Card -->
-          <a href="https://pairwise.dorandesign.studio" class="pairwise-card">
-            <div class="pairwise-icon">
-              <span class="option-label option-a">A</span>
-              <span class="vs-divider">vs</span>
-              <span class="option-label option-b">B</span>
-            </div>
-            <div class="pairwise-text">
-              <h3>Been sent a review code?</h3>
-              <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
-            </div>
-            <span class="material-icons pairwise-arrow">arrow_forward</span>
-          </a>
+          <!-- Tool Cards -->
+          <div class="tool-cards">
+            <a href="https://pairwise.dorandesign.studio" class="tool-card">
+              <div class="pairwise-icon">
+                <span class="option-label option-a">A</span>
+                <span class="vs-divider">vs</span>
+                <span class="option-label option-b">B</span>
+              </div>
+              <div class="tool-card-text">
+                <h3>Been sent a review code?</h3>
+                <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
+              </div>
+              <span class="material-icons tool-card-arrow">arrow_forward</span>
+            </a>
+
+            <a href="https://icons.dorandesign.studio" class="tool-card">
+              <img src="dds-icon-256-2.png" alt="Generate Icons" class="tool-card-icon">
+              <div class="tool-card-text">
+                <h3>Generate Icons</h3>
+                <p>Create custom icon sets for your product documentation and interfaces.</p>
+              </div>
+              <span class="material-icons tool-card-arrow">arrow_forward</span>
+            </a>
+          </div>
         </div>
 
         <div class="hero-animation">
