@@ -5,4 +5,6 @@ COPY styles.css /usr/share/nginx/html/
 COPY HeroLottie5.json /usr/share/nginx/html/
 COPY HeroLottie5.js /usr/share/nginx/html/
 COPY dds-icon-256-2.png /usr/share/nginx/html/
+COPY sitemap.xml /usr/share/nginx/html/
+COPY graph-schema.svg /usr/share/nginx/html/
 CMD ["nginx", "-g", "daemon off;"]

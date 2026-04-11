@@ -79,6 +79,10 @@
     }
 
     /* Contact form */
+    .stats-section {
+      padding-bottom: var(--space-10);
+    }
+
     .contact-section {
       background: var(--surface);
       border-top: 1px solid var(--border-surface);
@@ -91,7 +95,7 @@
       gap: var(--space-8);
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       .contact-grid {
         grid-template-columns: 1fr 1fr;
         align-items: start;
@@ -342,6 +346,49 @@
         max-width: 200px;
       }
     }
+
+    /* Database & Tools Callout */
+    .db-callout-section {
+      padding: var(--space-10) 0 var(--space-6);
+    }
+
+    .db-callout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-8);
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .db-callout {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .db-callout-text h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: var(--space-3);
+    }
+
+    .db-callout-text p {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      max-width: 520px;
+    }
+
+    .db-graph {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .db-graph svg {
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -395,6 +442,92 @@
         <div class="hero-animation">
           <div id="lottie-container"></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Database & Tools Callout -->
+  <section class="db-callout-section">
+    <div class="container">
+      <div class="db-callout">
+        <div class="db-callout-text">
+          <h2>Product Ontology Schema</h2>
+          <p>Every product portfolio is a connected system. We model the relationships between products, markets, formats, and audiences as a live ontology — turning complex product data into structured, actionable documentation that scales across regions and channels.</p>
+        </div>
+        <div class="db-graph">
+          <object type="image/svg+xml" data="graph-schema.svg" style="width:100%;height:auto;"></object>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Grid -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stat-grid" id="stat-grid">
+        <button class="stat-card" style="color: var(--color-orange);">
+          <span class="material-icons stat-icon">palette</span>
+          <div>
+            <div class="stat-number">7</div>
+            <div class="stat-label">BRANDS</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-yellow);">
+          <span class="material-icons stat-icon">inventory</span>
+          <div>
+            <div class="stat-number">500+</div>
+            <div class="stat-label">PRODUCTS</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-teal);">
+          <span class="material-icons stat-icon">public</span>
+          <div>
+            <div class="stat-number">50+</div>
+            <div class="stat-label">COUNTRIES</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-red);">
+          <span class="material-icons stat-icon">language</span>
+          <div>
+            <div class="stat-number">12</div>
+            <div class="stat-label">LANGUAGES</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-blue);">
+          <span class="material-icons stat-icon">repeat</span>
+          <div>
+            <div class="stat-number">1,407</div>
+            <div class="stat-label">ITERATIONS</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-purple);">
+          <span class="material-icons stat-icon">inventory_2</span>
+          <div>
+            <div class="stat-number">335</div>
+            <div class="stat-label">ASSETS</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-green);">
+          <span class="material-icons stat-icon">schedule</span>
+          <div>
+            <div class="stat-number" id="years-count">7</div>
+            <div class="stat-label">YEARS</div>
+          </div>
+        </button>
+
+        <button class="stat-card" style="color: var(--color-magenta);">
+          <span class="material-icons stat-icon">folder</span>
+          <div>
+            <div class="stat-number">30</div>
+            <div class="stat-label">PROJECTS</div>
+          </div>
+        </button>
       </div>
     </div>
   </section>
@@ -465,6 +598,57 @@
         path: './HeroLottie5.json'
       });
     }
+
+    // Dynamic years counter
+    const yearsEl = document.getElementById('years-count');
+    if (yearsEl) {
+      const start = new Date('2019-03-25');
+      const years = Math.floor((Date.now() - start) / (365.25 * 24 * 60 * 60 * 1000));
+      yearsEl.textContent = years;
+    }
+
+    // Dot Grid System
+    (function initDotGrids() {
+      const GRID_COLUMNS = 12;
+      const DOTS_PER_GRID_UNIT = 7;
+      let sharedGridWidth = null;
+
+      function applyDotGrid(gridElement) {
+        if (sharedGridWidth === null) sharedGridWidth = gridElement.offsetWidth;
+        const gridWidth = sharedGridWidth;
+        const gap = 1;
+        const totalGapWidth = gap * (GRID_COLUMNS + 1);
+        const gridUnitWidth = (gridWidth - totalGapWidth) / GRID_COLUMNS;
+        const dotSpacing = gridUnitWidth / 8;
+        const dotColor = getComputedStyle(document.documentElement).getPropertyValue('--border-canvas').trim();
+        const canvasColor = getComputedStyle(document.documentElement).getPropertyValue('--canvas').trim();
+        const patternSize = gridUnitWidth + gap;
+        const dotOffset = dotSpacing;
+        let circles = '';
+        for (let i = 0; i < DOTS_PER_GRID_UNIT; i++) {
+          for (let j = 0; j < DOTS_PER_GRID_UNIT; j++) {
+            circles += `<circle cx='${dotOffset + i * dotSpacing}' cy='${dotOffset + j * dotSpacing}' r='1.5' fill='${dotColor}'/>`;
+          }
+        }
+        const svgPattern = `<svg xmlns='http://www.w3.org/2000/svg' width='${patternSize}' height='${patternSize}'><rect x='0' y='0' width='${gridUnitWidth}' height='${gridUnitWidth}' fill='${canvasColor}'/>${circles}</svg>`.replace(/\s+/g, ' ').trim();
+        gridElement.style.backgroundImage = `url("data:image/svg+xml,${encodeURIComponent(svgPattern)}")`;
+        gridElement.style.backgroundSize = `${patternSize}px ${patternSize}px`;
+        gridElement.style.backgroundPosition = '0 0';
+      }
+
+      function updateAllGrids() {
+        sharedGridWidth = null;
+        const grid = document.getElementById('stat-grid');
+        if (grid) applyDotGrid(grid);
+      }
+
+      setTimeout(updateAllGrids, 100);
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(updateAllGrids, 150);
+      });
+    })();
 
     // Form config - obfuscate email from source/scrapers
     const f = document.getElementById('contact-form');
