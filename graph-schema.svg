@@ -870,12 +870,19 @@
       nodeSet[b] = true;
     }
 
-    // Find hub nodes (nodes with many connections)
+    // Categorise nodes by connectivity
     var nodes = Object.keys(adj);
     var hubs = nodes.filter(function(n) { return adj[n].length >= 6; });
     if (hubs.length === 0) hubs = nodes.slice(0, 5);
 
     function parseKey(k) { var p = k.split(','); return [parseFloat(p[0]), parseFloat(p[1])]; }
+
+    // Distance between two node keys
+    function dist(a, b) {
+      var pa = parseKey(a), pb = parseKey(b);
+      var dx = pa[0]-pb[0], dy = pa[1]-pb[1];
+      return Math.sqrt(dx*dx+dy*dy);
+    }
 
     // Find circle element at position
     var circles = svg.querySelectorAll('circle.cls-1');
@@ -897,15 +904,12 @@
       flash.setAttribute('class', 'node-flash');
       layer.appendChild(flash);
 
-      // Also turn the original node blue temporarily
-      // Track active flash count so overlapping flashes don't reset prematurely
       if (circ) {
         circ._flashCount = (circ._flashCount || 0) + 1;
         circ.style.fill = '#3366FF';
         circ.style.stroke = '#3366FF';
       }
 
-      // Animate flash
       flash.style.opacity = '0.7';
       setTimeout(function() { flash.style.opacity = '0.4'; }, duration * 0.3);
       setTimeout(function() { flash.style.opacity = '0.15'; }, duration * 0.6);
@@ -934,7 +938,7 @@
       line.setAttribute('class', 'edge-trace');
       layer.appendChild(line);
 
-      flashNode(fromKey, duration + 800);
+      flashNode(fromKey, duration + 600);
 
       var start = null;
       function animate(ts) {
@@ -945,23 +949,85 @@
         line.setAttribute('y2', p1[1] + (p2[1]-p1[1]) * ease);
         if (t < 1) { requestAnimationFrame(animate); }
         else {
-          flashNode(toKey, 1200);
+          flashNode(toKey, 1000);
           if (cb) cb();
         }
       }
       requestAnimationFrame(animate);
 
-      // Fade out after a while
       setTimeout(function() {
-        line.style.transition = 'opacity 1.5s';
+        line.style.transition = 'opacity 1.2s';
         line.style.opacity = '0';
-        setTimeout(function() { if (line.parentNode) layer.removeChild(line); }, 1600);
-      }, duration + 2000);
+        setTimeout(function() { if (line.parentNode) layer.removeChild(line); }, 1300);
+      }, duration + 1500);
     }
 
-    // Traversal patterns
-    function chain(startNode, depth, delay) {
-      // Walk a chain: A→B→C→D
+    // BFS to find path between two distant nodes
+    function findPath(from, to, maxDepth) {
+      var queue = [[from]];
+      var visited = {};
+      visited[from] = true;
+      while (queue.length > 0) {
+        var path = queue.shift();
+        if (path.length > maxDepth) return null;
+        var cur = path[path.length - 1];
+        if (cur === to) return path;
+        var neighbors = adj[cur] || [];
+        for (var i = 0; i < neighbors.length; i++) {
+          if (!visited[neighbors[i]]) {
+            visited[neighbors[i]] = true;
+            queue.push(path.concat(neighbors[i]));
+          }
+        }
+      }
+      return null;
+    }
+
+    // Pattern: constellation — pick scattered nodes, connect them via paths
+    function constellation(delay) {
+      // Pick 4-7 spread-out hub/large nodes as "stars" of the constellation
+      var shuffled = hubs.slice().sort(function() { return Math.random() - 0.5; });
+      var starCount = 4 + Math.floor(Math.random() * 4); // 4-7 stars
+      var stars = [];
+      for (var i = 0; i < shuffled.length && stars.length < starCount; i++) {
+        // Ensure spread: each star should be far from existing ones
+        var dominated = false;
+        for (var j = 0; j < stars.length; j++) {
+          if (dist(shuffled[i], stars[j]) < 80) { dominated = true; break; }
+        }
+        if (!dominated) stars.push(shuffled[i]);
+      }
+      if (stars.length < 3) stars = shuffled.slice(0, 4);
+
+      setTimeout(function() {
+        // Connect stars sequentially, tracing the path between each pair
+        var idx = 0;
+        function connectNext() {
+          if (idx >= stars.length - 1) return;
+          var path = findPath(stars[idx], stars[idx + 1], 8);
+          if (path && path.length >= 3) {
+            // Trace along the path quickly
+            var step = 0;
+            function traceStep() {
+              if (step >= path.length - 1) { idx++; setTimeout(connectNext, 100); return; }
+              traceEdge(path[step], path[step + 1], 200, function() {
+                step++;
+                setTimeout(traceStep, 50);
+              });
+            }
+            traceStep();
+          } else {
+            // No path found, skip to next pair
+            idx++;
+            connectNext();
+          }
+        }
+        connectNext();
+      }, delay);
+    }
+
+    // Pattern: long chain — walk 6-10 hops through the graph
+    function longChain(startNode, depth, delay) {
       var current = startNode;
       var visited = {};
       visited[current] = true;
@@ -969,97 +1035,110 @@
 
       function next() {
         if (step >= depth) return;
-        var neighbors = adj[current].filter(function(n) { return !visited[n]; });
+        var neighbors = (adj[current] || []).filter(function(n) { return !visited[n]; });
         if (neighbors.length === 0) return;
-        var target = neighbors[Math.floor(Math.random() * neighbors.length)];
+        // Prefer neighbors that lead to further-away nodes (spread out)
+        neighbors.sort(function(a, b) { return dist(startNode, b) - dist(startNode, a); });
+        var target = neighbors[Math.random() < 0.7 ? 0 : Math.floor(Math.random() * neighbors.length)];
         visited[target] = true;
-        traceEdge(current, target, 400, function() {
+        traceEdge(current, target, 250, function() {
           current = target;
           step++;
-          setTimeout(next, 150);
+          setTimeout(next, 80);
         });
       }
       setTimeout(next, delay);
     }
 
-    function star(hubNode, count, delay) {
-      // Hub → multiple leaves simultaneously
-      var neighbors = adj[hubNode] || [];
-      var shuffled = neighbors.slice().sort(function() { return Math.random() - 0.5; });
-      var targets = shuffled.slice(0, Math.min(count, shuffled.length));
+    // Pattern: star burst from hub, then secondary bursts from leaves
+    function cascadeStar(hubNode, delay) {
+      var neighbors = (adj[hubNode] || []).slice().sort(function() { return Math.random() - 0.5; });
+      var targets = neighbors.slice(0, Math.min(5, neighbors.length));
 
       setTimeout(function() {
         flashNode(hubNode, 2000);
-        for (var i = 0; i < targets.length; i++) {
-          (function(t, idx) {
-            setTimeout(function() { traceEdge(hubNode, t, 350); }, idx * 80);
-          })(targets[i], i);
-        }
-      }, delay);
-    }
+        var visited = {};
+        visited[hubNode] = true;
+        targets.forEach(function(t) { visited[t] = true; });
 
-    function multiHop(startNode, delay) {
-      // Traverse through 2-3 hubs with branching
-      var current = startNode;
-      var visited = {};
-      visited[current] = true;
-
-      setTimeout(function() {
-        // First hop to a neighbor
-        var n1 = adj[current];
-        if (!n1 || n1.length === 0) return;
-        var t1 = n1[Math.floor(Math.random() * n1.length)];
-        visited[t1] = true;
-
-        traceEdge(current, t1, 400, function() {
-          // Star burst from t1
-          var n2 = (adj[t1] || []).filter(function(n) { return !visited[n]; });
-          var burst = n2.slice(0, 3);
-          burst.forEach(function(b, i) {
-            visited[b] = true;
-            setTimeout(function() {
-              traceEdge(t1, b, 300, function() {
-                // Continue chain from one branch
-                if (i === 0 && adj[b]) {
-                  var n3 = (adj[b] || []).filter(function(n) { return !visited[n]; });
-                  if (n3.length > 0) {
-                    var t3 = n3[Math.floor(Math.random() * n3.length)];
-                    visited[t3] = true;
-                    setTimeout(function() { traceEdge(b, t3, 350); }, 200);
-                  }
-                }
+        targets.forEach(function(t, i) {
+          setTimeout(function() {
+            traceEdge(hubNode, t, 250, function() {
+              // Secondary burst from this leaf
+              var leafNeighbors = (adj[t] || []).filter(function(n) { return !visited[n]; });
+              var secondary = leafNeighbors.slice(0, 2);
+              secondary.forEach(function(s, si) {
+                visited[s] = true;
+                setTimeout(function() { traceEdge(t, s, 200); }, si * 60);
               });
-            }, i * 120);
-          });
+            });
+          }, i * 60);
         });
       }, delay);
     }
 
-    // Main loop - cycle through different patterns
-    function runCycle() {
-      var h1 = hubs[Math.floor(Math.random() * hubs.length)];
-      var h2 = hubs[Math.floor(Math.random() * hubs.length)];
-      var h3 = hubs[Math.floor(Math.random() * hubs.length)];
+    // Pattern: cross-graph bridge — connect two distant hubs via shortest path
+    function bridge(delay) {
+      // Find two hubs that are far apart
+      var best = null, bestDist = 0;
+      for (var i = 0; i < hubs.length; i++) {
+        for (var j = i + 1; j < hubs.length; j++) {
+          var d = dist(hubs[i], hubs[j]);
+          if (d > bestDist) { bestDist = d; best = [hubs[i], hubs[j]]; }
+        }
+      }
+      if (!best) return;
 
-      // Pattern 1: Star burst from a hub
-      star(h1, 5, 0);
+      // Randomly pick from top 3 farthest pairs for variety
+      var pairs = [];
+      for (var i = 0; i < hubs.length; i++) {
+        for (var j = i + 1; j < hubs.length; j++) {
+          pairs.push({ a: hubs[i], b: hubs[j], d: dist(hubs[i], hubs[j]) });
+        }
+      }
+      pairs.sort(function(a, b) { return b.d - a.d; });
+      var pick = pairs[Math.floor(Math.random() * Math.min(3, pairs.length))];
 
-      // Pattern 2: Chain traversal from another hub
-      chain(h2, 4, 2500);
+      var path = findPath(pick.a, pick.b, 12);
+      if (!path || path.length < 4) return;
 
-      // Pattern 3: Multi-hop with branching
-      multiHop(h3, 5000);
-
-      // Pattern 4: Another star
-      var h4 = hubs[Math.floor(Math.random() * hubs.length)];
-      star(h4, 4, 7500);
+      setTimeout(function() {
+        var step = 0;
+        function traceStep() {
+          if (step >= path.length - 1) return;
+          traceEdge(path[step], path[step + 1], 200, function() {
+            step++;
+            setTimeout(traceStep, 50);
+          });
+        }
+        traceStep();
+      }, delay);
     }
 
-    // Start after a short delay, repeat
+    // Main loop — faster cycle with varied patterns
+    var patterns = [
+      function() { constellation(0); },
+      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; longChain(h, 8, 0); },
+      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; cascadeStar(h, 0); },
+      function() { bridge(0); },
+      function() { constellation(0); },
+      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; longChain(h, 10, 0); }
+    ];
+    var patIdx = 0;
+
+    function runCycle() {
+      // Run two patterns per cycle, staggered
+      patterns[patIdx % patterns.length]();
+      var next = (patIdx + 1) % patterns.length;
+      setTimeout(function() { patterns[next](); }, 2500);
+      patIdx += 2;
+    }
+
+    // Start after a short delay, repeat faster
     setTimeout(function() {
       runCycle();
-      setInterval(runCycle, 10000);
-    }, 500);
+      setInterval(runCycle, 6000);
+    }, 400);
   })();
   ]]>
   </script>
