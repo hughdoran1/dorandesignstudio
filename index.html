@@ -244,7 +244,7 @@
     .tool-cards {
       display: flex;
       gap: var(--space-4);
-      margin-top: var(--space-6);
+      margin-top: var(--space-8);
     }
 
     .tool-card {
@@ -407,6 +407,46 @@
       }
     }
 
+    .db-callout-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .db-callout-toggle h2 {
+      margin-bottom: 0;
+    }
+
+    .db-callout-twirl {
+      font-size: 1.5rem;
+      color: var(--text-muted);
+      transition: transform 0.3s var(--ease-out);
+      flex-shrink: 0;
+      margin-left: var(--space-4);
+    }
+
+    .db-callout-toggle[aria-expanded="true"] .db-callout-twirl {
+      transform: rotate(180deg);
+    }
+
+    .db-callout-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s var(--ease-out), opacity 0.3s var(--ease-out);
+      opacity: 0;
+    }
+
+    .db-callout-body.is-open {
+      max-height: 1200px;
+      opacity: 1;
+    }
+
     .db-callout-text h2 {
       font-size: 1.5rem;
       font-weight: 600;
@@ -564,36 +604,37 @@
           <h1>Design & Documentation</h1>
           <h2>For Product Portfolios</h2>
           <p>Doran Design Studio helps product teams communicate clearly across markets, use cases, and technical requirements. From managing multiple SKUs to supporting global markets and documenting intricate product ecosystems — the visual systems and documentation that make your products easy to understand and sell.</p>
-
-          <!-- Tool Cards -->
-          <div class="tool-cards">
-            <a href="https://pairwise.dorandesign.studio" class="tool-card">
-              <div class="pairwise-icon">
-                <span class="option-label option-a">A</span>
-                <span class="vs-divider">vs</span>
-                <span class="option-label option-b">B</span>
-              </div>
-              <div class="tool-card-text">
-                <h3>Been sent a review code?</h3>
-                <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
-              </div>
-              <span class="material-icons tool-card-arrow">arrow_forward</span>
-            </a>
-
-            <a href="https://icons.dorandesign.studio" class="tool-card">
-              <img src="dds-icon-256-2.png" alt="Generate Icons" class="tool-card-icon">
-              <div class="tool-card-text">
-                <h3>Generate Icons</h3>
-                <p>Create custom icon sets for your product documentation and interfaces.</p>
-              </div>
-              <span class="material-icons tool-card-arrow">arrow_forward</span>
-            </a>
-          </div>
         </div>
 
         <div class="hero-animation">
           <div id="lottie-container"></div>
         </div>
+      </div>
+
+      <!-- Tool Cards (below hero grid) -->
+      <div class="tool-cards">
+        <a href="https://pairwise.dorandesign.studio" class="tool-card">
+          <div class="pairwise-icon">
+            <span class="option-label option-a">A</span>
+            <span class="vs-divider">vs</span>
+            <span class="option-label option-b">B</span>
+          </div>
+          <div class="tool-card-text">
+            <h3>Been sent a review code?</h3>
+            <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
+          </div>
+          <span class="material-icons tool-card-arrow">arrow_forward</span>
+        </a>
+
+        <a href="https://icons.dorandesign.studio" class="tool-card">
+          <img src="dds-icon-256-2.png" alt="Generate Icons" class="tool-card-icon">
+          <div class="tool-card-text">
+            <h3>Generate Icons</h3>
+            <p>Create custom icon sets for your product documentation and interfaces.</p>
+          </div>
+          <span class="material-icons tool-card-arrow">arrow_forward</span>
+        </a>
+      </div>
       </div>
 
     </div>
@@ -653,28 +694,6 @@
               <span>3D Render</span>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Database & Tools Callout -->
-  <section class="db-callout-section">
-    <div class="container">
-      <div class="db-callout">
-        <div class="db-callout-text">
-          <h2>Product Ontology Schema</h2>
-          <p>Every product portfolio is a connected system. The number of configurations and use cases quickly exceeds what traditional, linear user documentation can support. Content becomes outdated, fragmented, and costly to maintain across languages and markets.</p>
-          <p>Doran Design Studio creates a Product Ontology Schema to map your products and their relationships, for example:</p>
-          <div class="code-block">Product → available in → Region
-Product → compatible with → Product</div>
-          <p>We then model the relationships between products, markets, and the content required to communicate them across all formats, touchpoints, and audiences—transforming complex product data into structured, actionable documentation. This includes modeling what new content is required for a product launch, what must be updated, and where every asset is located—so delivery happens in the minimum number of process steps.</p>
-          <h3>Purpose Built Database and Automation</h3>
-          <p>Structuring content in this way enables a purpose-built database and automation layer. Content is created once and reused across documents, interfaces, and channels, with updates applied automatically wherever it appears.</p>
-          <p>This approach supports dynamic product documentation, reduces manual rework, and ensures consistency across regions, languages, and formats. The result is scalable, continuously up-to-date product communication aligned to real product data and real-world use cases.</p>
-        </div>
-        <div class="db-graph">
-          <object type="image/svg+xml" data="graph-schema.svg"></object>
         </div>
       </div>
     </div>
@@ -751,6 +770,33 @@ Product → compatible with → Product</div>
     </div>
   </section>
 
+  <!-- Database & Tools Callout (collapsible) -->
+  <section class="db-callout-section">
+    <div class="container">
+      <div class="db-callout">
+        <div class="db-callout-text">
+          <button class="db-callout-toggle" id="ontology-toggle" aria-expanded="false">
+            <h2>Product Ontology Schema</h2>
+            <span class="material-icons db-callout-twirl">expand_more</span>
+          </button>
+          <div class="db-callout-body" id="ontology-body">
+            <p>Every product portfolio is a connected system. The number of configurations and use cases quickly exceeds what traditional, linear user documentation can support. Content becomes outdated, fragmented, and costly to maintain across languages and markets.</p>
+            <p>Doran Design Studio creates a Product Ontology Schema to map your products and their relationships, for example:</p>
+            <div class="code-block">Product → available in → Region
+Product → compatible with → Product</div>
+            <p>We then model the relationships between products, markets, and the content required to communicate them across all formats, touchpoints, and audiences—transforming complex product data into structured, actionable documentation. This includes modeling what new content is required for a product launch, what must be updated, and where every asset is located—so delivery happens in the minimum number of process steps.</p>
+            <h3>Purpose Built Database and Automation</h3>
+            <p>Structuring content in this way enables a purpose-built database and automation layer. Content is created once and reused across documents, interfaces, and channels, with updates applied automatically wherever it appears.</p>
+            <p>This approach supports dynamic product documentation, reduces manual rework, and ensures consistency across regions, languages, and formats. The result is scalable, continuously up-to-date product communication aligned to real product data and real-world use cases.</p>
+          </div>
+        </div>
+        <div class="db-graph">
+          <object type="image/svg+xml" data="graph-schema.svg"></object>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact -->
   <section class="contact-section" id="contact">
     <div class="container">
@@ -815,6 +861,17 @@ Product → compatible with → Product</div>
         loop: true,
         autoplay: true,
         path: './HeroLottie5.json'
+      });
+    }
+
+    // Ontology section toggle
+    var ontologyToggle = document.getElementById('ontology-toggle');
+    var ontologyBody = document.getElementById('ontology-body');
+    if (ontologyToggle && ontologyBody) {
+      ontologyToggle.addEventListener('click', function() {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        ontologyBody.classList.toggle('is-open');
       });
     }
 
