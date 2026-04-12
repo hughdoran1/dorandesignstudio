@@ -350,6 +350,7 @@
       .tool-card {
         width: 100%;
         max-width: 200px;
+        aspect-ratio: auto;
       }
     }
 
@@ -361,7 +362,18 @@
     .stat-card {
       grid-column: span 4;
       aspect-ratio: auto;
-      padding: var(--space-4);
+      padding: var(--space-3);
+    }
+
+    .stat-card .stat-number {
+      font-size: 1.25rem;
+    }
+
+    .stat-card .stat-icon {
+      font-size: 1.5rem !important;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-bottom: var(--space-2);
     }
 
     @media (min-width: 768px) {
@@ -369,6 +381,15 @@
         grid-column: span 2;
         aspect-ratio: 1 / 1;
         padding: var(--space-6);
+      }
+      .stat-card .stat-number {
+        font-size: 1.875rem;
+      }
+      .stat-card .stat-icon {
+        font-size: 2rem !important;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: var(--space-4);
       }
     }
 
@@ -811,7 +832,7 @@ Product → compatible with → Product</div>
     // Dot Grid System
     (function initDotGrids() {
       const GRID_COLUMNS = 12;
-      const DOTS_PER_GRID_UNIT = 7;
+      var DOTS_PER_GRID_UNIT = window.innerWidth < 768 ? 4 : 7;
       let sharedGridWidth = null;
 
       function applyDotGrid(gridElement) {
@@ -839,6 +860,7 @@ Product → compatible with → Product</div>
 
       function updateAllGrids() {
         sharedGridWidth = null;
+        DOTS_PER_GRID_UNIT = window.innerWidth < 768 ? 4 : 7;
         const grid = document.getElementById('stat-grid');
         if (grid) applyDotGrid(grid);
       }
