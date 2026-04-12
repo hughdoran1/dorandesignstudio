@@ -863,9 +863,10 @@ Product → compatible with → Product</div>
         const svgPattern = `<svg xmlns='http://www.w3.org/2000/svg' width='${patternSize}' height='${patternSize}'><rect x='0' y='0' width='${gridUnitWidth}' height='${gridUnitWidth}' fill='${canvasColor}'/>${circles}</svg>`.replace(/\s+/g, ' ').trim();
         gridElement.style.backgroundImage = `url("data:image/svg+xml,${encodeURIComponent(svgPattern)}")`;
         gridElement.style.backgroundSize = `${patternSize}px ${patternSize}px`;
-        // Offset by border so pattern aligns with grid content
-        var bdr = parseFloat(getComputedStyle(gridElement).borderLeftWidth) || 0;
-        gridElement.style.backgroundPosition = bdr + 'px ' + bdr + 'px';
+        // Offset by border + padding so pattern aligns with grid content area
+        var cs2 = getComputedStyle(gridElement);
+        var offset = (parseFloat(cs2.borderLeftWidth) || 0) + (parseFloat(cs2.paddingLeft) || 0);
+        gridElement.style.backgroundPosition = offset + 'px ' + offset + 'px';
       }
 
       function updateAllGrids() {
