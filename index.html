@@ -353,11 +353,22 @@
       }
     }
 
-    /* Stat cards: 2-col on mobile, no square aspect */
-    @media (max-width: 767px) {
+    /* Stat grid: always 12 columns, cards adapt to breakpoints */
+    .stat-grid {
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    .stat-card {
+      grid-column: span 4;
+      aspect-ratio: auto;
+      padding: var(--space-4);
+    }
+
+    @media (min-width: 768px) {
       .stat-card {
-        grid-column: span 3;
-        aspect-ratio: auto;
+        grid-column: span 2;
+        aspect-ratio: 1 / 1;
+        padding: var(--space-6);
       }
     }
 
