@@ -442,6 +442,21 @@
       opacity: 0;
     }
 
+    /* Desktop: always show body, hide twirl */
+    @media (min-width: 1024px) {
+      .db-callout-twirl {
+        display: none;
+      }
+      .db-callout-toggle {
+        cursor: default;
+      }
+      .db-callout-body {
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
+      }
+    }
+
     .db-callout-body.is-open {
       max-height: 1200px;
       opacity: 1;
