@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 717.72 432">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 717.72" overflow="hidden">
   <defs>
     <style>
       .cls-1 {
@@ -24,6 +24,7 @@
       }
     </style>
   </defs>
+  <g transform="translate(432, 0) rotate(90)">
   <line class="cls-1" x1="618.13" y1="222.35" x2="678.62" y2="172.64"/>
   <line class="cls-1" x1="678.62" y1="172.64" x2="651.88" y2="147.73"/>
   <line class="cls-1" x1="678.62" y1="172.64" x2="690.71" y2="207.45"/>
@@ -841,6 +842,7 @@
 
   <!-- Animation layer -->
   <g id="anim-layer"></g>
+  </g>
 
   <script type="text/javascript">
   <![CDATA[
@@ -896,9 +898,12 @@
       layer.appendChild(flash);
 
       // Also turn the original node blue temporarily
-      var origFill = circ ? circ.style.fill : '';
-      var origStroke = circ ? circ.style.stroke : '';
-      if (circ) { circ.style.fill = '#3366FF'; circ.style.stroke = '#3366FF'; }
+      // Track active flash count so overlapping flashes don't reset prematurely
+      if (circ) {
+        circ._flashCount = (circ._flashCount || 0) + 1;
+        circ.style.fill = '#3366FF';
+        circ.style.stroke = '#3366FF';
+      }
 
       // Animate flash
       flash.style.opacity = '0.7';
@@ -906,7 +911,14 @@
       setTimeout(function() { flash.style.opacity = '0.15'; }, duration * 0.6);
       setTimeout(function() {
         flash.style.opacity = '0';
-        if (circ) { circ.style.fill = origFill || ''; circ.style.stroke = origStroke || ''; }
+        if (circ) {
+          circ._flashCount--;
+          if (circ._flashCount <= 0) {
+            circ._flashCount = 0;
+            circ.style.fill = '#C5C3BF';
+            circ.style.stroke = '#C5C3BF';
+          }
+        }
         setTimeout(function() { if (flash.parentNode) layer.removeChild(flash); }, 200);
       }, duration);
     }
