@@ -910,9 +910,9 @@
         circ.style.stroke = '#3366FF';
       }
 
+      // Dwell at full blue for 70% of duration, then fast fade
       flash.style.opacity = '0.7';
-      setTimeout(function() { flash.style.opacity = '0.4'; }, duration * 0.3);
-      setTimeout(function() { flash.style.opacity = '0.15'; }, duration * 0.6);
+      setTimeout(function() { flash.style.opacity = '0.5'; }, duration * 0.7);
       setTimeout(function() {
         flash.style.opacity = '0';
         if (circ) {
@@ -923,8 +923,8 @@
             circ.style.stroke = '#C5C3BF';
           }
         }
-        setTimeout(function() { if (flash.parentNode) layer.removeChild(flash); }, 200);
-      }, duration);
+        setTimeout(function() { if (flash.parentNode) layer.removeChild(flash); }, 150);
+      }, duration * 0.85);
     }
 
     function traceEdge(fromKey, toKey, duration, cb) {
@@ -938,7 +938,7 @@
       line.setAttribute('class', 'edge-trace');
       layer.appendChild(line);
 
-      flashNode(fromKey, duration + 600);
+      flashNode(fromKey, duration + 1800);
 
       var start = null;
       function animate(ts) {
@@ -949,17 +949,18 @@
         line.setAttribute('y2', p1[1] + (p2[1]-p1[1]) * ease);
         if (t < 1) { requestAnimationFrame(animate); }
         else {
-          flashNode(toKey, 1000);
+          flashNode(toKey, 1800);
           if (cb) cb();
         }
       }
       requestAnimationFrame(animate);
 
+      // Dwell in blue for 2s after trace, then fast fade
       setTimeout(function() {
-        line.style.transition = 'opacity 1.2s';
+        line.style.transition = 'opacity 0.5s';
         line.style.opacity = '0';
-        setTimeout(function() { if (line.parentNode) layer.removeChild(line); }, 1300);
-      }, duration + 1500);
+        setTimeout(function() { if (line.parentNode) layer.removeChild(line); }, 600);
+      }, duration + 2000);
     }
 
     // BFS to find path between two distant nodes
@@ -1000,24 +1001,47 @@
       if (stars.length < 3) stars = shuffled.slice(0, 4);
 
       setTimeout(function() {
-        // Connect stars sequentially, tracing the path between each pair
+        // Connect stars with forking — trace path, then fork branches at midpoints
         var idx = 0;
+        var visited = {};
         function connectNext() {
           if (idx >= stars.length - 1) return;
           var path = findPath(stars[idx], stars[idx + 1], 8);
           if (path && path.length >= 3) {
-            // Trace along the path quickly
             var step = 0;
+            path.forEach(function(n) { visited[n] = true; });
             function traceStep() {
-              if (step >= path.length - 1) { idx++; setTimeout(connectNext, 100); return; }
+              if (step >= path.length - 1) {
+                idx++;
+                setTimeout(connectNext, 100);
+                return;
+              }
               traceEdge(path[step], path[step + 1], 200, function() {
+                var current = path[step + 1];
+                // Fork: at some nodes, branch off to 1-2 unvisited neighbors
+                if (Math.random() < 0.5 && adj[current]) {
+                  var forks = (adj[current] || []).filter(function(n) { return !visited[n]; });
+                  var forkTargets = forks.slice(0, 2);
+                  forkTargets.forEach(function(ft, fi) {
+                    visited[ft] = true;
+                    setTimeout(function() {
+                      traceEdge(current, ft, 200, function() {
+                        // Extend fork one more hop
+                        var ext = (adj[ft] || []).filter(function(n) { return !visited[n]; });
+                        if (ext.length > 0) {
+                          visited[ext[0]] = true;
+                          setTimeout(function() { traceEdge(ft, ext[0], 200); }, 80);
+                        }
+                      });
+                    }, fi * 80);
+                  });
+                }
                 step++;
                 setTimeout(traceStep, 50);
               });
             }
             traceStep();
           } else {
-            // No path found, skip to next pair
             idx++;
             connectNext();
           }
