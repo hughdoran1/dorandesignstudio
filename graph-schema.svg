@@ -1139,30 +1139,29 @@
       }, delay);
     }
 
-    // Main loop — faster cycle with varied patterns
+    // Continuous overlapping animations — fire a new pattern every 1.5s
     var patterns = [
       function() { constellation(0); },
       function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; longChain(h, 8, 0); },
       function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; cascadeStar(h, 0); },
       function() { bridge(0); },
       function() { constellation(0); },
-      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; longChain(h, 10, 0); }
+      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; longChain(h, 10, 0); },
+      function() { var h = hubs[Math.floor(Math.random()*hubs.length)]; cascadeStar(h, 0); },
+      function() { bridge(0); }
     ];
     var patIdx = 0;
 
-    function runCycle() {
-      // Run two patterns per cycle, staggered
+    function fireNext() {
       patterns[patIdx % patterns.length]();
-      var next = (patIdx + 1) % patterns.length;
-      setTimeout(function() { patterns[next](); }, 2500);
-      patIdx += 2;
+      patIdx++;
     }
 
-    // Start after a short delay, repeat faster
+    // Start immediately, overlap patterns every 1.5s
     setTimeout(function() {
-      runCycle();
-      setInterval(runCycle, 6000);
-    }, 400);
+      fireNext();
+      setInterval(fireNext, 1500);
+    }, 200);
   })();
   ]]>
   </script>
