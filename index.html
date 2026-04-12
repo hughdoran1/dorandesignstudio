@@ -44,6 +44,7 @@
     .hero > .container {
       position: relative;
       z-index: 1;
+      width: 100%;
     }
 
     .hero-content {
@@ -343,13 +344,9 @@
     }
 
     @media (max-width: 480px) {
-      .tool-cards {
-        flex-direction: column;
-      }
-
       .tool-card {
-        width: 100%;
-        max-width: 200px;
+        width: 0;
+        flex: 1 1 0;
         aspect-ratio: auto;
       }
     }
@@ -361,7 +358,7 @@
 
     .stat-card {
       grid-column: span 4;
-      aspect-ratio: auto;
+      aspect-ratio: 1 / 1;
       padding: var(--space-3);
     }
 
@@ -379,7 +376,6 @@
     @media (min-width: 768px) {
       .stat-card {
         grid-column: span 2;
-        aspect-ratio: 1 / 1;
         padding: var(--space-6);
       }
       .stat-card .stat-number {
@@ -832,46 +828,69 @@ Product → compatible with → Product</div>
     // Dot Grid System
     (function initDotGrids() {
       const GRID_COLUMNS = 12;
-      var DOTS_PER_GRID_UNIT = window.innerWidth < 768 ? 4 : 7;
+      const DOTS_PER_GRID_UNIT = 7;
       let sharedGridWidth = null;
 
       function applyDotGrid(gridElement) {
-        if (sharedGridWidth === null) {
-          // Subtract border (1px each side) to get inner width
-          var cs = getComputedStyle(gridElement);
-          var borderL = parseFloat(cs.borderLeftWidth) || 0;
-          var borderR = parseFloat(cs.borderRightWidth) || 0;
-          var padL = parseFloat(cs.paddingLeft) || 0;
-          var padR = parseFloat(cs.paddingRight) || 0;
-          sharedGridWidth = gridElement.offsetWidth - borderL - borderR;
-        }
-        const gridWidth = sharedGridWidth;
         const gap = 1;
-        const totalGapWidth = gap * (GRID_COLUMNS + 1);
-        const gridUnitWidth = (gridWidth - totalGapWidth) / GRID_COLUMNS;
-        const dotSpacing = gridUnitWidth / 8;
+
+        // Measure actual card dimensions from the DOM
+        var firstCard = gridElement.querySelector('.stat-card');
+        var cardRect = firstCard.getBoundingClientRect();
+        var cardW = cardRect.width;
+        var cardH = cardRect.height;
+
+        // Card span determines tile size: pattern tiles match card dimensions
+        var cardSpan = window.innerWidth < 768 ? 4 : 2;
+        var squaresPerTile = 2; // 2×2 visible dot clusters per tile
+        var colsPerSquare = cardSpan / squaresPerTile; // 2 on mobile, 1 on desktop
+
+        // Tile dimensions based on actual card size
+        // Card = cardSpan columns, so tile = 1 card width/height + gap
+        var tileW = cardW + gap;
+        var tileH = cardH + gap;
+
+        // Square dimensions within the tile
+        var squareW = (cardW - (squaresPerTile - 1) * gap) / squaresPerTile;
+        var squareH = (cardH - (squaresPerTile - 1) * gap) / squaresPerTile;
+
+        const dotsPerSquare = DOTS_PER_GRID_UNIT; // always 7×7 dots per square
+        const dotSpacingX = squareW / (dotsPerSquare + 1);
+        const dotSpacingY = squareH / (dotsPerSquare + 1);
+
+        const dotRadius = window.innerWidth < 768 ? 1 : 1.5;
         const dotColor = getComputedStyle(document.documentElement).getPropertyValue('--border-canvas').trim();
         const canvasColor = getComputedStyle(document.documentElement).getPropertyValue('--canvas').trim();
-        const patternSize = gridUnitWidth + gap;
-        const dotOffset = dotSpacing;
+
+        // Draw 2×2 grid of dot clusters within the tile
         let circles = '';
-        for (let i = 0; i < DOTS_PER_GRID_UNIT; i++) {
-          for (let j = 0; j < DOTS_PER_GRID_UNIT; j++) {
-            circles += `<circle cx='${dotOffset + i * dotSpacing}' cy='${dotOffset + j * dotSpacing}' r='1.5' fill='${dotColor}'/>`;
+        for (let sqCol = 0; sqCol < squaresPerTile; sqCol++) {
+          for (let sqRow = 0; sqRow < squaresPerTile; sqRow++) {
+            var sqX = sqCol * (squareW + gap);
+            var sqY = sqRow * (squareH + gap);
+            for (let i = 0; i < dotsPerSquare; i++) {
+              for (let j = 0; j < dotsPerSquare; j++) {
+                var cx = sqX + dotSpacingX + i * dotSpacingX;
+                var cy = sqY + dotSpacingY + j * dotSpacingY;
+                circles += `<circle cx='${cx}' cy='${cy}' r='${dotRadius}' fill='${dotColor}'/>`;
+              }
+            }
           }
         }
-        const svgPattern = `<svg xmlns='http://www.w3.org/2000/svg' width='${patternSize}' height='${patternSize}'><rect x='0' y='0' width='${gridUnitWidth}' height='${gridUnitWidth}' fill='${canvasColor}'/>${circles}</svg>`.replace(/\s+/g, ' ').trim();
+
+        // Background rect fills the tile content area
+        const svgPattern = `<svg xmlns='http://www.w3.org/2000/svg' width='${tileW}' height='${tileH}'><rect x='0' y='0' width='${cardW}' height='${cardH}' fill='${canvasColor}'/>${circles}</svg>`.replace(/\s+/g, ' ').trim();
         gridElement.style.backgroundImage = `url("data:image/svg+xml,${encodeURIComponent(svgPattern)}")`;
-        gridElement.style.backgroundSize = `${patternSize}px ${patternSize}px`;
+        gridElement.style.backgroundSize = `${tileW}px ${tileH}px`;
         // Offset by border + padding so pattern aligns with grid content area
         var cs2 = getComputedStyle(gridElement);
-        var offset = (parseFloat(cs2.borderLeftWidth) || 0) + (parseFloat(cs2.paddingLeft) || 0);
-        gridElement.style.backgroundPosition = offset + 'px ' + offset + 'px';
+        var offsetX = (parseFloat(cs2.borderLeftWidth) || 0) + (parseFloat(cs2.paddingLeft) || 0);
+        var offsetY = (parseFloat(cs2.borderTopWidth) || 0) + (parseFloat(cs2.paddingTop) || 0);
+        gridElement.style.backgroundPosition = offsetX + 'px ' + offsetY + 'px';
       }
 
       function updateAllGrids() {
         sharedGridWidth = null;
-        DOTS_PER_GRID_UNIT = window.innerWidth < 768 ? 4 : 7;
         const grid = document.getElementById('stat-grid');
         if (grid) applyDotGrid(grid);
       }
