@@ -51,6 +51,20 @@
       gap: var(--space-10);
     }
 
+    @media (min-width: 1024px) {
+      .hero-content {
+        grid-template-areas:
+          "text    lottie"
+          "tools   lottie";
+        grid-template-rows: auto auto;
+        align-items: center;
+        row-gap: var(--space-6);
+      }
+      .hero-text { grid-area: text; }
+      .hero-animation { grid-area: lottie; align-self: center; }
+      .tool-cards { grid-area: tools; margin-top: 0; }
+    }
+
     /* Under development badge */
     .dev-badge {
       display: inline-flex;
@@ -519,10 +533,12 @@
     }
 
     /* Hover Overlay Grid — direct child of .hero, above .container */
+    /* TEMPORARILY HIDDEN: placeholder cards suppressed until real content is ready.
+       To re-enable, change `display: none` back to `display: grid`. */
     .hover-grid {
       position: absolute;
       inset: 0;
-      display: grid;
+      display: none;
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 8px;
@@ -624,32 +640,31 @@
         <div class="hero-animation">
           <div id="lottie-container"></div>
         </div>
-      </div>
 
-      <!-- Tool Cards (below hero grid) -->
-      <div class="tool-cards">
-        <a href="https://pairwise.dorandesign.studio" class="tool-card">
-          <div class="pairwise-icon">
-            <span class="option-label option-a">A</span>
-            <span class="vs-divider">vs</span>
-            <span class="option-label option-b">B</span>
-          </div>
-          <div class="tool-card-text">
-            <h3>Been sent a review code?</h3>
-            <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
-          </div>
-          <span class="material-icons tool-card-arrow">arrow_forward</span>
-        </a>
+        <!-- Tool Cards (inside hero grid: sit under hero-text on desktop, stack on mobile) -->
+        <div class="tool-cards">
+          <a href="https://pairwise.dorandesign.studio" class="tool-card">
+            <div class="pairwise-icon">
+              <span class="option-label option-a">A</span>
+              <span class="vs-divider">vs</span>
+              <span class="option-label option-b">B</span>
+            </div>
+            <div class="tool-card-text">
+              <h3>Been sent a review code?</h3>
+              <p>Open the pairwise comparison tool to rank and evaluate design options.</p>
+            </div>
+            <span class="material-icons tool-card-arrow">arrow_forward</span>
+          </a>
 
-        <a href="https://icons.dorandesign.studio" class="tool-card">
-          <img src="dds-icon-256-2.png" alt="Generate Icons" class="tool-card-icon">
-          <div class="tool-card-text">
-            <h3>Generate Icons</h3>
-            <p>Create custom icon sets for your product documentation and interfaces.</p>
-          </div>
-          <span class="material-icons tool-card-arrow">arrow_forward</span>
-        </a>
-      </div>
+          <a href="https://icons.dorandesign.studio" class="tool-card">
+            <img src="dds-icon-256-2.png" alt="Generate Icons" class="tool-card-icon">
+            <div class="tool-card-text">
+              <h3>Generate Icons</h3>
+              <p>Create custom icon sets for your product documentation and interfaces.</p>
+            </div>
+            <span class="material-icons tool-card-arrow">arrow_forward</span>
+          </a>
+        </div>
       </div>
 
     </div>
