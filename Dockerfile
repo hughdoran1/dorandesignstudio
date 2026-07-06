@@ -11,7 +11,6 @@ COPY 2.png /usr/share/nginx/html/
 COPY 3.png /usr/share/nginx/html/
 COPY 4.png /usr/share/nginx/html/
 COPY IconGenerator.png /usr/share/nginx/html/
-COPY BrainOptimizedForCognition.png /usr/share/nginx/html/
 COPY dds-icon-256-2.png /usr/share/nginx/html/
 # Journal content (manifest + markdown) fetched by the site.
 COPY content/ /usr/share/nginx/html/content/
