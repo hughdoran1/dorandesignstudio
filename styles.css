@@ -1,7 +1,13 @@
 /* ============================================================
    DORAN DESIGN STUDIO - Shared Design System
    Master: prototype.html
+   SINGLE SOURCE OF TRUTH — served at https://dorandesign.studio/styles.css.
+   Other apps (e.g. Pairwise) should <link> to THAT url, not keep a copy.
+   The @import below carries the design typography (Geist) so one link brings
+   tokens + fonts together. (Icon fonts stay per-app — the site uses Material
+   Symbols Rounded, Pairwise uses Material Icons.)
    ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap');
 
 /* CSS Variables - Design System */
 :root {
