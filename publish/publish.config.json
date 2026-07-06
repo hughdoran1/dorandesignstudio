@@ -1,0 +1,29 @@
+{
+  "bucket": "ddspreviewimages",
+  "region": "us-east-2",
+  "prefix": "content/",
+  "cdnBase": "",
+  "_cdnBase_note": "set to 'https://cdn.dorandesign.studio/' once the CDN is live — resolved graffold: preview links (raw S3 URLs) get their host rewritten to it. Empty = leave the raw S3 host (works while the bucket is public).",
+  "entries": [
+    {
+      "vaultPath": "/Users/dorandesignstudio/Documents/DORAN design studio/3Resources_DDS/DoranDesignStudio/DDSWebsite/DDS Website — System Grid Spec.md",
+      "file": "dds-system-spec.md",
+      "slug": "system-docs",
+      "title": "The System, Documented",
+      "kicker": "SYSTEM DOCS · LIVE",
+      "date": "2026·07",
+      "order": 1,
+      "dek": "The living style guide for this site — every token, module and rule it is built from. The panels on the right render from the live components, so when the system changes, this page changes with it."
+    },
+    {
+      "vaultPath": "/Users/dorandesignstudio/Test/content/how-this-journal-works.md",
+      "file": "how-this-journal-works.md",
+      "slug": "journal-pattern",
+      "title": "How this journal works",
+      "kicker": "STUDIO JOURNAL · 002",
+      "date": "2026·07",
+      "order": 2,
+      "dek": "Technical documents shouldn't scroll their diagrams away. This journal pins each chunk's media beside the text it belongs to — the pattern DDS builds into product documentation."
+    }
+  ]
+}

@@ -1,10 +1,22 @@
+# Keep the Railway build context lean. NOTE: do NOT exclude assets the Dockerfile COPYs
+# (graph-schema.svg, the .png icons, content/) — those must reach the build.
+node_modules/
 DDSWebstie2026/
+MetaBallBlend/
+content_backup/
+files/
+files.zip
 .claude/
 .DS_Store
+.git/
 *.py
-*.svg
+*.pdf
+*.ai
 prototype.html
 guides.html
 guide.html
-dot-grid-template.svg
+grid-anim-test.html
+grid-system.html.bak
 extract_prototype.py
+Schemavisualisation.png
+IconGenerator.png.orig
