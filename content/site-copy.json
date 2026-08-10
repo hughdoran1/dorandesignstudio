@@ -1,0 +1,24 @@
+{
+  "about": {
+    "founder": {
+      "title": "Hugh Doran",
+      "body": "Hugh has launched hardware and connected products for eleven years: IoT, construction products, pro audio, and industrial equipment. The studio is built on that experience.\n\nBefore the studio, he ran product for hardware manufacturers, including a 50-SKU portfolio of connected sensors and controllers. He led engineering, manufacturing, and marketing teams on three continents. His launches shipped on time and on budget.\n\nHe founded the studio in 2019 on a UK government innovation grant to research product development for manufacturers. That research became **Graffold**, the engine that models a manufacturer's whole product system. With Graffold, you write each fact once and manage documentation at enterprise scale.\n\nYou work directly with Hugh on every engagement. There is no account team in between. We build long-term client relationships.\n\n[LinkedIn ↗](https://www.linkedin.com/in/hugh-dorandesignstudio/)"
+    },
+    "graffold": {
+      "title": "A Graph Scaffold for Building and Managing Complex Product Content",
+      "body": "**Graffold — graph + scaffold —** is our versioned content engine. It holds your product facts as structured, connected chunks. It publishes those chunks into every document, market and language you ship. Every output traces back to the exact chunk version it came from.\n\nYou write a fact once. Every document that carries it reads the same chunk, so your documentation is never a version behind. **This site runs on it.**\n\n[See the studio's real work →](#/work)"
+    },
+    "pipeline": {
+      "title": "Scattered Product Files → One Versioned Source → Every Format You Ship",
+      "body": "Your product content sits in separate files today: spec sheets, manuals, labels, product images. We rebuild it as one structured, versioned source. We render that source into every format, market, and language you sell in.\n\n1. **Audit the content** We inventory the documents you publish today. We find where the same fact is duplicated, contradicted, or known to only one engineer.\n2. **Model the ontology** We map your products, configurations and their relationships into one schema. We define each value once, and every document reads it from that schema.\n3. **Chunk the content** We break your documentation into structured, reusable chunks. Each chunk is versioned, so one edit reaches every document that uses it.\n4. **Render everywhere via Graffold** Graffold holds the versioned chunks and publishes them into every format, market and language you ship.\n\n### Engagements\n\n- **Pilot.** We rebuild one product line: spec sheet, icon set and one chunked document, delivered running in Graffold.\n- **Documentation system.** We model, chunk and render your full product range into the formats you ship.\n- **Content operations.** We run your product content in Graffold. We update every document at each product revision."
+    },
+    "ontology": {
+      "title": "A Map of the Product System",
+      "body": "A product range is a graph, not a list. A controller works with only some sensors. One of those pairings is the right one. That pairing needs an accessory. The accessory is regional. A value depends on a setting three pages away.\n\nWe map your products, parts, options, markets, and the relationships between them. That map is the **ontology**. Every spec sheet, manual, safety label, and product page is built on it. We model the system once, and every document reads from the same source."
+    },
+    "what": {
+      "title": "The Documents and Artwork Your Products Ship With",
+      "body": "Manufacturers trust Doran Design Studio to make their products understandable. We produce and manage the content that lets their clients specify, install, set up, and use them with ease.\n\nWe produce user guides, tech specs, labels, packaging, instructional content, content strategy, and industrial design.\n\nWe work on products from pre-launch development through the full lifecycle. Our custom tooling acts as a digital twin of your product system, so when something changes, we know what assets need to be edited across every platform and language.\n\n### What we make\n\n- Industrial design\n- Graphic & packaging\n- Compliance labels\n- Layout & typesetting\n- 3D & product illustration\n- Technical docs & IFU\n- Spec sheets & product data\n- Icon systems\n- Product ontology & content ops\n\n*We work to the standards your buyers audit against: IEC/IEEE 82079-1 for instructions for use, and ISO 7010, ANSI Z535 and ISO 3864 for safety symbols and warnings. We prepare documentation for CE marking and the Machinery Directive.*\n\n*Our launches cover IoT, construction products, pro audio, and industrial equipment, in enterprise and multinational markets.*"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="-apple-system,'SF Pro Display','Inter',system-ui,sans-serif">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="rgba(31,41,55,0.07)"/></pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="card" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(20,28,44,0.14)"/></filter>
+    
+  </defs>
+  <rect x="0" y="0" width="400" height="400" fill="#FCFBF8"/>
+  <rect x="0" y="0" width="400" height="400" fill="url(#dots)" opacity="0.5"/>
+  <rect x="44" y="34" width="312" height="332" rx="8" fill="#FFFFFF" stroke="#E4E6EA" stroke-width="1" filter="url(#card)"/>
+    <rect x="44" y="34" width="6" height="332" rx="3" fill="#0E93A8"/>
+    <text x="66" y="64" fill="#0E93A8" font-size="10" font-weight="600" font-family="ui-monospace,'SF Mono',Menlo,monospace" letter-spacing="0.12em" style="text-transform:uppercase">MRD · Quick-start guide</text>
+    <text x="66" y="66" fill="#1F2937" font-size="13" font-weight="400"></text>
+    <g transform="translate(64,78)"><rect x="0" y="0" width="272" height="64" rx="6" fill="#E4F3F5"/>
+     <clipPath id="gd-meridian"><rect x="1" y="1" width="270" height="62" rx="6"/></clipPath>
+     <g clip-path="url(#gd-meridian)"><ellipse cx="200" cy="238" rx="88.19999999999999" ry="52.92" fill="rgba(20,28,44,0.16)" /><polygon points="101.276,130 220.784,199 220.784,289 101.276,220" fill="#0d8a9d" stroke="#09616e" stroke-width="1" stroke-linejoin="round"/><polygon points="298.724,154 220.784,199 220.784,289 298.724,244" fill="#0a6f7f" stroke="#09616e" stroke-width="1" stroke-linejoin="round"/><polygon points="179.216,85 298.724,154 220.784,199 101.276,130" fill="#39a6b7" stroke="#09616e" stroke-width="1" stroke-linejoin="round"/><line x1="101.276" y1="139" x2="220.784" y2="208" stroke="#0a6978" stroke-width="1"/><polygon points="111.668,154 168.824,187 168.824,232 111.668,199" fill="#b1dce3" stroke="#0a6c7c" stroke-width="0.8"/><line x1="119.462" y1="173.5" x2="155.834" y2="194.5" stroke="#0A6E7E" stroke-width="1.6"/><line x1="119.462" y1="187" x2="150.638" y2="205" stroke="#1a98ac" stroke-width="1.4"/><circle cx="189.608" cy="211" r="2" fill="#6FC9D6" stroke="#0b7586" stroke-width="0.5"/><circle cx="200" cy="217" r="2" fill="#3ea8b9" stroke="#0b7586" stroke-width="0.5"/><circle cx="210.392" cy="223" r="2" fill="#FFFFFF" stroke="#0b7586" stroke-width="0.5"/><circle cx="111.668" cy="211" r="1.6" fill="#0c8497"/><circle cx="122.06" cy="217" r="1.6" fill="#0c8497"/><circle cx="132.452" cy="223" r="1.6" fill="#0c8497"/></g>
+     <text x="156" y="24" fill="#8A94A3" font-size="10" font-weight="400" font-family="ui-monospace,'SF Mono',Menlo,monospace">Fig 1 — in the box</text>
+     <text x="156" y="42" fill="#4B5563" font-size="11" font-weight="400">MRD-8 unit</text>
+     <text x="156" y="57" fill="#4B5563" font-size="11" font-weight="400">+ mount + QR card</text></g>
+    <g transform="translate(66,184)"><circle cx="9" cy="-4" r="11" fill="#E4F3F5" stroke="#0E93A8" stroke-width="1.3"/><text x="9" y="0" fill="#0A6E7E" font-size="12" font-weight="700" text-anchor="middle">1</text><text x="30" y="0" fill="#4B5563" font-size="12.5" font-weight="400">Mount the base and level</text></g><g transform="translate(66,224)"><circle cx="9" cy="-4" r="11" fill="#E4F3F5" stroke="#0E93A8" stroke-width="1.3"/><text x="9" y="0" fill="#0A6E7E" font-size="12" font-weight="700" text-anchor="middle">2</text><text x="30" y="0" fill="#4B5563" font-size="12.5" font-weight="400">Connect zones 1–8 to the terminal</text></g><g transform="translate(66,264)"><circle cx="9" cy="-4" r="11" fill="#E4F3F5" stroke="#0E93A8" stroke-width="1.3"/><text x="9" y="0" fill="#0A6E7E" font-size="12" font-weight="700" text-anchor="middle">3</text><text x="30" y="0" fill="#4B5563" font-size="12.5" font-weight="400">Pair over Wi-Fi · scan the QR</text></g><g transform="translate(66,304)"><circle cx="9" cy="-4" r="11" fill="#E4F3F5" stroke="#0E93A8" stroke-width="1.3"/><text x="9" y="0" fill="#0A6E7E" font-size="12" font-weight="700" text-anchor="middle">4</text><text x="30" y="0" fill="#4B5563" font-size="12.5" font-weight="400">Set the schedule and run a test</text></g>
+  
+    <g font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11" letter-spacing="0.06em">
+      <text x="24" y="380" fill="#8A94A3" text-transform="uppercase">MRD · USER GUIDE</text>
+      <text x="376" y="380" fill="#0E93A8" text-anchor="end" font-weight="600">4 STEPS</text>
+    </g>
+</svg>
