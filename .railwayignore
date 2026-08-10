@@ -4,7 +4,7 @@ node_modules/
 DDSWebstie2026/
 MetaBallBlend/
 content_backup/
-files/
+# files/  <- NOT ignored: the Dockerfile COPYs it (logo + trophy). Ignoring it fails the build.
 files.zip
 .claude/
 .DS_Store
@@ -18,5 +18,5 @@ guide.html
 grid-anim-test.html
 grid-system.html.bak
 extract_prototype.py
-Schemavisualisation.png
+# Schemavisualisation.png  <- NOT ignored: content/manifest.json declares it as the journal cover for `graffold-assets`
 IconGenerator.png.orig

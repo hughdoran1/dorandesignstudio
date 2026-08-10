@@ -35,11 +35,11 @@ const S3_HOST_RE = /^https?:\/\/ddspreviewimages\.s3[.-][a-z0-9-]*\.amazonaws\.c
 const CACHE_TEXT = 'public, max-age=60, stale-while-revalidate=86400';
 
 // Read entry markdown from the vault up front (fail before uploading anything).
-const docs = cfg.entries.map(e => {
+const docs = cfg.entries.filter(e => e.vaultPath).map(e => {   // external entries (link-out cards) have no vaultPath / file
   if (!existsSync(e.vaultPath)) { console.error(`✗ vault file not found: ${e.vaultPath}`); process.exit(1); }
   return { file: e.file, body: readFileSync(e.vaultPath, 'utf8'), from: e.vaultPath };
 });
-const manifest = { entries: cfg.entries.map(({ vaultPath, ...m }) => m) };
+const manifest = { entries: cfg.entries.map(({ vaultPath, ...m }) => m) };   // all entries (incl. external) flow into the manifest
 
 // ── Resolve graffold:<filename> refs → the DB item's current preview URL ─────────────────────────────
 const REF_RE = /graffold:([\w.+-]+)/g;

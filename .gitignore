@@ -1,0 +1,39 @@
+# The repo had no .gitignore, so `git status` showed 50+ untracked entries and the files the site
+# actually needs were lost in the noise. Ignore the noise; everything the Dockerfile COPYs is tracked.
+
+# Dependencies / tooling
+node_modules/
+package-lock.json
+.claude/
+.DS_Store
+
+# Personal + unrelated documents (these live in this folder but are not the website)
+*.pdf
+Hugh_Doran_*
+JobApplications_*
+
+# Separate projects that happen to sit in this directory
+DDSWebstie2026/
+MetaBallBlend/
+inner-vision/
+opendraw/
+
+# Generated / scratch
+content_backup/
+content/*.bak.json
+content/graffold-snapshot.pre*.json
+files.zip
+*.pyc
+__pycache__/
+.comp-preview.html
+.wf-stale.mjs
+grid-system.html.bak
+extract_prototype.py
+
+# Working files that are not deployed
+work-redesign-mockup.html
+grid-anim-test.html
+IconGenerator.png.orig
+
+# Unreferenced sample data (content/ is COPYed wholesale into the image)
+content/graffold-snapshot.sample.json

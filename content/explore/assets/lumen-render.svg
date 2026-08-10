@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="-apple-system,'SF Pro Display','Inter',system-ui,sans-serif">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="rgba(31,41,55,0.07)"/></pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="card" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(20,28,44,0.14)"/></filter>
+    
+  </defs>
+  <rect x="0" y="0" width="400" height="400" fill="#FCFBF8"/>
+  <rect x="0" y="0" width="400" height="400" fill="url(#dots)" opacity="1"/>
+  <ellipse cx="200" cy="238" rx="88.19999999999999" ry="52.92" fill="rgba(20,28,44,0.16)" filter="url(#soft)"/><polygon points="106.47200000000001,232 174.02,271 174.02,286 106.47200000000001,247" fill="#bc871a" stroke="#845f12" stroke-width="1" stroke-linejoin="round"/><polygon points="241.56799999999998,232 174.02,271 174.02,286 241.56799999999998,247" fill="#986d15" stroke="#845f12" stroke-width="1" stroke-linejoin="round"/><polygon points="174.02,193 241.56799999999998,232 174.02,271 106.47200000000001,232" fill="#d2a344" stroke="#845f12" stroke-width="1" stroke-linejoin="round"/><path d="M 185.711 169 A 19.485 11.25 0 0 0 224.68099999999998 169 L 224.68099999999998 229 A 19.485 11.25 0 0 1 185.711 229 Z" fill="#c58c1c" stroke="#936915" stroke-width="1"/><ellipse cx="205.196" cy="169" rx="19.485" ry="11.25" fill="#e6b34c" stroke="#936915" stroke-width="1"/><ellipse cx="205.196" cy="169" rx="19.485" ry="11.25" fill="#f1d49a" stroke="#9c7016"/><polygon points="205.196,166 205.196,-56 205.196,148" fill="#F1CE7C" opacity="0.28"/>
+  
+    <g font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11" letter-spacing="0.06em">
+      <text x="24" y="380" fill="#8A94A3" text-transform="uppercase">LMN · INDUSTRIAL DESIGN</text>
+      <text x="376" y="380" fill="#E0A020" text-anchor="end" font-weight="600">RENDER</text>
+    </g>
+</svg>

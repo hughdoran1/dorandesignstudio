@@ -1,22 +1,35 @@
 {
   "entries": [
     {
-      "file": "dds-system-spec.md",
-      "slug": "system-docs",
-      "title": "The System, Documented",
-      "kicker": "SYSTEM DOCS · LIVE",
-      "date": "2026·07",
-      "order": 1,
-      "dek": "The living style guide for this site — every token, module and rule it is built from. The panels on the right render from the live components, so when the system changes, this page changes with it."
+      "file": "pdf-to-graph.md",
+      "slug": "pdf-to-graph",
+      "title": "From a PDF Archive to a Product Graph",
+      "kicker": "233 PDFS → ONE GRAPH",
+      "covertag": "Case study · Rain Bird",
+      "date": "2026·05",
+      "order": 0,
+      "dek": "We rebuilt 233 legacy PDFs (1,331 pages) into ~1,500 reusable chunks in a semantic graph. Search, AI answer engines, and Rain Bird's own team can now find and reuse the content."
     },
     {
-      "file": "how-this-journal-works.md",
-      "slug": "journal-pattern",
-      "title": "How this journal works",
-      "kicker": "STUDIO JOURNAL · 002",
+      "file": "graffold-project.md",
+      "slug": "graffold-assets",
+      "title": "How We Version Every Deliverable",
+      "kicker": "GRAFFOLD · ASSET VERSIONING",
+      "covertag": "System",
+      "cover": "Schemavisualisation.png",
       "date": "2026·07",
-      "order": 2,
-      "dek": "Technical documents shouldn't scroll their diagrams away. This journal pins each chunk's media beside the text it belongs to — the pattern DDS builds into product documentation."
+      "order": 1,
+      "dek": "Graffold gives every deliverable a full iteration tree and the files it is built from. Trace the studio's own work, and see what a package looks like."
+    },
+    {
+      "external": true,
+      "href": "https://medium.com/@hugh_55451/a-new-map-for-product-docs-de774d14a707",
+      "slug": "new-map-product-docs",
+      "title": "A New Map for Product Docs",
+      "kicker": "ESSAY",
+      "date": "2025·06",
+      "order": 4,
+      "dek": "How AI and knowledge graphs will change product documentation: static PDFs → instructions built on demand."
     }
   ]
 }

@@ -6,24 +6,156 @@
   "_cdnBase_note": "set to 'https://cdn.dorandesign.studio/' once the CDN is live — resolved graffold: preview links (raw S3 URLs) get their host rewritten to it. Empty = leave the raw S3 host (works while the bucket is public).",
   "entries": [
     {
-      "vaultPath": "/Users/dorandesignstudio/Documents/DORAN design studio/3Resources_DDS/DoranDesignStudio/DDSWebsite/DDS Website — System Grid Spec.md",
-      "file": "dds-system-spec.md",
-      "slug": "system-docs",
-      "title": "The System, Documented",
-      "kicker": "SYSTEM DOCS · LIVE",
-      "date": "2026·07",
-      "order": 1,
-      "dek": "The living style guide for this site — every token, module and rule it is built from. The panels on the right render from the live components, so when the system changes, this page changes with it."
+      "file": "pdf-to-graph.md",
+      "slug": "pdf-to-graph",
+      "title": "From a PDF Archive to a Product Graph",
+      "kicker": "233 PDFS → ONE GRAPH",
+      "covertag": "Case study · Rain Bird",
+      "date": "2026·05",
+      "order": 0,
+      "dek": "We rebuilt 233 legacy PDFs (1,331 pages) into ~1,500 reusable chunks in a semantic graph. Search, AI answer engines, and Rain Bird's own team can now find and reuse the content.",
+      "_note": "authored directly in content/ (no vaultPath) — publish.mjs includes it in the manifest but won't overwrite the file"
     },
     {
-      "vaultPath": "/Users/dorandesignstudio/Test/content/how-this-journal-works.md",
-      "file": "how-this-journal-works.md",
-      "slug": "journal-pattern",
-      "title": "How this journal works",
-      "kicker": "STUDIO JOURNAL · 002",
+      "file": "graffold-project.md",
+      "slug": "graffold-assets",
+      "title": "How We Version Every Deliverable",
+      "kicker": "GRAFFOLD · ASSET VERSIONING",
+      "covertag": "System",
+      "cover": "Schemavisualisation.png",
       "date": "2026·07",
-      "order": 2,
-      "dek": "Technical documents shouldn't scroll their diagrams away. This journal pins each chunk's media beside the text it belongs to — the pattern DDS builds into product documentation."
+      "order": 1,
+      "dek": "Graffold gives every deliverable a full iteration tree and the files it is built from. Trace the studio's own work, and see what a package looks like.",
+      "_note": "authored directly in content/ (no vaultPath) — publish.mjs includes it in the manifest but won't overwrite the file"
+    },
+    {
+      "external": true,
+      "href": "https://medium.com/@hugh_55451/a-new-map-for-product-docs-de774d14a707",
+      "slug": "new-map-product-docs",
+      "title": "A New Map for Product Docs",
+      "kicker": "ESSAY",
+      "date": "2025·06",
+      "order": 4,
+      "dek": "How AI and knowledge graphs will change product documentation: static PDFs → instructions built on demand."
     }
-  ]
+  ],
+  "graffoldScrub": false,
+  "_graffoldScrub_note": "false = show REAL client/product names (Hugh's portfolio decision 2026-07-28 — name clients openly). Set true to re-enable the client-agnostic graffoldAliases scrub below. The export --no-scrub flag also forces real names.",
+  "workDescriptionsDir": "/Users/dorandesignstudio/Documents/DORAN design studio/3Resources_DDS/DoranDesignStudio/DDSWebsite/Work",
+  "_workDescriptionsDir_note": "Obsidian vault folder of per-deliverable markdown descriptions. Each .md has `fileName:` (the Graffold assetFileName) in its YAML frontmatter; the body (markdown) is attached to that asset as `description` and rendered in the Work modal. Authored in Obsidian, synced by re-running export-graffold.mjs — same one-command flow as the Graffold DB.",
+  "graffoldAliases": [
+    [
+      "RAINBIRD",
+      ""
+    ],
+    [
+      "Proactive Remote Management",
+      "Remote Monitoring"
+    ],
+    [
+      "ProactiveRemoteManagement",
+      "RemoteMonitoring"
+    ],
+    [
+      "ProactiveManagement",
+      "RemoteManagement"
+    ],
+    [
+      "ProactiveCity",
+      "ConnectedCity"
+    ],
+    [
+      "Proactive",
+      "Connected"
+    ],
+    [
+      "FG100 Documentation",
+      "Field Documentation"
+    ],
+    [
+      "FG100Documentation",
+      "FieldDocumentation"
+    ],
+    [
+      "FG100UserDocs",
+      "ControllerDocs"
+    ],
+    [
+      "FG100",
+      "Controller"
+    ],
+    [
+      "IQ Animation",
+      "Product Animation"
+    ],
+    [
+      "IQAnimation",
+      "ProductAnimation"
+    ],
+    [
+      "IQAnim",
+      "ProductAnim"
+    ],
+    [
+      "IQANIM",
+      "ProductAnim"
+    ],
+    [
+      "IQanim",
+      "Productanim"
+    ],
+    [
+      "IQCentralControl",
+      "CentralControl"
+    ],
+    [
+      "IQCentral",
+      "Central"
+    ],
+    [
+      "KeyFeaturesofIQ",
+      "KeyFeaturesof"
+    ],
+    [
+      "2WireGroundingGuide",
+      "WiringGuide"
+    ],
+    [
+      "2-Wire Grounding Guide",
+      "Wiring Guide"
+    ],
+    [
+      "2Wire",
+      "Wiring"
+    ],
+    [
+      "Bat-Pro Launch",
+      "Product Launch"
+    ],
+    [
+      "Bat-ProLaunch",
+      "ProductLaunch"
+    ],
+    [
+      "Bat-Pro",
+      "Sensor"
+    ],
+    [
+      "BATPRO6",
+      "Sensor"
+    ],
+    [
+      "BATPRO",
+      "Sensor"
+    ],
+    [
+      "Rain Bird",
+      "Doran Design Studio"
+    ],
+    [
+      "RainBird",
+      "DoranDesignStudio"
+    ]
+  ],
+  "_graffoldAliases_note": "Client-agnostic scrub applied to the exported Graffold snapshot (project labels, filename tokens, product codes). Ordered specific→general. Edit the right-hand labels freely."
 }
