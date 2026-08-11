@@ -59,9 +59,9 @@
     "founder": { "@type": "Person", "name": "Hugh Doran" },
     "areaServed": ["United States", "United Kingdom", "Europe"],
     "makesOffer": [
-      { "@type": "Offer", "name": "Documentation audit", "description": "Fixed price: ten working days, one product line. Findings, a prioritised fix plan, and one document rebuilt to show the standard.", "price": "1500", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "Documentation audit", "description": "Fixed price: ten working days, one product line. Findings, a prioritised fix plan, and one document rebuilt to show the standard.", "price": "7500", "priceCurrency": "USD" },
       { "@type": "Offer", "name": "Product launch kit", "description": "Twelve formats built as one connected system: setup guide, quick-start, tech spec, sell sheet, illustrations, animation, renders, wiring diagram and web page.",
-        "priceSpecification": { "@type": "PriceSpecification", "minPrice": "8500", "priceCurrency": "USD" } }
+        "priceSpecification": { "@type": "PriceSpecification", "minPrice": "22000", "priceCurrency": "USD" } }
     ],
     "knowsAbout": ["Technical documentation", "Spec sheet design", "Technical illustration", "PDF modernization", "Structured content", "DITA", "Product knowledge graphs", "Localization"]
   }
@@ -74,7 +74,7 @@
       { "@type": "Question", "name": "Do you sign NDAs, and who owns the files?", "acceptedAnswer": { "@type": "Answer", "text": "We are NDA-ready. Your source files, specs, previews and the graph schema stay yours at every step — you can export everything and leave at any time." } },
       { "@type": "Question", "name": "Can this scale across our whole SKU range?", "acceptedAnswer": { "@type": "Answer", "text": "That is the point of the product graph. The same system that runs 3 SKUs runs 300 — shared facts are written once, and each new product inherits the content its platform already carries." } },
       { "@type": "Question", "name": "Does it fit the systems we already use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The graph sits on an open schema and exports cleanly — to your CMS, PIM or web platform. We hand over structured content, not a lock-in." } },
-      { "@type": "Question", "name": "What does it cost to start?", "acceptedAnswer": { "@type": "Answer", "text": "A fixed-price documentation audit: $1,500, ten working days, one product line. If you continue with us, the fee comes off your first project." } }
+      { "@type": "Question", "name": "What does it cost to start?", "acceptedAnswer": { "@type": "Answer", "text": "A fixed-price documentation audit: $7,500, ten working days, one product line. If you continue with us, the fee comes off your first project." } }
     ]
   }
   </script>
@@ -1010,6 +1010,9 @@
     .cf-row > * { flex: 1; min-width: 0; }
     .contact-form input, .contact-form textarea { width: 100%; box-sizing: border-box; background: var(--canvas); border: 1px solid var(--border-surface); border-radius: 8px; padding: 10px 12px; font-family: var(--font-sans); font-size: 13.5px; color: var(--t-high); }
     .contact-form input:focus:not(:focus-visible), .contact-form textarea:focus:not(:focus-visible) { outline: none; }   /* mouse focus only — keyboard :focus-visible keeps the declared ring */
+    /* Honeypot. `.contact-form input { width: 100% }` outranks `.vh` (0-1-1 beats 0-1-0), so pin the box here
+       or the hidden checkbox lays out full-width. It stays clipped either way, but a 1px box can't misbehave. */
+    .contact-form input[name="botcheck"] { position: absolute; width: 1px; height: 1px; padding: 0; border: 0; opacity: 0; pointer-events: none; }
     .contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--t-low); }
     .contact-form input:focus, .contact-form textarea:focus { border-color: var(--color-blue); }
     .contact-form textarea { resize: vertical; line-height: 1.5; min-height: 82px; }
@@ -2561,24 +2564,24 @@
         currency: '$',
         tiers: {
           low: { label: 'Quick Start', blurb: 'One SKU — the essentials to ship it.', lines: [
-            { item: 'Quick Start guide', qty: 1, unit: 450, note: '1 SKU' },
-            { item: 'Technical spec sheet', qty: 1, unit: 350 },
-            { item: 'Product illustrations', qty: 4, unit: 120, note: 'line art' },
+            { item: 'Quick Start guide', qty: 1, unit: 2000, note: '1 SKU' },
+            { item: 'Technical spec sheet', qty: 1, unit: 750 },
+            { item: 'Product illustrations', qty: 4, unit: 360, note: 'line art' },
           ] },
           med: { label: 'Product Kit', blurb: 'Up to 3 SKUs — fuller manual, renders, web.', lines: [
-            { item: 'User manual (mid-length)', qty: 1, unit: 1400, note: 'up to 3 SKUs' },
-            { item: 'Technical spec sheets', qty: 3, unit: 300 },
-            { item: 'Product illustrations', qty: 10, unit: 110 },
-            { item: '3D product renders', qty: 4, unit: 320 },
-            { item: 'Web content block', qty: 1, unit: 600 },
+            { item: 'User manual (mid-length)', qty: 1, unit: 3000, note: 'up to 3 SKUs' },
+            { item: 'Technical spec sheets', qty: 3, unit: 750 },
+            { item: 'Product illustrations', qty: 10, unit: 330 },
+            { item: '3D product renders', qty: 4, unit: 960 },
+            { item: 'Web content block', qty: 1, unit: 1800 },
           ] },
           high: { label: 'Full Program', blurb: 'Multi-SKU line — renders, animation, web suite.', lines: [
-            { item: 'Long-form manual', qty: 1, unit: 3800, note: 'multiple SKUs' },
-            { item: 'Technical spec sheets', qty: 8, unit: 280 },
-            { item: '3D product renders', qty: 12, unit: 300 },
-            { item: 'Product illustrations', qty: 20, unit: 100 },
-            { item: 'Web content suite', qty: 1, unit: 2200 },
-            { item: 'Product animation', qty: 1, unit: 3500, note: '~30s explainer' },
+            { item: 'Long-form manual', qty: 1, unit: 11400, note: 'multiple SKUs' },
+            { item: 'Technical spec sheets', qty: 8, unit: 750 },
+            { item: '3D product renders', qty: 12, unit: 900 },
+            { item: 'Product illustrations', qty: 20, unit: 300 },
+            { item: 'Web content suite', qty: 1, unit: 6600 },
+            { item: 'Product animation', qty: 1, unit: 10500, note: '~30s explainer' },
           ] },
         },
       };
@@ -2735,7 +2738,7 @@
       // 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1nrw9EC-Ilyz0eBZXFQkbLxKbc4lIiE8hHYDySmowBX1aLoJUoV5awEDwex-QB0L7pAP4BUHC5?gv=true'
       const BOOKING_EMBED_URL = '';
       const BOOKING_URL = 'https://calendar.app.google/3V7AgW6MDx5q3o1F9';   // Plain booking link — the Book-a-call button (phones / small cards) opens this Google booking page.
-      const CONTACT_FORM_KEY = '';   // Web3Forms access key (free at web3forms.com — delivers submissions to your inbox). Empty → the form hands off to the email client.
+      const CONTACT_FORM_KEY = '0c4e330f-ca17-4076-a10a-05af70b71cff';   // Web3Forms access key (free at web3forms.com — delivers submissions to your inbox). Empty → the form hands off to the email client. PUBLIC by design: it only authorises delivery to the address registered with Web3Forms, so it is safe in page source.
       const CONTACT_EMAIL = 'hugh@dorandesign.studio';
       const WHATSAPP = '19293054185';   // digits only incl. country code (US +1) → the WhatsApp CTA appears; empty → button hidden.
       // WhatsApp brand glyph (nominative use for a "contact us on WhatsApp" link). The generic `chat` bubble
@@ -2765,26 +2768,26 @@
       // ── Pricing view ── published "from" prices (typical starting points, mined from real proposals; floors deliberately rounded up per positioning). Billing = per-format fixed fee.
       const PRICING_GROUPS = [
         { title: 'Product documentation', rows: [
-          ['User guide / manual', 'from $2,500'],
-          ['Quick-start guide', 'from $1,150'],
-          ['Setup guide', 'from $1,600'],
-          ['Use-case guide', 'from $1,150'],
+          ['User guide / manual', 'from $3,000'],
+          ['Quick-start guide', 'from $2,000'],
+          ['Setup guide', 'from $4,800'],
+          ['Use-case guide', 'from $3,450'],
           ['Tech spec', 'from $750'],
-          ['Sell sheet', 'from $750'],
-          ['Brochure', 'from $2,500'],
+          ['Sell sheet', 'from $2,250'],
+          ['Brochure', 'from $7,500'],
         ] },
         { title: 'Motion & 3D', rows: [
-          ['Web animation (Lottie)', 'from $500'],
-          ['Product / launch animation', 'from $2,500'],
-          ['3D product renders', 'from $500 · sets from $1,500'],
-          ['Technical illustration', 'from $250 · sets from $1,000'],
+          ['Web animation (Lottie)', 'from $1,500'],
+          ['Product / launch animation', 'from $7,500'],
+          ['3D product renders', 'from $1,500 · sets from $4,500'],
+          ['Technical illustration', 'from $750 · sets from $3,000'],
         ] },
         { title: 'Packaging, labels & launch', rows: [
-          ['Carton / packaging design', 'from $1,500'],
-          ['Product label', 'from $400'],
-          ['Wiring diagram', 'from $250'],
-          ['Slide deck', 'from $500'],
-          ['Copywriting', 'from $750'],
+          ['Carton / packaging design', 'from $4,500'],
+          ['Product label', 'from $1,200'],
+          ['Wiring diagram', 'from $750'],
+          ['Slide deck', 'from $1,500'],
+          ['Copywriting', 'from $2,250'],
         ] },
       ];
       const PRICING_HTML = (() => {
@@ -2795,12 +2798,12 @@
         return `<div class="about-body"><p>We price each format as a fixed fee, quoted before work starts. We do not bill by the hour. The figures below are typical starting points from recent projects. Your quote depends on scope. Updates and revisions are priced separately and cost less. A second language or a next revision renders from your documentation system at a fraction of the first version's cost.</p></div>` +
           `<div class="price-kit price-audit">` +
             `<div class="pk-eyebrow">Start here · fixed price</div>` +
-            `<div class="pk-head"><span class="pk-title">Documentation audit</span><span class="pk-price">$1,500</span></div>` +
+            `<div class="pk-head"><span class="pk-title">Documentation audit</span><span class="pk-price">$7,500</span></div>` +
             `<p class="pk-desc">Ten working days, one product line. We review every document you ship: spec sheets, manuals, web content. You get three things: what is broken and why, a fix plan in priority order, and one document rebuilt to show the standard. If you continue with us, the fee comes off your first project.</p>` +
           `</div>` +
           `<div class="price-kit">` +
             `<div class="pk-eyebrow">The bundle · 12 formats</div>` +
-            `<div class="pk-head"><span class="pk-title">Product launch kit</span><span class="pk-price">from $8,500</span></div>` +
+            `<div class="pk-head"><span class="pk-title">Product launch kit</span><span class="pk-price">from $22,000</span></div>` +
             `<p class="pk-desc">One fixed fee covers twelve formats: setup guide, quick-start guide, use-case guide, tech spec, sell sheet, carton, technical illustrations, animation, 3D renders, slide deck, wiring diagram, and web page. We build all twelve as one connected system, so you write each product fact once.</p>` +
           `</div>` +
           groups +
@@ -2914,7 +2917,7 @@
             faq('Do you sign NDAs, and who owns the files?', `We are NDA-ready. Your source files, specs, previews and the graph schema stay yours at every step — you can export everything and leave at any time.`) +
             faq('Can this scale across our whole SKU range?', `That is the point of the graph. The same system that runs 3 SKUs runs 300 — shared facts are written once, and each new product inherits the content its platform already carries.`) +
             faq('Does it fit the systems we already use?', `Yes. The graph sits on an open schema and exports cleanly — to your CMS, PIM or web platform. We hand over structured content, not a lock-in.`) +
-            faq('What does it cost to start?', `A fixed-price documentation audit: $1,500, ten working days, one product line. If you continue with us, the fee comes off your first project.`) +
+            faq('What does it cost to start?', `A fixed-price documentation audit: $7,500, ten working days, one product line. If you continue with us, the fee comes off your first project.`) +
           `</div>` +
           `<p class="price-cta"><a class="at-golink price-cta-primary" data-goview="contact">Talk to us about your documentation →</a></p>`;
       })();
@@ -2949,6 +2952,11 @@
           const fd = new FormData(form);
           const name = String(fd.get('name') || '').trim(), email = String(fd.get('email') || '').trim();
           const company = String(fd.get('company') || '').trim(), message = String(fd.get('message') || '').trim();
+          // Honeypot. A person can never check this (hidden, aria-hidden, out of the tab order), so anything
+          // that does is automated. Bail here AND forward the field: Web3Forms rejects it server-side too, but
+          // there is no reason to spend a request. Silent success — telling a bot it failed just invites a retry.
+          const botcheck = fd.get('botcheck') ? true : false;
+          if (botcheck) return contactSuccess(el, name);
           form.querySelector('.cf-error')?.remove();
           if (!name || !email || !message) return showCfError(form, 'Please add your name, email and a message.');
           if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return showCfError(form, 'That email address doesn’t look right.');
@@ -2958,7 +2966,7 @@
             try {
               const res = await fetch('https://api.web3forms.com/submit', {
                 method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-                body: JSON.stringify({ access_key: CONTACT_FORM_KEY, subject: 'New enquiry — dorandesign.studio', from_name: name, name, email, company, message })
+                body: JSON.stringify({ access_key: CONTACT_FORM_KEY, subject: 'New enquiry — dorandesign.studio', from_name: name, name, email, company, message, botcheck })
               });
               const j = await res.json().catch(() => ({}));
               if (j.success) return contactSuccess(el, name);
@@ -4517,6 +4525,7 @@
                 `</div>` +
                 `<label class="vh" for="cfCompany">Company (optional)</label><input id="cfCompany" name="company" placeholder="Company (optional)" autocomplete="organization">` +
                 `<label class="vh" for="cfMessage">Message</label><textarea id="cfMessage" name="message" placeholder="Message" rows="3" required></textarea>` +
+                `<input type="checkbox" name="botcheck" class="vh" tabindex="-1" autocomplete="off" aria-hidden="true">` +   // honeypot — Web3Forms rejects the submission if this is ever checked. Invisible to people, tempting to bots.
                 `<button type="submit" class="cf-send">Send message</button>` +
                 `<p class="cf-note">We usually reply within one business day. NDA-ready — your source files, specs and previews stay yours.</p>` +
               `</form>` +
