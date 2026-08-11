@@ -14,6 +14,10 @@ COPY IconGenerator.png /usr/share/nginx/html/
 COPY dds-icon-256-2.png /usr/share/nginx/html/
 COPY Schemavisualisation.png /usr/share/nginx/html/
 COPY share-card.png /usr/share/nginx/html/
+COPY share-card-icons.png /usr/share/nginx/html/
+# Per-route share card for #/icons. A real file at a real URL, so crawlers fetching /icons/ get
+# icons-specific OG tags instead of the SPA's shared head. Superseded by #84's pre-render.
+COPY icons/ /usr/share/nginx/html/icons/
 # Self-hosted fonts. The Material Symbols @font-face lives ONLY in fonts/fonts.css — without this every
 # icon on the site renders its ligature NAME as literal text (arrow_back, download, delete, …).
 COPY fonts/ /usr/share/nginx/html/fonts/
