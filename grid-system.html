@@ -1908,7 +1908,11 @@
           // Row 0 is left empty for vertical balance only when the board can AFFORD it. At exactly 4 rows
           // (any ~1000px laptop) that spare row cost the panel a third of its height — it became a 2-row
           // slot showing about a third of the copy with empty scaffold above it. From 5 rows up, keep the nudge.
-          const capR = rows >= 5 ? 1 : 0;
+          // Row 0 is left empty for vertical balance only when the board can AFFORD it. On a 16-inch laptop
+          // (6 rows) that spare row PLUS the half-empty caption row pushed the panel a third of the way down
+          // the board while its copy was still scrolling. Keep the nudge only on genuinely tall boards (8+ rows,
+          // i.e. a large external display), where one row is a small fraction of the height.
+          const capR = rows >= 8 ? 1 : 0;
           const pH = Math.min(panelRows(aboutTopicHTML(), pw, panelBand(rows) - 1), Math.max(1, rows - capR - 1));
           const pR = capR + 1;
           const oy = capR;
@@ -2832,7 +2836,11 @@
           // Row 0 is left empty for vertical balance only when the board can AFFORD it. At exactly 4 rows
           // (any ~1000px laptop) that spare row cost the panel a third of its height — it became a 2-row
           // slot showing about a third of the copy with empty scaffold above it. From 5 rows up, keep the nudge.
-          const capR = rows >= 5 ? 1 : 0;
+          // Row 0 is left empty for vertical balance only when the board can AFFORD it. On a 16-inch laptop
+          // (6 rows) that spare row PLUS the half-empty caption row pushed the panel a third of the way down
+          // the board while its copy was still scrolling. Keep the nudge only on genuinely tall boards (8+ rows,
+          // i.e. a large external display), where one row is a small fraction of the height.
+          const capR = rows >= 8 ? 1 : 0;
           const pH = Math.min(panelRows(body, pw, Math.min(band, capRows) - 1), Math.max(1, rows - capR - 1 - mBelow));
           boardFloor = capR;
           items.push({ group: 'content', kind: 'caption', tier: 'high', noDrag: true, c: ox, r: capR, w: pw, h: 1, panelCap: true, title });
@@ -3175,7 +3183,7 @@
       // A panel view owns the WHOLE board (nothing else is on it), so the title+panel block gets the board
       // minus a one-row breathing buffer top and bottom. vSpace's 2-row bottom buffer starved the card into
       // scrolling copy that would otherwise fit.
-      const panelBand = rows => Math.max(3, rows - (rows >= 5 ? 2 : rows >= 3 ? 1 : 0));
+      const panelBand = rows => Math.max(3, rows - (rows >= 8 ? 2 : 1));   // one buffer row (bottom) on laptop boards; two (top+bottom) only when 8+ rows make it affordable
       const panelMediaHTML = m => `<img class="pn-media-img" src="${m.src}" alt="${esc(m.cap || '')}" loading="lazy"><span class="pn-media-cap">${esc(m.cap || '')}</span>`;
       function panelRows(html, wCols, maxRows, minRows = 3) {
         const cell = lastCell || 140, gcw = lastGcw || (cell + 1);
