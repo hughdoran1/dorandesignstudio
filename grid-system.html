@@ -151,7 +151,12 @@
       padding: var(--space-4) 0; gap: 2px;
       background: var(--canvas); border-right: 1px solid var(--border-canvas);
     }
-    .nav-items { display: flex; flex-direction: column; gap: 2px; }
+    /* The rail carries 9 items now (Manuals). At 8 it fit any viewport; at 9 it overflowed below
+       ~680px tall, and CLIPPING CONTACT has bitten this site before — so compact the items when
+       height is scarce, and let the list scroll as a last resort rather than hiding one. */
+    .nav-items { display: flex; flex-direction: column; gap: 2px; min-height: 0; overflow-y: auto; scrollbar-width: none; }
+    .nav-items::-webkit-scrollbar { display: none; }
+    @media (max-height: 780px) { body:not(.narrow) .nav-item { padding: 8px 4px; gap: 3px; } }
     .nav-burger { display: none; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 8px 0; color: var(--t-high); font: inherit; }
     .nav-burger-glyph { font-size: 26px; }
     .nav-burger-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--t-med); }
@@ -1404,6 +1409,7 @@
       const NAV_ITEMS = [
         { id: 'home',    icon: 'home', label: 'Home' },
         { id: 'about',   icon: 'info', label: 'About' },
+        { id: 'manuals', icon: 'article', label: 'Manuals' },
         { id: 'pricing', icon: 'sell', label: 'Pricing' },
         { id: 'pdftoweb', icon: 'document_scanner', label: 'PDF→Web' },
         // SHELVED FOR LAUNCH — the Explore view showcases INVENTED sample products (Meridian/Lumen/Strata).
@@ -5373,7 +5379,7 @@
          #/work · #/pricing · #/journal/pdf-to-graph … Back/forward work; home keeps a clean bare URL.
          Interim step for task #84 (full fix = pre-rendered per-view pages at deploy). */
       const ROUTE_ALIAS = { gallery: 'work', pdftoweb: 'pdf-to-web', productgraph: 'product-graph', manuals: 'user-guides-and-manuals' };   // internal id → public token
-      const EXTRA_VIEWS = ['productgraph', 'manuals'];   // routable views that carry no nav-rail slot (reached by in-page links)
+      const EXTRA_VIEWS = ['productgraph'];   // routable views that carry no nav-rail slot (reached by in-page links)
       const ROUTE_VIEW = Object.fromEntries(Object.entries(ROUTE_ALIAS).map(([k, v]) => [v, k]));
       let routing = false;   // applying a route must not write the URL back mid-flight
       function currentRoute(v) {
