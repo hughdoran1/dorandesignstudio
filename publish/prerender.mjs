@@ -40,6 +40,8 @@ const ROUTES = [
     desc: 'Turn a legacy PDF archive into structured, searchable, AI-answerable web content — without losing the engineering accuracy of the originals.' },
   { path: '/product-graph/',    title: 'The Product Graph — how we structure product documentation — Doran Design Studio',
     desc: 'Audit, structure, render, maintain. How we model a manufacturer’s whole product system so every document generates from one source of facts.' },
+  { path: '/user-guides-and-manuals/', title: 'User Guides and Manuals for Manufacturers — Doran Design Studio',
+    desc: 'We write user guides, user manuals, quick-start guides and installation instructions for manufacturers — to IEC/IEEE 82079-1, ISO 7010 and ANSI Z535. Four pages to a hundred, localized including Arabic.' },
   { path: '/journal/',          title: 'Journal — Doran Design Studio',
     desc: 'Notes on product documentation, structured content and the systems behind them — written by the studio that builds them.' },
   { path: '/work/',             title: 'Work — Client deliverables, versioned — Doran Design Studio',
