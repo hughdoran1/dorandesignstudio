@@ -5,10 +5,10 @@
       "slug": "pdf-to-graph",
       "title": "From a PDF Archive to a Product Graph",
       "kicker": "233 PDFS → ONE GRAPH",
-      "covertag": "Case study · Rain Bird",
+      "covertag": "Case study",
       "date": "2026·05",
       "order": 0,
-      "dek": "We rebuilt 233 legacy PDFs (1,331 pages) into ~1,500 reusable chunks in a semantic graph. Search, AI answer engines, and Rain Bird's own team can now find and reuse the content."
+      "dek": "We rebuilt 233 legacy PDFs (1,331 pages) into ~1,500 reusable chunks in a semantic graph. Search, AI answer engines, and the client's own team can now find and reuse the content."
     },
     {
       "file": "graffold-project.md",

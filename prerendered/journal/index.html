@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Doran Design Studio — Product Communication for Manufacturers</title>
-  <meta name="description" content="Spec sheets, manuals, labels and product pages for manufacturers. One versioned content graph → every format and language you ship in, for people and AI.">
-  <link rel="canonical" href="https://www.dorandesign.studio/">
+  <title>Journal — Doran Design Studio</title>
+  <meta name="description" content="Notes on product documentation, structured content and the systems behind them — written by the studio that builds them.">
+  <link rel="canonical" href="https://www.dorandesign.studio/journal/">
   <meta name="theme-color" content="#E9E7E3">
   <meta name="author" content="Doran Design Studio">
 
@@ -16,9 +14,9 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Doran Design Studio">
-  <meta property="og:title" content="Doran Design Studio — Product Communication for Manufacturers">
-  <meta property="og:description" content="Spec sheets, manuals, labels and product pages for manufacturers. One versioned content graph → every format, market and language you ship in. People, search and AI can all read them.">
-  <meta property="og:url" content="https://www.dorandesign.studio/">
+  <meta property="og:title" content="Journal — Doran Design Studio">
+  <meta property="og:description" content="Notes on product documentation, structured content and the systems behind them — written by the studio that builds them.">
+  <meta property="og:url" content="https://www.dorandesign.studio/journal/">
   <meta property="og:image" content="https://www.dorandesign.studio/share-card.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -26,8 +24,8 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Doran Design Studio — Product Communication for Manufacturers">
-  <meta name="twitter:description" content="Spec sheets, manuals, labels and product pages for manufacturers. One versioned content graph → every format, market and language. For people, search and AI.">
+  <meta name="twitter:title" content="Journal — Doran Design Studio">
+  <meta name="twitter:description" content="Notes on product documentation, structured content and the systems behind them — written by the studio that builds them.">
   <meta name="twitter:image" content="https://www.dorandesign.studio/share-card.png">
   <meta name="twitter:image:alt" content="Doran Design Studio — product communication for manufacturers. A generated soft-body mark on the studio's dot grid.">
 
@@ -85,18 +83,18 @@
 
   <!-- Geist + Geist Mono + Material Symbols — SELF-HOSTED (fonts/fetch script regenerates): no third-party
        connection on the critical path, no Google Fonts GDPR surface. Symbols use font-display:block. -->
-  <link rel="preload" href="/fonts/v6-or3nQ6H-1_WfwkMZI_qYFrcdmhHkjko.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/v5-gyByhwUxId8gMEwcGFWNOITd.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/v6-or3nQ6H-1_WfwkMZI_qYFrcdmhHkjko.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="/fonts/v5-gyByhwUxId8gMEwcGFWNOITd.woff2" as="font" type="font/woff2" crossorigin="">
   <link rel="stylesheet" href="/fonts/fonts.css">
 
   <!-- Lottie + inlined animation data (works over file://) — DEFERRED: ~950KB that first paint must not wait on.
        The app boots without them (mountLottie guards window.lottie) and mounts the hero on DOMContentLoaded. -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
-  <script defer src="/HeroLottie5.js"></script>
-  <script defer src="/CompetitionLottie.js"></script>
+  <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+  <script defer="" src="/HeroLottie5.js"></script>
+  <script defer="" src="/CompetitionLottie.js"></script>
 
   <!-- DDS soft-body icon engine (dependency-free) — deferred too; the Icons view is click-away, never first paint -->
-  <script defer src="/dds-icon-engine.js"></script>
+  <script defer="" src="/dds-icon-engine.js"></script>
 
   <style>
     :root {
@@ -1342,24 +1340,24 @@
       <!-- explicit oversized region: the default (-10%..120% of the bbox) CLIPS the blur on a ~14px-wide
            dot column, and the alpha-contrast turns the clipped dots into half-shapes -->
       <filter id="goo" x="-150%" y="-25%" width="400%" height="150%">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="b"/>
-        <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8" result="goo"/>
-        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        <feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="b"></feGaussianBlur>
+        <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8" result="goo"></feColorMatrix>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
       </filter>
     </defs>
   </svg>
   <header class="site-header">
-    <img class="header-logo" src="/files/dds-logo-blue.png" alt="Doran Design Studio"><!-- self-hosted (was S3): the logo is first-paint, it must not wait on a cross-origin fetch -->
+    <img class="header-logo" src="/files/dds-logo-blue.png" alt="Doran Design Studio" style="cursor: pointer;"><!-- self-hosted (was S3): the logo is first-paint, it must not wait on a cross-origin fetch -->
     <span class="header-right"><span class="header-dev">In development</span><span class="header-status">Doran Design Studio</span></span>
   </header>
 
   <div class="stage">
-    <nav class="nav-rail" id="navRail"></nav>
-    <div class="grid-col">
-      <div class="system-grid" id="grid"></div>
+    <nav class="nav-rail" id="navRail"><button class="nav-burger" type="button" aria-controls="navItems" aria-expanded="false"><span class="nav-burger-glyph material-symbols-rounded" aria-hidden="true">menu</span><span class="nav-burger-label">Journal</span></button><div class="nav-items" id="navItems"><a class="nav-item" href="/"><span aria-hidden="true" class="material-symbols-rounded">home</span><span class="nav-label">Home</span></a><a class="nav-item" href="/about/"><span aria-hidden="true" class="material-symbols-rounded">info</span><span class="nav-label">About</span></a><a class="nav-item" href="/pricing/"><span aria-hidden="true" class="material-symbols-rounded">sell</span><span class="nav-label">Pricing</span></a><a class="nav-item" href="/pdf-to-web/"><span aria-hidden="true" class="material-symbols-rounded">document_scanner</span><span class="nav-label">PDF→Web</span></a><a class="nav-item active" href="/journal/" aria-current="page"><span aria-hidden="true" class="material-symbols-rounded">auto_stories</span><span class="nav-label">Journal</span></a><a class="nav-item" href="/work/"><span aria-hidden="true" class="material-symbols-rounded">grid_view</span><span class="nav-label">Work</span></a><a class="nav-item" href="/icons/"><span aria-hidden="true" class="material-symbols-rounded">bubble_chart</span><span class="nav-label">Icons</span></a><a class="nav-item" href="/contact/"><span aria-hidden="true" class="material-symbols-rounded">mail</span><span class="nav-label">Contact</span></a></div></nav>
+    <div class="grid-col"><h1 class="vh vh-h1">Journal</h1>
+      <div class="system-grid" id="grid" style="--cellpx: 149.33333333333334px; grid-template-columns: repeat(9, 149.333px); grid-template-rows: repeat(5, 149.333px); --dot-bg: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'149.33333333333334'%20height%3D'149.33333333333334'%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'18.67'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'37.33'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'56.00'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'74.67'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'93.33'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'112.00'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'18.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'37.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'56.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'74.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'93.33'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'112.00'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3Ccircle%20cx%3D'130.67'%20cy%3D'130.67'%20r%3D'1.5'%20fill%3D'%23e1dfdb'%2F%3E%3C%2Fsvg%3E&quot;); --iso-bg: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'300.67'%20height%3D'150.33'%3E%3Cpath%20d%3D'M0%200L300.67%20150.33M0%20150.33L300.67%200'%20fill%3D'none'%20stroke%3D'rgba(248%2C246%2C242%2C0.3)'%20stroke-width%3D'1'%2F%3E%3C%2Fsvg%3E&quot;); --iso-pos: 75.17px 0; --dot-unit: 18.67px;"><div class="shadow-plate" style="grid-area: 2 / 1 / 5 / 3;"><div class="shadow-fill" style="left: 0px; top: 0px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 0px; width: 150.333px; height: 150.333px;"></div></div><div class="shadow-plate" style="grid-area: 2 / 4 / 5 / 6;"><div class="shadow-fill" style="left: 0px; top: 0px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 0px; width: 150.333px; height: 150.333px;"></div></div><div class="shadow-plate" style="grid-area: 2 / 7 / 5 / 9;"><div class="shadow-fill" style="left: 0px; top: 0px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 0px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 300.667px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 150.333px; width: 150.333px; height: 150.333px;"></div><div class="shadow-fill" style="left: 150.333px; top: 0px; width: 150.333px; height: 150.333px;"></div></div><div class="block jr-cover" tabindex="0" role="button" style="grid-area: 2 / 1 / span 3 / span 2; cursor: pointer;"><div class="jc-media"><object type="image/svg+xml" data="/graph-schema.svg"></object></div><div class="jc-meta"><span class="jc-k">233 PDFS → ONE GRAPH · 2026·05</span><h2 class="jc-t">From a PDF Archive to a Product Graph</h2></div></div><div class="block jr-cover" tabindex="0" role="button" style="grid-area: 2 / 4 / span 3 / span 2; cursor: pointer;"><div class="jc-media"><img class="jm-img" src="Schemavisualisation.png" alt="How We Version Every Deliverable"></div><div class="jc-meta"><span class="jc-k">GRAFFOLD · ASSET VERSIONING · 2026·07</span><h2 class="jc-t">How We Version Every Deliverable</h2></div></div><div class="block jr-cover jr-external" tabindex="0" role="button" aria-label="A New Map for Product Docs — read on Medium (opens in a new tab)" style="grid-area: 2 / 7 / span 3 / span 2; cursor: pointer;"><div class="jc-media jc-ext"><p class="jc-dek">How AI and knowledge graphs will change product documentation: static PDFs → instructions built on demand.</p><span class="jc-ext-link">Read on Medium <span aria-hidden="true">↗</span></span></div><div class="jc-meta"><span class="jc-k">ESSAY · 2025·06</span><h2 class="jc-t">A New Map for Product Docs <span class="jc-ext-arrow" aria-hidden="true">↗</span></h2></div></div><div class="cell" style="grid-area: 1 / 1;"></div><div class="cell" style="grid-area: 1 / 2;"></div><div class="cell" style="grid-area: 1 / 3;"></div><div class="cell" style="grid-area: 1 / 4;"></div><div class="cell" style="grid-area: 1 / 5;"></div><div class="cell" style="grid-area: 1 / 6;"></div><div class="cell" style="grid-area: 1 / 7;"></div><div class="cell" style="grid-area: 1 / 8;"></div><div class="cell" style="grid-area: 1 / 9;"></div><div class="cell" style="grid-area: 2 / 3;"></div><div class="cell" style="grid-area: 2 / 6;"></div><div class="cell" style="grid-area: 2 / 9;"></div><div class="cell" style="grid-area: 3 / 3;"></div><div class="cell" style="grid-area: 3 / 6;"></div><div class="cell" style="grid-area: 3 / 9;"></div><div class="cell" style="grid-area: 4 / 3;"></div><div class="cell" style="grid-area: 4 / 6;"></div><div class="cell" style="grid-area: 4 / 9;"></div><div class="cell" style="grid-area: 5 / 1;"></div><div class="cell" style="grid-area: 5 / 2;"></div><div class="cell" style="grid-area: 5 / 3;"></div><div class="cell" style="grid-area: 5 / 4;"></div><div class="cell" style="grid-area: 5 / 5;"></div><div class="cell" style="grid-area: 5 / 6;"></div><div class="cell" style="grid-area: 5 / 7;"></div><div class="cell" style="grid-area: 5 / 8;"></div><div class="cell" style="grid-area: 5 / 9;"></div><div class="iso-overlay" aria-hidden="true" style="grid-area: 1 / 1 / -1 / -1;"></div><div class="eyebrow" data-pos="above" style="height: 37px; left: 19px; top: 115px;">Case study</div><div class="eyebrow" data-pos="above" style="height: 37px; left: 470px; top: 115px;">System</div><div class="eyebrow" data-pos="above" style="height: 37px; left: 921px; top: 115px;">Essay</div></div>
       <footer class="site-footer">
         <span class="footer-mark">© 2026 Doran Design Studio</span>
-        <span class="readout" id="readout"></span>
+        <span class="readout" id="readout" style="display: none;"></span>
       </footer>
     </div>
   </div>
@@ -5552,6 +5550,7 @@
       loadContent();   // fetch content/manifest.json → replace the journal entries with the live markdown files
       loadSiteCopy();  // fetch content/site-copy.json → the About panels read their copy from the Obsidian vault masters
     })();
-  </script>
-</body>
-</html>
+  </script><button class="edit-toggle" style="display: none;"><span aria-hidden="true" class="material-symbols-rounded">edit</span><span class="et-label">Edit</span></button>
+
+
+</body></html>
