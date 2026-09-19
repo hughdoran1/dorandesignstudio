@@ -1974,8 +1974,13 @@
       const ASSET_BASE = '/';   // ROOT-absolute: views live at real paths (/journal/<slug>/), so a relative content/ fetch would resolve against the route directory and 404
       const resolveAsset = src => {
         const m = /^bucket:([^@]+)(?:@(.+))?$/.exec(src || '');
-        if (!m) return src;
-        return (ASSET_BASE || '') + m[1] + (m[2] ? '?v=' + encodeURIComponent(m[2]) : '');
+        if (m) return (ASSET_BASE || '') + m[1] + (m[2] ? '?v=' + encodeURIComponent(m[2]) : '');
+        // A PLAIN relative path from content data (a manifest `cover:`, a markdown image) must be made
+        // root-absolute here. Views live at real paths now (/journal/, /journal/<slug>/), so the browser
+        // resolves 'Schemavisualisation.png' against the ROUTE directory and 404s — which is exactly how
+        // the journal cover broke after #84. Absolute URLs, root paths, data:/blob: and fragments pass through.
+        if (src && !/^(?:[a-z][a-z0-9+.-]*:|\/|#)/i.test(src)) return '/' + src.replace(/^\.\//, '');
+        return src;
       };
       const mdInline = s => s
         .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -2126,6 +2131,7 @@
             date: e.date || '', kicker: e.kicker || 'ESSAY', title: e.title || 'Untitled', dek: e.dek || '',
             href: e.href, external: true, chunks: [], type: 'external', status: e.status || 'published',
             order: e.order != null ? +e.order : null,
+            cover: e.cover ? (/[\/.:]/.test(e.cover) ? { kind: 'image', src: e.cover } : { kind: e.cover }) : null,   // same normalisation as entryFromDoc
           }));
           const docs = await Promise.all(list.map(async e => {
             try {
@@ -4448,7 +4454,11 @@
           const ext = !!e.external;
           el.className = 'block jr-cover' + (ext ? ' jr-external' : '');
           let media;
-          if (ext) {
+          if (ext && e.cover && e.cover.kind === 'image') {
+            // An external essay with a cover image reads like the other cards; the ↗ on the title and the
+            // aria-label still say it opens off-site.
+            media = `<div class="jc-media">${MEDIA_RENDER.image(Object.assign({ alt: e.title }, e.cover))}</div>`;
+          } else if (ext) {
             media = `<div class="jc-media jc-ext"><p class="jc-dek">${esc(e.dek)}</p><span class="jc-ext-link">Read on Medium <span aria-hidden="true">↗</span></span></div>`;
           } else {
             // A cover is static HTML — it is never hydrated. LIVE_MEDIA kinds (graffoldgallery / graffoldtree /
