@@ -24,7 +24,7 @@ COPY share-card-icons.png /usr/share/nginx/html/
 COPY fonts/ /usr/share/nginx/html/fonts/
 # Logo + trophy art. Named individually, NOT `COPY files/` — that folder is a scratch dir and a
 # whole-folder copy would publish NOTES.md and the prototype .html files to the public web root.
-COPY files/dds-logo-blue.png files/trophy-graffold.png /usr/share/nginx/html/files/
+COPY files/dds-logo-blue.png files/trophy-graffold.png files/new-map-cover.webp /usr/share/nginx/html/files/
 # Tournament Lottie: ship BOTH — the .js is the fast path, the .json is mountCompLottie's fallback.
 COPY CompetitionLottie.js /usr/share/nginx/html/
 COPY CompetitionLottie.json /usr/share/nginx/html/

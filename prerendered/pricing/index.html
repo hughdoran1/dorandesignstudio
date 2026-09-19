@@ -644,7 +644,8 @@
     .jc-meta .jc-k { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--t-low); }
     .jc-meta .jc-t { font-size: 15px; font-weight: 600; color: var(--t-high); line-height: 1.25; margin: 0; }   /* promoted from <b>: no global heading reset in this file, so kill the UA margin explicitly */
     /* External (Medium) cover: text-forward — dek fills the media area, a "Read on Medium ↗" affordance, no image */
-    .jr-cover.jr-external .jc-media { align-items: flex-start; justify-content: flex-start; padding: calc(var(--dot-unit) * 1) calc(var(--dot-unit) * 1.1); }
+    /* text-only external card (summary + 'Read on Medium'): top-left. Scoped to .jc-ext so an external card WITH a cover image keeps the centred layout the other covers use. */
+    .jr-cover.jr-external .jc-media.jc-ext { align-items: flex-start; justify-content: flex-start; padding: calc(var(--dot-unit) * 1) calc(var(--dot-unit) * 1.1); }
     .jr-cover .jc-dek { font-size: 13px; line-height: 1.5; color: var(--t-med); margin: 0; }
     .jr-cover .jc-ext-link { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-blue); margin-top: auto; padding-top: 12px; }
     .jr-cover.jr-external:hover .jc-ext-link { text-decoration: underline; }
