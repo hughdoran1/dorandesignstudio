@@ -26,13 +26,21 @@ Fisher was living in Felixstowe. He died there on 13 January 2017.[^felixstowe]
 
 James was not a professor. He was Provost of King's College, Cambridge, later Provost of Eton, Vice-Chancellor, and Director of the Fitzwilliam. Medievalist and manuscript cataloguer. And he really did dig things up.
 
-In 1902 and 1903 he ran excavations at Bury St Edmunds after finding a reference in an abbey register at Douai to where the twelfth-century abbots were buried. On New Year's Day 1903 they opened the chapter house and found six graves exactly where he said they would be. Abbot Samson's still had the silver tip of a crozier in it. The finds are in Moyse's Hall Museum.[^bury]
+In 1902 and 1903 he ran excavations at Bury St Edmunds after finding a reference in an abbey register at Douai to where the twelfth-century abbots were buried. On New Year's Day 1903 they opened the chapter house and found six graves exactly where he said they would be. Five are still visible. The finds are in Moyse's Hall Museum.[^bury]
 
 And in 1889 he found the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*. He says so himself, in the first person:
 
 > "I had been myself, to some extent, instrumental in procuring the books for Cambridge: and it was with extreme pleasure that on examination I discovered, first that here was a copy of Thomas of Monmouth's Life of St William, and next, that no other copy seemed to be known."[^james-ms]
 
-It came out of a parish library at Brent Eleigh in Suffolk, bequeathed around 1700 by a Mr Edward Colman of Trinity College, bought by Cambridge University Library in 1889. It is a small folio, Add. 3037. It had suffered from damp in the upper left corner. Nobody had catalogued it. As James puts it, it was unknown alike to Boston, Tanner and Blomefield, and none of the chroniclers who notice St William's death appear to have seen it.
+It came out of a parish library at Brent Eleigh in Suffolk, bequeathed around 1700 by a Mr Edward Colman of Trinity College, bought by Cambridge University Library in 1889. It is a small folio, Add. 3037. It had suffered from damp in the upper left corner.
+
+Nobody had read it for four hundred years, and James works this out himself, in the introduction, on page lx:
+
+> "It seems, then, that Capgrave, Leland, and Bale knew Thomas of Monmouth's book. But outside their testimony and later than their time, no trace of it is discoverable. Alike to Boston, Tanner and Blomefield it is unknown, and, moreover, none of the chroniclers who notice St William's death appear to have seen it."[^buried]
+
+> "It seems clear that the book had little or no circulation outside East Anglia: for Capgrave (or John of Tinmouth) and Bale are both East Anglians: Leland saw his MS at Norwich Priory: and our MS comes to light in a Suffolk Library."
+
+The thing was buried and he says so. It is not a figure of speech anyone has applied to him afterwards. It is his own finding about his own text, printed in the book.
 
 He and Augustus Jessopp edited, translated and published it at Cambridge in 1896.[^edition]
 
@@ -86,13 +94,17 @@ Fisher had already specified the record before it existed. From k-punk, "London 
 
 He dreamed it and it came.
 
-And it came through the network. Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix, one release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub began as a webzine [CHECK YEAR: 1999, 2000 and 2001 all appear in sources] and became a record label in 2004. It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007. Kode9 says Burial was a reader of the Hyperdub site and was sending him letters and CD-Rs from around 2002. [UNVERIFIED AT SOURCE]
+And it came through the network. Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix. One release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub was live as a webzine by late 2000 and became a record label in 2004.[^webzine] It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007.
+
+It is Kode9 who says how Burial arrived, not Burial:
+
+> "Burial used to send me letters with drawings and CDRs of tunes from back in 2002. There was quite a few CDRs, actually. I noticed in 2004 that I was still listening to some of them, and was playing 'South London Boroughs' in my sets, and was listening to 'Broken Homes' a lot."[^letters]
 
 Kodwo Eshun, CCRU associate, author of *More Brilliant than the Sun* and the man who coined sonic fiction, curated *On Vanishing Land*, Fisher and Justin Barton's audio-essay built from a 2006 walk from Felixstowe container port to the Sutton Hoo burial ground. It pairs "Oh, Whistle" with Brian Eno's *On Land*. Shown at The Showroom in 2013, released on Flatlines, a Hyperdub imprint named after Fisher's PhD *Flatline Constructs*, in 2019.[^ovl]
 
 [Listen to *On Vanishing Land* on Bandcamp](https://flatlines-hyperdub.bandcamp.com/album/on-vanishing-land)
 
-So Fisher's M.R. James work was produced inside the same network that released Burial. Everyone in this story had the word hyperstition in hand. The CCRU defined it as an element of effective culture that makes itself real, and a coincidence intensifier. Kode9 has said something about the Hyperdub myth being as deep as you want to go. [UNVERIFIED: need the exact quote, publication and date]
+So Fisher's M.R. James work was produced inside the same network that released Burial. Everyone in this story had the word hyperstition in hand. The CCRU defined it as an element of effective culture that makes itself real, and a coincidence intensifier.
 
 ## Is Burial trolling?
 
@@ -126,11 +138,13 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^felixstowe]: Mark Fisher died 13 January 2017. [CHECK: confirm place of death before printing Felixstowe.]
 
-[^bury]: Bury St Edmunds abbey excavations, 1902 to 1903; chapter house opened New Year's Day 1903; six abbots' graves; crozier tip from Abbot Samson's grave; finds at Moyse's Hall Museum. [NEEDS A CITABLE SOURCE. Abbey of St Edmund Heritage Partnership or Moyse's Hall.]
+[^bury]: Abbey of St Edmund Heritage Partnership, "History and Archaeology": "M.R. James, scholar, antiquarian and writer of ghost stories, found manuscript evidence that six of the abbots were buried in the chapterhouse of the monastery. On New Year's Day 1903, the tombs were found exactly where he predicted they would be." See also Adrian Tindall, "M R James and the Abbey of St Edmund," *Bury St Edmunds & Beyond* (2022), which gives the Douai register and the 1902-3 dates, and James's own two-part *On the Abbey of St Edmund at Bury* (1895). [CUT FROM DRAFT: the Abbot Samson crozier tip appears in secondary accounts but has no citable primary. Left out rather than asserted.]
 
 [^james-ms]: M.R. James, "The Manuscript," ch. V of Jessopp and James, eds., *The Life and Miracles of St William of Norwich* (Cambridge, 1896), Introduction. Cambridge University Library MS Add. 3037.
 
-[^edition]: Augustus Jessopp and Montague Rhodes James, eds. and trans., *The Life and Miracles of St William of Norwich, by Thomas of Monmouth: Now first edited from the unique manuscript* (Cambridge University Press, 1896). Jessopp wrote chapters I to IV of the Introduction, James chapters V to VII, the Preface is joint. [NOTE: several later sources, including the Jewish Encyclopedia and Joseph Jacobs's review, cite it as 1897. Check the title page.] Full text: <https://archive.org/details/lifemiraclesofst00thomuoft>
+[^buried]: M.R. James, "The Manuscript," ch. V, p. lx of the Introduction, ibid.
+
+[^edition]: Augustus Jessopp and Montague Rhodes James, eds. and trans., *The Life and Miracles of St William of Norwich, by Thomas of Monmouth: Now first edited from the unique manuscript* (Cambridge University Press, 1896). Jessopp wrote chapters I to IV of the Introduction, James chapters V to VII, the Preface is joint. The title page reads "CAMBRIDGE: AT THE UNIVERSITY PRESS. 1896", so 1896 is settled. The stray "1897" in circulation comes from the *Jewish Encyclopedia* bibliography, written by Joseph Jacobs, who misdated his own review subject. Full text: <https://archive.org/details/lifemiraclesofst00thomuoft>
 
 [^preface]: Preface, signed A.J. and M.R.J., ibid.
 
@@ -150,9 +164,13 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^trials]: Tiszaeszlár (Hungary, 1882 to 1883), Xanten (Germany, 1891 to 1892), Polná (Bohemia, 1899 to 1900), Konitz (1900 to 1902), Beilis (Kyiv, 1913). Kishinev 1903 was a pogrom preceded by a blood libel in Krushevan's *Bessarabets*, not a trial.
 
-[^kpunk]: k-punk, "London after the rave," 14 April 2006. <https://k-punk.org/london-after-the-rave/> Collected in *Ghosts of My Life* (Zero Books). [CHECK: 2013 or 2014.]
+[^kpunk]: k-punk, "London after the rave," 14 April 2006. <https://k-punk.org/london-after-the-rave/> Collected in *Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures* (Zer0 Books, 30 May 2014).
 
-[^katasonix]: Katasonix, CCRU label, one release, 1999, with tracks by Kode9 and Fisher. [UNVERIFIED AT FIRST HAND.]
+[^katasonix]: Kode9, in "Revolution9: An interview with Kode9," *Telekom Electronic Beats*, 14 May 2013: "Before all that, CCRU had a label called Katasonix that did one release in 1999. I had a track on that, so did Mark." The record is *Death Garage / Kata Jungle*, KATA 001, 12 inch, 1999, four tracks, credited to Xxignal, Bobby Diablo, Stelco and Kode9. [Fisher's alias is not documented on the release. Do not name it.]
+
+[^webzine]: The earliest surviving capture of hyperdub.com is 6 December 2000, already publishing, footer "Copyright © Hyperdub 2000": <http://web.archive.org/web/20001206213300/http://www.hyperdub.com/> Kode9 says 2001 in the Electronic Beats interview and *Dazed* says 1999; the archive supports neither. "Live by late 2000" is the safe formulation.
+
+[^letters]: "Revolution9: An interview with Kode9," *Telekom Electronic Beats*, 14 May 2013. <https://www.electronicbeats.net/revolution9-an-interview-with-kode9/>
 
 [^ovl]: *On Vanishing Land*, Mark Fisher and Justin Barton, curated by The Otolith Collective, The Showroom, London, 2013; released on Flatlines (Hyperdub), 2019. Built from a 2006 walk, Felixstowe to Sutton Hoo. <https://theshowroom.org/exhibitions/mark-fisher-and-justin-barton-on-vanishing-land>
 
@@ -166,6 +184,6 @@ Two documented cases of scholarly containment failing, neither of which is James
 
 1. **Cecil Roth, 1935.** Published the Vatican's own refutation of the blood libel in English, Cardinal Ganganelli's 1758 report to the Holy Office finding the accusation false (*The Ritual Murder Libel and the Jew*, Woburn Press, 1935). In 1938 Arnold Leese listed it in his "Bibliography of Works Supporting the Blood Accusation" in *My Irrelevant Defence*, p. 57: "intended to clear the Jews from the Blood Accusation, but which, at least in my own opinion, appears to support it." A refutation filed as evidence.
 
-2. **Richard Burton, 1898.** *The Jew, the Gypsy and El Islam*, ed. W.H. Wilkins. What could be printed of Burton's blood libel material was negotiated with the Board of Deputies of British Jews and the ritual murder section was cut. Leese cites the book anyway.
+2. **Richard Burton, 1898.** *The Jew, the Gypsy and El Islam*, ed. W.H. Wilkins. Wilkins withheld the ritual murder appendix himself, on stated editorial principle: "as I hold strongly that no one has a right to mutilate the work of another writer, least of all of one who is dead, I prefer to withhold it until a more convenient season." The Board of Deputies came later: its president, David Lindo Alexander, obtained an assignment of the manuscript and sued the publisher Manners Sutton in 1911 to stop the appendix appearing, and won. [CORRECTED: an earlier version of this note said the appendix was cut after negotiation with the Board in 1898. That was wrong.]
 
 **Jessopp and James do not appear in Leese's bibliography.** His sources are the hagiographic chain (Acta Sanctorum, Butler's *Lives of the Saints*, *Annales Ecclesiastici*), the continental antisemitic chain (Rohling, Drumont, Gougenot des Mousseaux, Desportes, Monniot), the Nazi material (Utikal, Bischoff, *Der Stürmer* May 1934), and for England, William Prynne's *A Short Demurrer to the Jewes*, 1656. Still to check: Leese says per-case authorities are cited in the body text, so the Norwich section may cite the 1896 edition inline.
