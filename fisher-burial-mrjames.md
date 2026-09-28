@@ -44,9 +44,15 @@ The editors say what they have got. From the Preface, signed by both of them:
 
 ## Theobald
 
-The man who supplies the ritual is Theobald of Cambridge, a Jew turned monk. He tells Thomas that the Jews gather at Narbonne each year and cast lots for which country must furnish a Christian child. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
+The man who supplies the ritual is Theobald of Cambridge, a Jew turned monk. He tells Thomas that wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
 
-Theobald survives in one book. This one. Every later accusation that says the killing was a rite and not just a killing runs back to him. He is the wellspring.
+Narbonne because it was the most prestigious Jewish centre in western Europe, seat of a hereditary nasi whose family claimed descent from David. Theobald takes the one place in Europe with something like a Jewish court and makes it the head office of a conspiracy.
+
+Theobald survives in one book. This one.
+
+James did not release the blood libel. The accusation had been running for seven hundred years without a text, on the cult, the calendar, the chronicles and the parish screens. What James unearthed was the only surviving statement of its reason. Not that it happened, but why it supposedly happened. Annually, by lot, at Passover, out of a need they could not escape. The doctrine, as against the accusation.
+
+And he unearthed it in the most usable form the accusation could ask for. Not a Christian alleging it. A Jew confessing it. Theobald is a convert, and that is his entire function in the book. Look at this. A converted Jew said it himself.
 
 James, on Theobald:
 
@@ -128,7 +134,7 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^preface]: Preface, signed A.J. and M.R.J., ibid.
 
-[^theobald]: Thomas of Monmouth, Book II ch. xi, "The Fifth Argument," in the Jessopp and James translation.
+[^theobald]: Thomas of Monmouth, Book II ch. xi, "The Fifth Argument," in the Jessopp and James translation. Gavin Langmuir, "Thomas of Monmouth: Detector of Ritual Murder," Speculum 59.4 (October 1984), 820-846, argues Theobald was probably Thomas's own invention rather than a witness. Either way the text is the origin. John McCulloh, Speculum 72.3 (1997), challenges Langmuir on dissemination, and Israel Yuval has argued a Wurzburg case of 1147 may precede Norwich, so "the first" is contested among specialists. "Earliest recorded" is the safe formulation.
 
 [^james-theobald]: M.R. James, "The Legend," ch. VI, ibid.
 
