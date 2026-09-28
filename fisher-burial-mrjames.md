@@ -62,6 +62,10 @@ James did not release the blood libel. The accusation had been running for seven
 
 And he unearthed it in the most usable form the accusation could ask for. Not a Christian alleging it. A Jew confessing it. Theobald is a convert, and that is his entire function in the book. Look at this. A converted Jew said it himself.
 
+And he did not wait for the edition to let it out. In 1893, three years before publication, James sent the Theobald passage to Joseph Jacobs, who was compiling a documentary history of the Jews in medieval England. Jacobs printed it, crediting "the courtesy of Mr. James, of King's College, Cambridge, who is engaged in editing this most interesting MS." It runs under a running head that reads ORIGIN OF 'BLOOD ACCUSATION'.[^jacobs1893]
+
+That is the first time the doctrine reaches modern print. Not in a Cambridge edition. In a favour between scholars, inside a book written to defend English Jews.
+
 James, on Theobald:
 
 > "If this is a lie, and we are assured that it is by those who have studied the subject, it is one of the most notable and disastrous lies of history; and we must look upon Theobald of Cambridge as responsible for the blood of thousands of his fellow-countrymen."[^james-theobald]
@@ -104,7 +108,7 @@ Fisher had already specified the record before it existed. From k-punk, "London 
 
 He dreamed it and it came.
 
-And he kept playing it. Fisher opened lectures with Burial. [PLACEHOLDER: source to come.]
+And he kept teaching it. On 4 May 2011 Fisher gave "There Are Non-Times As Well As Non-Places: Reflections On Hauntology" at NYU, his first talk in America, built around Burial, The Caretaker, Ekoplekz and Richard Skelton.[^nyu] [PLACEHOLDER: HD to supply the source for the lecture opening with a Burial track. The NYU talk is the documented occasion; the audio would settle it.]
 
 And it came through the network. Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix. One release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub was live as a webzine by late 2000 and became a record label in 2004.[^webzine] It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007.
 
@@ -167,6 +171,10 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 [^preface]: Preface, signed A.J. and M.R.J., ibid.
 
 [^theobald]: Thomas of Monmouth, Book II ch. xi, "The Fifth Argument," in the Jessopp and James translation. Gavin Langmuir, "Thomas of Monmouth: Detector of Ritual Murder," Speculum 59.4 (October 1984), 820-846, argues Theobald was probably Thomas's own invention rather than a witness. Either way the text is the origin. John McCulloh, Speculum 72.3 (1997), challenges Langmuir on dissemination, and Israel Yuval has argued a Wurzburg case of 1147 may precede Norwich, so "the first" is contested among specialists. "Earliest recorded" is the safe formulation.
+
+[^jacobs1893]: Joseph Jacobs, *The Jews of Angevin England* (1893), p. 157, under the running heads "THEOBALD OF CAMBRIDGE" and "ORIGIN OF 'BLOOD ACCUSATION.'" Jacobs also states the material gives "details not in Capgrave," which independently confirms that the abridged Legend, in print since 1516, carried the martyrdom but not the doctrine. [VERIFY AGAINST A CLEAN SCAN BEFORE PRINTING. The available text is poor Google OCR and this is now the most important quotation in the essay.]
+
+[^nyu]: k-punk, 27 April 2011, announcing the talk for the Colloquium for Unpopular Culture and NYU's Asian/Pacific/American Studies Program, Room 471, 20 Cooper Square, 6:30pm. <http://k-punk.abstractdynamics.org/archives/011819.html>
 
 [^james-theobald]: M.R. James, "The Legend," ch. VI, ibid.
 

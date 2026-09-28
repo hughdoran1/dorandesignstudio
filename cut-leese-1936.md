@@ -4,9 +4,21 @@ Lifted out because the blood libel material had grown larger than the subject.
 Kept intact here. It is a self-contained piece on the transmission of the
 accusation and on what happened in 1936, and could stand on its own.
 
-Open dependency: the chain below assumes the Theobald and Narbonne material is
-NOT in the Nova Legenda Angliae, the abridged Legend printed by Wynkyn de Worde
-in 1516. If it is in there, it was never buried and the chain collapses.
+RESOLVED. The Nova Legenda Angliae does NOT carry Theobald or Narbonne. Confirmed three
+ways: James's own transcript of the Legend (1896 edition, ch. V, pp. liv-lviii); Horstmann's
+critical edition (Oxford 1901), where the William entry and 44,000 characters around it
+return zero hits for Theobald, Narbon, sors, conuersus and Cantebrig; and Jacobs in 1893
+stating outright that the material gives "details not in Capgrave."
+
+The abridgment kept the martyrdom and dropped the doctrine. Capgrave had the whole book in
+front of him, James says so, and left Theobald out. So the crime was in print from 1516 and
+the theory was in one manuscript until 1893.
+
+The chain, rebuilt: Thomas c.1173 → John of Tynemouth abridges c.1366, Theobald cut →
+Wynkyn de Worde prints the abridgment 1516 and 1527 → the Bollandists reprint it in Acta
+Sanctorum, March → Foxe 1563 → Prynne 1656, who adds the Patent and Close Rolls → Blomefield
+→ Cox and the VCH Norfolk 1906 → Leese 1938. The martyrdom travels 750 years. The doctrine
+travels nowhere until M.R. James hands it to Jacobs in 1893.
 
 ---
 
