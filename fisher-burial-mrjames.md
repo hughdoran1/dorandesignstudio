@@ -116,6 +116,12 @@ Kodwo Eshun, CCRU associate, author of *More Brilliant than the Sun* and the man
 
 So Fisher's M.R. James work was produced inside the same network that released Burial. Everyone in this story had the word hyperstition in hand. The CCRU defined it as an element of effective culture that makes itself real, and a coincidence intensifier.
 
+Kode9 has described how the label works. Andy Beckett, writing on the Warwick diaspora, says Hyperdub put out "skeletal, ominous dubstep records, by the lauded south London artist Burial among others, sometimes with accelerationist messages deep within." Kode9's answer:
+
+> "It's like an onion. Our audience are welcome to peel off as many layers as they want – some will make their eyes water, so we don't force feed."[^onion]
+
+Nobody is made to find anything. It is left there, and you go as deep as you go.
+
 ## Is Burial trolling?
 
 It is genuinely undecidable, and I think that is deliberate.
@@ -185,6 +191,8 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 [^letters]: "Revolution9: An interview with Kode9," *Telekom Electronic Beats*, 14 May 2013. <https://www.electronicbeats.net/revolution9-an-interview-with-kode9/>
 
 [^ovl]: *On Vanishing Land*, Mark Fisher and Justin Barton, curated by The Otolith Collective, The Showroom, London, 2013; released on Flatlines (Hyperdub), 2019. Built from a 2006 walk, Felixstowe to Sutton Hoo. <https://theshowroom.org/exhibitions/mark-fisher-and-justin-barton-on-vanishing-land>
+
+[^onion]: Kode9 (Steve Goodman), quoted in Andy Beckett, "Accelerationism: how a fringe philosophy predicted the future we live in," *The Guardian* (Long Read), 11 May 2017. [The dash inside the quotation is the Guardian's punctuation, not the essay's.]
 
 ---
 
