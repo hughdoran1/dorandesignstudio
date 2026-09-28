@@ -134,7 +134,7 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^james-nil]: Ibid.
 
-[^cults]: Neither William of Norwich nor Hugh of Lincoln was ever formally canonised. Both had local cults and shrines. [FIXED FROM DRAFT: your text said both were canonized. They were not, and this is the kind of thing a reader will check.]
+[^cults]: "Little Saint Hugh" is the standard name and worth keeping, but the sainthood was never granted. Neither William of Norwich nor Hugh of Lincoln was formally canonised. Both were venerated locally, with shrines, feast days and reported miracles, which is how the title was acquired. The "Little" exists to distinguish the boy from Hugh of Avalon, Bishop of Lincoln 1186 to 1200, who was canonised by Honorius III on 17 February 1220 and is an actual saint. [FIXED FROM DRAFT: your text said both were canonized.]
 
 [^expulsion]: Edict of Expulsion, 18 July 1290, which fell on Tisha B'Av that year. A plaque was placed at Lincoln Cathedral in 1955 repudiating the Little St Hugh story.
 
