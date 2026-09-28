@@ -84,6 +84,16 @@ The editors knew. Jessopp, writing in 1896, at the end of his fourth chapter:
 
 Not yet spent itself. He wrote that in the year the book came out, and he was right about his own moment. A few pages earlier he compares the anti-Semitic frenzy of medieval Norwich to how it is "now in Central Europe."[^central-europe] The edition landed between Xanten in 1891 and Polná in 1899. Four states put Jews on trial for ritual murder at six public trials between 1879 and 1913.[^trials] They printed the founding document of the accusation while the accusation was live in court.
 
+One year later Joseph Jacobs reviewed the edition in the *Jewish Quarterly Review*. He found the passage that mattered straight away.
+
+> "Finally, we have the statement of Theobald, a renegade Jew of Cambridge, that it was the custom among Jews to sacrifice a boy for Passover in some European city fixed by lot, and that the lot, which had been taken at Narbonne, had fallen upon Norwich. It is this statement that is the foundation of the myth of the Blood Accusation."[^jacobs]
+
+And he thought printing it settled the matter.
+
+> "It shows how frail are the foundations on which this huge structure of malice and hatred has been erected."
+
+He raised no alarm about publication. Not once in eight pages. He could not imagine one was needed.
+
 ## Things buried and uncovered
 
 Burial, his own chosen pseudonym, under which he has kept his identity hidden. [CHECK: your line here, I only have the fragment]
@@ -161,6 +171,8 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 [^jessopp-wave]: Augustus Jessopp, ch. IV, ibid. [NOTE: the archive.org OCR mangles "which has" here. The printed text reads "which has not yet spent itself." Check against a clean scan before quoting.]
 
 [^central-europe]: Jessopp, ch. IV, ibid.
+
+[^jacobs]: Joseph Jacobs, "St. William of Norwich," *The Jewish Quarterly Review* 9, no. 4 (July 1897): 748-755, at pp. 749 and 752. JSTOR 1450801, free in JSTOR's Early Journal Content and mirrored at <https://archive.org/details/jstor-1450801>. Jacobs also calls the edition "a memorable monument of English scholarship."
 
 [^trials]: Tiszaeszlár (Hungary, 1882 to 1883), Xanten (Germany, 1891 to 1892), Polná (Bohemia, 1899 to 1900), Konitz (1900 to 1902), Beilis (Kyiv, 1913). Kishinev 1903 was a pogrom preceded by a blood libel in Krushevan's *Bessarabets*, not a trial.
 
