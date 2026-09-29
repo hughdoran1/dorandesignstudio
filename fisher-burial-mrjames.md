@@ -1,8 +1,8 @@
 # [TITLE PLACEHOLDER]
 
-There is a moment in Mark Fisher's interview with Burial that is genuinely eerie, in the Fisher sense of the word. It ran in *The Wire*, issue 286, December 2007, around the release of *Untrue*.[^wire]
+There is a moment in Mark Fisher's interview with Burial that is genuinely eerie. It ran in *The Wire*, issue 286, December 2007, around the release of *Untrue*.[^wire]
 
-The year before the interview Fisher had published "London after the rave", on his K-Punk blog, 14 April 2006, discussing Burial's first album:
+The year before the interview Fisher had published "London after the rave", on his K-Punk blog, 14 April 2006, discussing Burial's first album, where he wrote:
 
 > "*Burial* is the kind of album I've dreamt of for years; literally."[^kpunk]
 
@@ -22,6 +22,8 @@ And Burial says:
 
 *James McBryde, plate for "Oh, Whistle, and I'll Come to You, My Lad", in* Ghost Stories of an Antiquary *(1904).*
 
+It's an interesting exchange because the year before, Fisher and the writer, philosopher and sound artist **Justin Barton** had begun their own work centred on "Oh, Whistle, and I'll Come to You, My Lad", walking a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo. The James story would be a recurring feature of Fisher's work, and by the time of the interview he had already started publishing it: "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007, six months before he sat down with Burial.[^suffolk]
+
 "Oh, Whistle, and I'll Come to You, My Lad" was published in 1904. It is about a Cambridge professor of Ontography (a fictitious field invented by James) named Parkins, who takes a golfing holiday at a village on the Suffolk coast, probably based on Felixstowe. Parkins is asked, as a favour, to look over the site of a Knights Templar preceptory while he is there. He digs a bronze whistle out of the masonry. It is inscribed **QUIS EST ISTE QUI UENIT**, who is this who is coming. He blows it.
 
 Fisher was living in Felixstowe. He died there on 13 January 2017.[^felixstowe]
@@ -38,11 +40,11 @@ M.R. James sent extracts to the Australian-born historian and folklorist Joseph 
 
 > "I owe to the courtesy of Mr. James, of King's College, Cambridge, who is engaged in editing this most interesting MS."[^jacobs1893]
 
-James translated, edited and published the manuscript with commentary three years later, in 1896.[^edition]
+James translated, edited and published the manuscript with commentary alongside fellow ghost-story writer and clergyman Augustus Jessopp three years later, in 1896.[^edition]
 
 The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald is the one who gives him the reason: wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
 
-What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln. Thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was money. Edward came home from France heavily in debt, his earls refused him, and Parliament would only grant the tax if the Jews went. The accusation was the justification, not the cause.[^expulsion]
+What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln, and thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was money. Edward came home from France heavily in debt, his earls refused him, and Parliament would only grant the tax if the Jews went. The accusation was the justification, not the cause.[^expulsion]
 
 At the time of James's discovery there were multiple blood libels circulating throughout Europe, and James and Jacobs both thought the discovery would shed light on its origins. Jacobs, reviewing the edition in 1897:
 
@@ -58,21 +60,53 @@ And on the case itself:
 
 ## It escaped the containment of academia
 
-But Theobald escaped containment. On 4 July 1936, twenty two days after M.R. James died, a paper called *The Fascist* ran an article titled "Jewish Ritual Murder." Its author was Arnold Leese, founder of the Imperial Fascist League. He was prosecuted for it and sent to prison.
+But Theobald escaped containment. The account that Jacobs and James both believed would disarm the accusation instead fell into the hands of Arnold Leese, founder of the Imperial Fascist League. On 4 July 1936, twenty two days after M.R. James died, Leese's paper *The Fascist* ran an article titled "Jewish Ritual Murder." He was prosecuted for it and sent to prison.
 
-Writing it all out again afterwards, he took the Theobald passage almost word for word from the *Jewish Encyclopedia* article Jacobs wrote. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese][^leese2]
+Writing it all out again afterwards, in *My Irrelevant Defence: Meditations Inside Gaol and Out on Jewish Ritual Murder*, he quotes the *Jewish Encyclopedia* that Jacobs had worked on almost word for word. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese][^leese2]
 
-The Narbonne conspiracy persists to this day. The ghost of Theobald, dug up from its parish resting place in East Anglia, did not end the conspiracy but provided it with new fire.
+Leese's book is a response to his imprisonment for "effecting a public mischief", spreading blood libel. The Narbonne conspiracy persists to this day. The ghost of Theobald, dug up from its parish resting place in East Anglia, did not end the conspiracy but provided it with new fire.
 
-"Oh, Whistle, and I'll Come to You, My Lad" is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. In the story they get it back. The "intensely horrible, face of *crumpled linen*" collapses into a heap of bedclothes, the linen is burned the next morning and the whistle is thrown into the sea. The only permanent damage is to Parkins, whose views "are less clear cut than they used to be."
-
-Nobody burned anything in 1893.
+'Oh, Whistle, and I'll Come to You, My Lad' is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. The "intensely horrible, face of *crumpled linen*" escapes out of the window into the night.
 
 ## Things buried and uncovered
 
-Burial, his own chosen pseudonym, under which he has kept a notably private persona.
+Burial, his own chosen pseudonym, under which he has kept a notoriously private persona, had a shared connection in Kode9 (Steve Goodman) when Fisher interviewed him in 2007. Kode9 had been at the philosophy faculty at Warwick University with Fisher, where they had been members of the CCRU, the Cybernetic Culture Research Unit. They had also had a short lived record label together, Katasonix, which released one record in 1999, with a track by Kode9 and a track by Fisher on it.[^katasonix] In 2000 Kode9 set up Hyperdub as a webzine, and in 2004 it became a record label,[^webzine] its first release being Burial's *South London Boroughs* in 2005. *Burial* came the next year and *Untrue* the year after. Kode9 describes how this happened:
 
-Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix. One release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub was live as a webzine by late 2000 and became a record label in 2004.[^webzine] It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007.
+> "Burial used to send me letters with drawings and CDRs of tunes from back in 2002. There was quite a few CDRs, actually. I noticed in 2004 that I was still listening to some of them, and was playing 'South London Boroughs' in my sets, and was listening to 'Broken Homes' a lot."[^letters]
+
+Kode9 also released *On Vanishing Land*, Fisher and Justin Barton's audio-essay, on his Flatlines label, a Hyperdub imprint named after Fisher's PhD *Flatline Constructs*, in 2019. The piece is built on that 2006 walk from Felixstowe, and pairs "Oh, Whistle" with Brian Eno's *On Land*. It's worth listening to.[^ovl]
+
+[Listen to *On Vanishing Land* on Bandcamp](https://flatlines-hyperdub.bandcamp.com/album/on-vanishing-land)
+
+Kode9 has described how the Hyperdub label works. Andy Beckett, writing on the Warwick diaspora, says Hyperdub put out "skeletal, ominous dubstep records, by the lauded south London artist Burial among others, sometimes with accelerationist messages deep within." Kode9's answer:
+
+> "It's like an onion. Our audience are welcome to peel off as many layers as they want, some will make their eyes water, so we don't force feed."[^onion]
+
+## Trolling
+
+When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling. Given the connection between the two via Kode9, and given that Fisher had already published his Suffolk hauntology notes on k-punk six months earlier, it's possible that he had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, Fisher. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
+
+Oh whistle and I'll come to you is a parable of the risks involved with digging up buried secrets. The CCRU has recently been at the centre of new interest. The CCRU numogram appeared on the Tucker Carlson Show on 3 October 2025, when the podcaster Conrad Flynn brought it on to talk about Nick Land. [IMAGE: Carlson holding up the numogram.] There has been a resurgence of interest in Land, another ex-member of the CCRU, over the past decade. Marc Andreessen named him among his "Patron Saints of Techno-Optimism" in *The Techno-Optimist Manifesto*, posted 16 October 2023, and has called him "pretty clearly, the philosopher of our time."
+
+Land's philosophy is inhumane and bleak, famous for "nothing human makes it out of the near future", and the less said about his posting on X the better. [NOTE TO SELF: keep the racism stuff nebulous, just that it's ugly.] But Elon Musk routinely interacts with Land on X, and perhaps most curiously of all, Musk reportedly has a child named after a Burial track.
+
+A lot of people seem to be taking this very seriously. But the conversation Kode9 posted, transcribed from a minidisc recorded in November 1998, makes the absurdity of their mythology clear in its original context. This stuff has escaped containment. I never saw the new fans of CCRU at FWD>> or DMZ, and it seems they take it a lot more seriously than Fisher and Kode9 did at the time.
+
+> SG: (laughing)
+>
+> MF: Broadly, that takes you up to 1920, but in terms of the hypercycle, was into Mur Mur.
+>
+> SG: Ok, can I just take you back to Stillwell in Indonesia? She finds the diagram?
+>
+> MF: I don't know if she finds it in Indonesia.
+>
+> SG: So it's not part of her expedition, or her research?
+>
+> MF: I don't know about this. I can't remember this, I'll have to look this up, but I'm not sure she finds the numogram there.
+>
+> SG: What is the numogram?
+>
+> MF: It's the standard mythos maze, or syzygy diagram. Obviously we don't want to say that she invented it, because its obviously aeonically . . . since it's only abstract numerics, anyone could have found it, at any time. But it's called the Stillwell numogram, because of her commentary on it, to do with hydrocycles.
 
 ## Notes and sources
 
@@ -141,3 +175,5 @@ Two documented cases of scholarly containment failing, neither of which is James
 2. **Richard Burton, 1898.** *The Jew, the Gypsy and El Islam*, ed. W.H. Wilkins. Wilkins withheld the ritual murder appendix himself, on stated editorial principle: "as I hold strongly that no one has a right to mutilate the work of another writer, least of all of one who is dead, I prefer to withhold it until a more convenient season." The Board of Deputies came later: its president, David Lindo Alexander, obtained an assignment of the manuscript and sued the publisher Manners Sutton in 1911 to stop the appendix appearing, and won. [CORRECTED: an earlier version of this note said the appendix was cut after negotiation with the Board in 1898. That was wrong.]
 
 **Jessopp and James do not appear in Leese's bibliography.** His sources are the hagiographic chain (Acta Sanctorum, Butler's *Lives of the Saints*, *Annales Ecclesiastici*), the continental antisemitic chain (Rohling, Drumont, Gougenot des Mousseaux, Desportes, Monniot), the Nazi material (Utikal, Bischoff, *Der Stürmer* May 1934), and for England, William Prynne's *A Short Demurrer to the Jewes*, 1656. Still to check: Leese says per-case authorities are cited in the body text, so the Norwich section may cite the 1896 edition inline.
+
+[^suffolk]: k-punk, "Suffolk hauntology (some provisional notes)," 16 June 2007. <https://k-punk.org/suffolk-hauntology-some-provisional-notes/> See also "'Bleak and solemn…'", which quotes James's description of Felixstowe and discusses Jonathan Miller's 1968 television version.
