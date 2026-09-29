@@ -116,6 +116,8 @@ A lot of people seem to be taking this very seriously. But the conversation Kode
 >
 > MF: It's the standard mythos maze, or syzygy diagram. Obviously we don't want to say that she invented it, because its obviously aeonically . . . since it's only abstract numerics, anyone could have found it, at any time. But it's called the Stillwell numogram, because of her commentary on it, to do with hydrocycles.
 
+This probably wasn't what Fisher and Kode9 had in mind.
+
 ## Notes and sources
 
 [^wire]: Mark Fisher, "Burial: Unedited Transcript," *The Wire*, issue 286, December 2007. <https://www.thewire.co.uk/in-writing/interviews/burial_unedited-transcript>
