@@ -1,12 +1,10 @@
 # [TITLE PLACEHOLDER]
 
-There is a moment in Mark Fisher's interview with Burial that is genuinely eerie. It ran in *The Wire*, issue 286, December 2007, around the release of *Untrue*.[^wire]
-
-The year before the interview Fisher had published "London after the rave", on his K-Punk blog, 14 April 2006, discussing Burial's first album, where he wrote:
+There is a moment in Mark Fisher's interview with Burial that is genuinely eerie. It ran in *The Wire*, issue 286, December 2007, around the release of *Untrue*.[^wire] The year before the interview Fisher had said of Burial's first album:
 
 > "*Burial* is the kind of album I've dreamt of for years; literally."[^kpunk]
 
-During the interview Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little. One of them stands out.
+But this is their first meeting, and during the interview Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little. One of them stands out.
 
 > "There's a few ghost stories, the one that fucked me up when I was little. 'Oh Whistle and I'll Come To You My Lad'. Something can betray how sinister it is even at a distance."
 
@@ -21,8 +19,6 @@ And Burial says:
 ![Plate from Ghost Stories of an Antiquary](https://en.wikipedia.org/wiki/%27Oh,_Whistle,_and_I%27ll_Come_to_You,_My_Lad%27#/media/File:James_-_Ghost_Stories_of_an_Antiquary_page_226a.png)
 
 *James McBryde, plate for "Oh, Whistle, and I'll Come to You, My Lad", in* Ghost Stories of an Antiquary *(1904).*
-
-It's an interesting exchange because the year before, Fisher and the writer, philosopher and sound artist **Justin Barton** had begun their own work centred on "Oh, Whistle, and I'll Come to You, My Lad", walking a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo. The James story would be a recurring feature of Fisher's work, and by the time of the interview he had already started publishing it: "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007, six months before he sat down with Burial.[^suffolk]
 
 "Oh, Whistle, and I'll Come to You, My Lad" was published in 1904. It is about a Cambridge professor of Ontography (a fictitious field invented by James) named Parkins, who takes a golfing holiday at a village on the Suffolk coast, probably based on Felixstowe. Parkins is asked, as a favour, to look over the site of a Knights Templar preceptory while he is there. He digs a bronze whistle out of the masonry. It is inscribed **QUIS EST ISTE QUI UENIT**, who is this who is coming. He blows it.
 
@@ -84,7 +80,11 @@ Kode9 has described how the Hyperdub label works. Andy Beckett, writing on the W
 
 ## Trolling
 
-When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling. Given the connection between the two via Kode9, and given that Fisher had already published his Suffolk hauntology notes on k-punk six months earlier, it's possible that he had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, Fisher. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
+When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling.
+
+Because Fisher was already in it. In 2006 he and the writer, philosopher and sound artist **Justin Barton** had walked a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo, with "Oh, Whistle, and I'll Come to You, My Lad" at the centre of what they were doing. And six months before the interview he had begun publishing it. "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007.[^suffolk]
+
+Given the connection between the two via Kode9, it's possible Burial had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, him. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
 
 Oh whistle and I'll come to you is a parable of the risks involved with digging up buried secrets. And the CCRU has a buried text of its own.
 
