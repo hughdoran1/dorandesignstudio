@@ -2,7 +2,11 @@
 
 There is a moment in Mark Fisher's interview with Burial that is genuinely eerie, in the Fisher sense of the word. It ran in *The Wire*, issue 286, December 2007, around the release of *Untrue*.[^wire]
 
-Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little. One of them stands out.
+The year before the interview Fisher had published "London after the rave", on his K-Punk blog, 14 April 2006, discussing Burial's first album:
+
+> "*Burial* is the kind of album I've dreamt of for years; literally."[^kpunk]
+
+During the interview Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little. One of them stands out.
 
 > "There's a few ghost stories, the one that fucked me up when I was little. 'Oh Whistle and I'll Come To You My Lad'. Something can betray how sinister it is even at a distance."
 
@@ -18,53 +22,31 @@ And Burial says:
 
 *James McBryde, plate for "Oh, Whistle, and I'll Come to You, My Lad", in* Ghost Stories of an Antiquary *(1904).*
 
-"Oh, Whistle, and I'll Come to You, My Lad" was published in 1904. It is about a Cambridge professor of Ontography, a subject James invented, who takes a golfing holiday at Burnstow on the Suffolk coast and is asked, as a favour, to look over the site of a Knights Templar preceptory while he is there. Burnstow is James's thinly coded Felixstowe. Parkins is a loud sceptic about ghosts, which is the entire point of him. He digs a bronze whistle out of the masonry. It is inscribed **QUIS EST ISTE QUI UENIT**, who is this who is coming. He blows it. Something comes.
+"Oh, Whistle, and I'll Come to You, My Lad" was published in 1904. It is about a Cambridge professor of Ontography (a fictitious field invented by James) named Parkins, who takes a golfing holiday at a village on the Suffolk coast, probably based on Felixstowe. Parkins is asked, as a favour, to look over the site of a Knights Templar preceptory while he is there. He digs a bronze whistle out of the masonry. It is inscribed **QUIS EST ISTE QUI UENIT**, who is this who is coming. He blows it.
 
 Fisher was living in Felixstowe. He died there on 13 January 2017.[^felixstowe]
 
-## James dug things up
+## Burials
 
-James was not a professor. He was Provost of King's College, Cambridge, later Provost of Eton, Vice-Chancellor, and Director of the Fitzwilliam. Medievalist and manuscript cataloguer. And he really did dig things up.
+M.R. James was at King's College, Cambridge, a medievalist and manuscript cataloguer. And he really did dig things up.
 
-In 1902 and 1903 he ran excavations at Bury St Edmunds after finding a reference in an abbey register at Douai to where the twelfth-century abbots were buried. On New Year's Day 1903 they opened the chapter house and found six graves exactly where he said they would be. Five are still visible. The finds are in Moyse's Hall Museum.[^bury]
+In 1902 and 1903 he excavated at Bury St Edmunds after finding a reference to the burial site of twelfth-century abbots. On New Year's Day 1903 they opened the chapter house and found six graves exactly where he said they would be.[^bury]
 
-And in 1889 he found the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*. He says so himself, in the first person:
+And in 1889 he exhumed the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*.[^james-ms] The William in question was a "child of unusual innocence" murdered in 1144, and the earliest recorded accusation of ritual murder in Europe, the seed of the blood libel. The murder was blamed, in Thomas of Monmouth's telling, on local Jews for whom he worked, on dubious evidence, motivated *in odium fidei*, out of hatred of the faith. James believed that no one had read the text in four hundred years, and that even at the time it was not circulated outside East Anglia, where it had remained buried.[^buried]
 
-> "I had been myself, to some extent, instrumental in procuring the books for Cambridge: and it was with extreme pleasure that on examination I discovered, first that here was a copy of Thomas of Monmouth's Life of St William, and next, that no other copy seemed to be known."[^james-ms]
+M.R. James sent extracts to the Australian-born historian and folklorist Joseph Jacobs, who published them in his book *The Jews of Angevin England* (1893), and later in the *Jewish Encyclopedia*, which he contributed to and helped edit.
 
-It came out of a parish library at Brent Eleigh in Suffolk, bequeathed around 1700 by a Mr Edward Colman of Trinity College, bought by Cambridge University Library in 1889. It is a small folio, Add. 3037. It had suffered from damp in the upper left corner.
+> "I owe to the courtesy of Mr. James, of King's College, Cambridge, who is engaged in editing this most interesting MS."[^jacobs1893]
 
-Nobody had read it for four hundred years, and James works this out himself, in the introduction, on page lx:
+James translated, edited and published the manuscript with commentary three years later, in 1896.[^edition]
 
-> "It seems, then, that Capgrave, Leland, and Bale knew Thomas of Monmouth's book. But outside their testimony and later than their time, no trace of it is discoverable. Alike to Boston, Tanner and Blomefield it is unknown, and, moreover, none of the chroniclers who notice St William's death appear to have seen it."[^buried]
+The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald is the one who gives him the reason: wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
 
-> "It seems clear that the book had little or no circulation outside East Anglia: for Capgrave (or John of Tinmouth) and Bale are both East Anglians: Leland saw his MS at Norwich Priory: and our MS comes to light in a Suffolk Library."
+What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln. Thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was money. Edward came home from France heavily in debt, his earls refused him, and Parliament would only grant the tax if the Jews went. The accusation was the justification, not the cause.[^expulsion]
 
-The thing was buried and he says so. It is not a figure of speech anyone has applied to him afterwards. It is his own finding about his own text, printed in the book.
+At the time of James's discovery there were multiple blood libels circulating throughout Europe, and James and Jacobs both thought the discovery would shed light on its origins. Jacobs, reviewing the edition in 1897:
 
-He and Augustus Jessopp edited, translated and published it at Cambridge in 1896.[^edition]
-
-The William in question was a "child of unusual innocence" murdered in 1144, and the earliest recorded accusation of ritual murder in Europe, the seed of the blood libel. The murder was blamed, in Thomas's telling, on local Jews for whom he worked, on dubious evidence, motivated *in odium fidei*, out of hatred of the faith.
-
-The editors say what they have got. From the Preface, signed by both of them:
-
-> "The long-lost Life of St William of Norwich is a unique contribution to English Hagiography, and indeed to Hagiography in general: it is the starting-point (and this should be carefully noted) in the history of the myth of Jewish ritual murders."[^preface]
-
-## Theobald
-
-The man who supplies the ritual is Theobald of Cambridge, a Jew turned monk. He tells Thomas that wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
-
-Narbonne because it was the most prestigious Jewish centre in western Europe, seat of a hereditary nasi whose family claimed descent from David. Theobald takes the one place in Europe with something like a Jewish court and makes it the head office of a conspiracy.
-
-Theobald survives in one book. This one.
-
-James did not release the blood libel. The accusation had been running for seven hundred years without a text, on the cult, the calendar, the chronicles and the parish screens. What James unearthed was the only surviving statement of its reason. Not that it happened, but why it supposedly happened. Annually, by lot, at Passover, out of a need they could not escape. The doctrine, as against the accusation.
-
-And he unearthed it in the most usable form the accusation could ask for. Not a Christian alleging it. A Jew confessing it. Theobald is a convert, and that is his entire function in the book. Look at this. A converted Jew said it himself.
-
-And he did not wait for the edition to let it out. In 1893, three years before publication, James sent the Theobald passage to Joseph Jacobs, who was compiling a documentary history of the Jews in medieval England. Jacobs printed it, crediting "the courtesy of Mr. James, of King's College, Cambridge, who is engaged in editing this most interesting MS." It runs under a running head that reads ORIGIN OF 'BLOOD ACCUSATION'.[^jacobs1893]
-
-That is the first time the doctrine reaches modern print. Not in a Cambridge edition. In a favour between scholars, inside a book written to defend English Jews.
+> "It shows how frail are the foundations on which this huge structure of malice and hatred has been erected."[^jacobs]
 
 James, on Theobald:
 
@@ -76,83 +58,21 @@ And on the case itself:
 
 ## It escaped the containment of academia
 
-Intended as an academic text, it escaped the containment of academia and reopened ancient accusations against Jews in Britain and Europe more generally, that had originally led to their expulsion from the country in 1290, compounded with a similar case of Little Saint Hugh in Lincoln in 1255. Cults emerged around both boys.[^cults]
+But Theobald escaped containment. On 4 July 1936, twenty two days after M.R. James died, a paper called *The Fascist* ran an article titled "Jewish Ritual Murder." Its author was Arnold Leese, founder of the Imperial Fascist League. He was prosecuted for it and sent to prison.
 
-The Edict of Expulsion was issued on 18 July 1290, which fell that year on Tisha B'Av. The first permanent expulsion of its kind by a European state.[^expulsion]
+Writing it all out again afterwards, he took the Theobald passage almost word for word from the *Jewish Encyclopedia* article Jacobs wrote. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese]
 
-The manuscript had lain buried for more than seven centuries, and then returned to haunt, as it continues to do so.
+The Narbonne conspiracy persists to this day. The ghost of Theobald, dug up from its parish resting place in East Anglia, did not end the conspiracy but provided it with new fire.
 
-The editors knew. Jessopp, writing in 1896, at the end of his fourth chapter:
+"Oh, Whistle, and I'll Come to You, My Lad" is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. In the story they get it back. The "intensely horrible, face of *crumpled linen*" collapses into a heap of bedclothes, the linen is burned the next morning and the whistle is thrown into the sea. The only permanent damage is to Parkins, whose views "are less clear cut than they used to be."
 
-> "though few can have known or had any suspicion that the original story came from Norwich and that Thomas of Monmouth, writing his bombastic book in the Norwich priory, first stirred up that mighty wave of superstitious credulity, unreasoning hate, and insatiable ferocity, which has not yet spent itself, though more than seven centuries have passed since Thomas took his pen in hand."[^jessopp-wave]
-
-Not yet spent itself. He wrote that in the year the book came out, and he was right about his own moment. A few pages earlier he compares the anti-Semitic frenzy of medieval Norwich to how it is "now in Central Europe."[^central-europe] The edition landed between Xanten in 1891 and Polná in 1899. Four states put Jews on trial for ritual murder at six public trials between 1879 and 1913.[^trials] They printed the founding document of the accusation while the accusation was live in court.
-
-One year later Joseph Jacobs reviewed the edition in the *Jewish Quarterly Review*. He found the passage that mattered straight away.
-
-> "Finally, we have the statement of Theobald, a renegade Jew of Cambridge, that it was the custom among Jews to sacrifice a boy for Passover in some European city fixed by lot, and that the lot, which had been taken at Narbonne, had fallen upon Norwich. It is this statement that is the foundation of the myth of the Blood Accusation."[^jacobs]
-
-And he thought printing it settled the matter.
-
-> "It shows how frail are the foundations on which this huge structure of malice and hatred has been erected."
-
-He raised no alarm about publication. Not once in eight pages. He could not imagine one was needed.
+Nobody burned anything in 1893.
 
 ## Things buried and uncovered
 
-Burial, his own chosen pseudonym, under which he has kept his identity hidden. [CHECK: your line here, I only have the fragment]
+Burial, his own chosen pseudonym, under which he has kept a notably private persona.
 
-Fisher had already specified the record before it existed. From k-punk, "London after the rave", 14 April 2006, on the first album:
-
-> "*Burial* is the kind of album I've dreamt of for years; literally. It is oneiric dance music, a collection of the 'dreamed songs' Ian Penman imagined in his epochal piece on Tricky's *Maxinquaye*."[^kpunk]
-
-He dreamed it and it came.
-
-And he kept teaching it. On 4 May 2011 Fisher gave "There Are Non-Times As Well As Non-Places: Reflections On Hauntology" at NYU, his first talk in America, built around Burial, The Caretaker, Ekoplekz and Richard Skelton.[^nyu] [PLACEHOLDER: HD to supply the source for the lecture opening with a Burial track. The NYU talk is the documented occasion; the audio would settle it.]
-
-And it came through the network. Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix. One release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub was live as a webzine by late 2000 and became a record label in 2004.[^webzine] It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007.
-
-It is Kode9 who says how Burial arrived, not Burial:
-
-> "Burial used to send me letters with drawings and CDRs of tunes from back in 2002. There was quite a few CDRs, actually. I noticed in 2004 that I was still listening to some of them, and was playing 'South London Boroughs' in my sets, and was listening to 'Broken Homes' a lot."[^letters]
-
-Kodwo Eshun, CCRU associate, author of *More Brilliant than the Sun* and the man who coined sonic fiction, curated *On Vanishing Land*, Fisher and Justin Barton's audio-essay built from a 2006 walk from Felixstowe container port to the Sutton Hoo burial ground. It pairs "Oh, Whistle" with Brian Eno's *On Land*. Shown at The Showroom in 2013, released on Flatlines, a Hyperdub imprint named after Fisher's PhD *Flatline Constructs*, in 2019.[^ovl]
-
-[Listen to *On Vanishing Land* on Bandcamp](https://flatlines-hyperdub.bandcamp.com/album/on-vanishing-land)
-
-So Fisher's M.R. James work was produced inside the same network that released Burial. Everyone in this story had the word hyperstition in hand. The CCRU defined it as an element of effective culture that makes itself real, and a coincidence intensifier.
-
-Kode9 has described how the label works. Andy Beckett, writing on the Warwick diaspora, says Hyperdub put out "skeletal, ominous dubstep records, by the lauded south London artist Burial among others, sometimes with accelerationist messages deep within." Kode9's answer:
-
-> "It's like an onion. Our audience are welcome to peel off as many layers as they want – some will make their eyes water, so we don't force feed."[^onion]
-
-Nobody is made to find anything. It is left there, and you go as deep as you go.
-
-## Is Burial trolling?
-
-It is genuinely undecidable, and I think that is deliberate.
-
-Against: the details are too unglamorous to be flattery. A dad reading aloud, a secondhand stall, skiving off work.
-
-For: he was inside that circle and had every reason to know k-punk. Handing Fisher *the* Fisher reference is a very precise gift.
-
-But the tell is that he explains the mechanism in the same answer:
-
-> "With M R James, it's that ghost story thing... it's a device to deliver the story into your world. Urban legends get woven so you're unable to be sure it's untrue."
-
-He describes the device while operating it, in an interview promoting an album called *Untrue*, as an artist whose identity was at that point the most discussed unknown in British music. And he closes the interview:
-
-> "The new tunes are a tiny misdirection, so I can steal away unseen to the next place."
-
-Burial definitely did know.
-
-Oh whistle and I'll come to you is a parable of the risks involved with digging up buried secrets.
-
-![Whistle and I'll come to you illustration](https://en.wikipedia.org/wiki/File:Whistle_and_I'll_come_to_you_illustration.jpg)
-
-*QUIS EST ISTE QUI UENIT.*
-
----
+Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub there was a label called Katasonix. One release, 1999. Kode9 had a track on it. So did Fisher.[^katasonix] Hyperdub was live as a webzine by late 2000 and became a record label in 2004.[^webzine] It released *South London Boroughs*, a 12 inch, in 2005, then *Burial* in 2006 and *Untrue* in 2007.
 
 ## Notes and sources
 
@@ -166,7 +86,7 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^buried]: M.R. James, "The Manuscript," ch. V, p. lx of the Introduction, ibid.
 
-[^edition]: Augustus Jessopp and Montague Rhodes James, eds. and trans., *The Life and Miracles of St William of Norwich, by Thomas of Monmouth: Now first edited from the unique manuscript* (Cambridge University Press, 1896). Jessopp wrote chapters I to IV of the Introduction, James chapters V to VII, the Preface is joint. The title page reads "CAMBRIDGE: AT THE UNIVERSITY PRESS. 1896", so 1896 is settled. The stray "1897" in circulation comes from the *Jewish Encyclopedia* bibliography, written by Joseph Jacobs, who misdated his own review subject. Full text: <https://archive.org/details/lifemiraclesofst00thomuoft>
+[^edition]: The edition is a joint one with Augustus Jessopp, who wrote chapters I to IV of the Introduction while James wrote V to VII; the Preface is joint. Everything quoted here is James's. Full citation: Augustus Jessopp and Montague Rhodes James, eds. and trans., *The Life and Miracles of St William of Norwich, by Thomas of Monmouth: Now first edited from the unique manuscript* (Cambridge University Press, 1896). Jessopp wrote chapters I to IV of the Introduction, James chapters V to VII, the Preface is joint. The title page reads "CAMBRIDGE: AT THE UNIVERSITY PRESS. 1896", so 1896 is settled. The stray "1897" in circulation comes from the *Jewish Encyclopedia* bibliography, written by Joseph Jacobs, who misdated his own review subject. Full text: <https://archive.org/details/lifemiraclesofst00thomuoft>
 
 [^preface]: Preface, signed A.J. and M.R.J., ibid.
 
@@ -182,7 +102,7 @@ Oh whistle and I'll come to you is a parable of the risks involved with digging 
 
 [^cults]: "Little Saint Hugh" is the standard name and worth keeping, but the sainthood was never granted. Neither William of Norwich nor Hugh of Lincoln was formally canonised. Both were venerated locally, with shrines, feast days and reported miracles, which is how the title was acquired. The "Little" exists to distinguish the boy from Hugh of Avalon, Bishop of Lincoln 1186 to 1200, who was canonised by Honorius III on 17 February 1220 and is an actual saint. [FIXED FROM DRAFT: your text said both were canonized.]
 
-[^expulsion]: Edict of Expulsion, 18 July 1290, which fell on Tisha B'Av that year. A plaque was placed at Lincoln Cathedral in 1955 repudiating the Little St Hugh story.
+[^expulsion]: Edict of Expulsion, 18 July 1290, which fell on Tisha B'Av that year; the Jews were ordered out by 1 November. Edward I had banned Jewish usury in the Statute of the Jewry, 1275, and in the coin-clipping arrests of the late 1270s over three hundred Jews were executed, more than a tenth of the population. He returned from three expensive years in France heavily in debt; his earls refused him; Parliament granted the tax only in exchange for the expulsion. A plaque was placed at Lincoln Cathedral in 1955 repudiating the Little St Hugh story.
 
 [^jessopp-wave]: Augustus Jessopp, ch. IV, ibid. [NOTE: the archive.org OCR mangles "which has" here. The printed text reads "which has not yet spent itself." Check against a clean scan before quoting.]
 
