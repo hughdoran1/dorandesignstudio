@@ -60,7 +60,7 @@ And on the case itself:
 
 But Theobald escaped containment. On 4 July 1936, twenty two days after M.R. James died, a paper called *The Fascist* ran an article titled "Jewish Ritual Murder." Its author was Arnold Leese, founder of the Imperial Fascist League. He was prosecuted for it and sent to prison.
 
-Writing it all out again afterwards, he took the Theobald passage almost word for word from the *Jewish Encyclopedia* article Jacobs wrote. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese]
+Writing it all out again afterwards, he took the Theobald passage almost word for word from the *Jewish Encyclopedia* article Jacobs wrote. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese][^leese2]
 
 The Narbonne conspiracy persists to this day. The ghost of Theobald, dug up from its parish resting place in East Anglia, did not end the conspiracy but provided it with new fire.
 
@@ -99,6 +99,10 @@ Kode9, Steve Goodman, was in the CCRU with Fisher at Warwick. Before Hyperdub th
 [^james-theobald]: M.R. James, "The Legend," ch. VI, ibid.
 
 [^james-nil]: Ibid.
+
+[^leese]: The article: *The Fascist*, issue of **4 July 1936**, which carried both pieces titled "Jewish Ritual Murder." Confirmed by Hansard, HC Deb 15 July 1936 vol 314 c2047, and by the Jewish Telegraphic Agency's trial report of 20 September 1936. *The Fascist* was a monthly, so there is one issue and one date. The text of the article has not been traced. The indictment, which for criminal libel had to set out the words complained of in full, is at the National Archives, Kew, **CRIM 1/864** (Central Criminal Court depositions, 8 September 1936), with the Director of Public Prosecutions' case papers at **DPP 2/340**. Both are open.
+
+[^leese2]: The trial: Leese and his printer Walter Whitehead were indicted on six counts of seditious libel and public mischief. At the Old Bailey on 21 September 1936 they were convicted on **two**, conspiring to print and publish libellous and scandalous statements about His Majesty's subjects of the Jewish faith, and effecting a public mischief, and **acquitted on the four counts** charging intent to provoke ill-will, hostility, disaffection and discontent. Leese refused the fine and served six months. [The JTA sentencing wire is datelined 22 September and says the trial ended that day; Leese and Woodbridge both say 21. Wire datelines lag, so do not print 21 as unarguable.] The book, which is not a reprint of the article, is Arnold S. Leese, *My Irrelevant Defence: Being Meditations Inside Gaol and Out on Jewish Ritual Murder* (London, April 1938; preface dated 1 March 1938); Norwich passage at ch. VII, pp. 12-13, second Theobald entry at ch. XIII, p. 39, bibliography pp. 56-57. Jessopp, James, Thomas of Monmouth and the Cambridge imprint are absent from both the retypeset and the photographic facsimile scans.
 
 [^cults]: "Little Saint Hugh" is the standard name and worth keeping, but the sainthood was never granted. Neither William of Norwich nor Hugh of Lincoln was formally canonised. Both were venerated locally, with shrines, feast days and reported miracles, which is how the title was acquired. The "Little" exists to distinguish the boy from Hugh of Avalon, Bishop of Lincoln 1186 to 1200, who was canonised by Honorius III on 17 February 1220 and is an actual saint. [FIXED FROM DRAFT: your text said both were canonized.]
 

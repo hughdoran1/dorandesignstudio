@@ -54,7 +54,7 @@ Forty years of work on whether it was true, and an English courtroom ruled that 
 
 ## Notes
 
-[^leese]: Arnold S. Leese, *My Irrelevant Defence: Being Meditations Inside Gaol and Out on Jewish Ritual Murder* (London, April 1938; preface dated 1 March 1938). Norwich passage at ch. VII, pp. 12-13; second Theobald entry at ch. XIII, p. 39; "Bibliography of Works Supporting the Blood Accusation," pp. 56-57. Confirmed absent from both the retypeset and the photographic facsimile scans: Jessopp 0, Jessop 0, Monmouth 0, 1896 0, 1897 0; both hits for "Cambridge" are "Theobald of Cambridge."
+[^leese]: Arnold S. Leese, *My Irrelevant Defence: Being Meditations Inside Gaol and Out on Jewish Ritual Murder* (London, April 1938; preface dated 1 March 1938). Norwich passage at ch. VII, pp. 12-13; second Theobald entry at ch. XIII, p. 39; "Bibliography of Works Supporting the Blood Accusation," pp. 56-57. Leese and his printer Walter Whitehead were indicted on six counts of seditious libel and public mischief and convicted on two, conspiring to publish libellous statements about Jews and effecting a public mischief, being acquitted on the four counts charging intent to provoke ill-will and hostility. Confirmed absent from both the retypeset and the photographic facsimile scans: Jessopp 0, Jessop 0, Monmouth 0, 1896 0, 1897 0; both hits for "Cambridge" are "Theobald of Cambridge."
 
 [^hansard]: HC Deb 15 July 1936 vol 314 c2047, Commander Locker-Lampson to the Attorney-General, on "an article in the publication called the 'Fascist,' 4th July, 1936." <https://api.parliament.uk/historic-hansard/commons/1936/jul/15/the-fascist>
 
