@@ -32,15 +32,17 @@ In 1902 and 1903 he excavated at Bury St Edmunds after finding a reference to th
 
 And in 1889 he exhumed the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*.[^james-ms] The William in question was a "child of unusual innocence" murdered in 1144, and the earliest recorded accusation of ritual murder in Europe, the seed of the blood libel. The murder was blamed, in Thomas of Monmouth's telling, on local Jews for whom he worked, on dubious evidence and motivated *in odium fidei*, out of hatred of the faith. James believed that no one had read the text in four hundred years, and that even at the time it was not circulated outside East Anglia, where it had remained buried.[^buried]
 
+The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald tells him that the murder was part of an international conspiracy. Wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
+
+What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln, and thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was war debt. Edward came home from France, and Parliament would only grant the tax if the Jews went. The accusation was part of the justification for the expulsion, not the cause.[^expulsion]
+
+## Exhumation
+
 M.R. James sent extracts to the Australian-born historian and folklorist Joseph Jacobs, who published them in his book *The Jews of Angevin England* (1893), and later in the *Jewish Encyclopedia*, which he contributed to and helped edit.
 
 > "I owe to the courtesy of Mr. James, of King's College, Cambridge, who is engaged in editing this most interesting MS."[^jacobs1893]
 
 James translated, edited and published the manuscript with commentary alongside fellow ghost-story writer and clergyman Augustus Jessopp three years later, in 1896.[^edition]
-
-The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald tells him that the murder was part of an international conspiracy. Wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
-
-What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln, and thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was war debt. Edward came home from France, and Parliament would only grant the tax if the Jews went. The accusation was part of the justification for the expulsion, not the cause.[^expulsion]
 
 At the time of James's discovery there were multiple blood libels circulating throughout Europe, and James and Jacobs both thought the discovery would shed light on its origins. Jacobs, reviewing the edition in 1897:
 
@@ -54,15 +56,7 @@ And on the case itself:
 
 > "It is seemingly not until Thomas has conceived the project of writing the life of St William that any attempt is made to ascertain the precise place and manner of the murder... At present, the evidence for a ritual murder is simply nil."[^james-nil]
 
-## Escaping Containment
-
-But Theobald escaped containment. The account that Jacobs and James both believed would disarm the accusation instead fell into the hands of Arnold Leese, founder of the Imperial Fascist League. On 4 July 1936, twenty two days after M.R. James died, Leese's paper *The Fascist* ran an article titled "Jewish Ritual Murder." He was prosecuted for spreading blood libel and sent to prison for "effecting a public mischief".
-
-In his book *My Irrelevant Defence: Meditations Inside Gaol and Out on Jewish Ritual Murder*, written afterwards, he quotes the *Jewish Encyclopedia* that Jacobs had worked on almost word for word. The encyclopedia had relied on M.R. James's East Anglian manuscript, the same manuscript in which James sets out his case that the Narbonne conspiracy is Theobald's fabrication.[^leese][^leese2] But instead of ending the conspiracy it provided it with a twelfth-century primary source to cite. It is not clear whether Leese read M.R. James and Jessopp's book, but he and many others certainly did not ingest the academic critique James lays out in it.
-
-'Oh, Whistle, and I'll Come to You, My Lad' is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. The "intensely horrible, face of *crumpled linen*" that is summoned when he blows the whistle escapes out of the window into the night.
-
-## Exhumation
+## Rhizome
 
 Burial had a shared connection in Kode9 (Steve Goodman) when Fisher interviewed him in 2007. Kode9 had been at the philosophy faculty at Warwick University with Fisher, where they had been members of the CCRU, the Cybernetic Culture Research Unit. They had also had a short lived record label together, Katasonix, which released one record in 1999, with a track by Kode9 and a track by Fisher on it.[^katasonix] In 2000 Kode9 set up Hyperdub as a webzine.[^webzine] In 2005 it put out its first record, Burial's *South London Boroughs*. *Burial* came the next year and *Untrue* the year after. Kode9 describes how this happened:
 
@@ -72,13 +66,19 @@ Kode9 describing the Hyperdub mythology:
 
 > "It's like an onion. Our audience are welcome to peel off as many layers as they want, some will make their eyes water, so we don't force feed."[^onion]
 
-## Trolling
-
 When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling. In 2006 Fisher and the writer, philosopher and sound artist **Justin Barton** had walked a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo, with "Oh, Whistle, and I'll Come to You, My Lad" at the centre of what they were doing. And six months before the interview he had begun publishing it. "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007.[^suffolk]
 
 Given the connection between the two via Kode9, it's possible Burial had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, him. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
 
-Oh whistle and I'll come to you is a parable of the risks involved with digging up buried secrets. And the CCRU has a buried text of its own.
+## Escaping Containment
+
+But Theobald escaped containment. The account that Jacobs and James both believed would disarm the accusation instead fell into the hands of Arnold Leese, founder of the Imperial Fascist League. On 4 July 1936, twenty two days after M.R. James died, Leese's paper *The Fascist* ran an article titled "Jewish Ritual Murder." He was prosecuted for spreading blood libel and sent to prison for "effecting a public mischief".
+
+In his book *My Irrelevant Defence: Meditations Inside Gaol and Out on Jewish Ritual Murder*, written afterwards, he quotes the *Jewish Encyclopedia* that Jacobs had worked on almost word for word. The encyclopedia had relied on M.R. James's East Anglian manuscript, the same manuscript in which James sets out his case that the Narbonne conspiracy is Theobald's fabrication.[^leese][^leese2] But instead of ending the conspiracy it provided it with a twelfth-century primary source to cite. It is not clear whether Leese read M.R. James and Jessopp's book, but he and many others certainly did not ingest the academic critique James lays out in it.
+
+'Oh, Whistle, and I'll Come to You, My Lad' is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. The "intensely horrible, face of *crumpled linen*" that is summoned when he blows the whistle escapes out of the window into the night.
+
+And the CCRU has a buried text of its own.
 
 In the spring of 1994, at a conference at Warwick called Virtual Futures, Nick Land read a paper called "Meltdown". It contains the line he is still famous for: "nothing human makes it out of the near future." By 1998 Land had burnt out, left academia, surfacing in Shanghai in the early 2000s editing travel guides.
 
