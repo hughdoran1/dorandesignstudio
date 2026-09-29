@@ -66,6 +66,14 @@ Kode9 describing the Hyperdub mythology:
 
 > "It's like an onion. Our audience are welcome to peel off as many layers as they want, some will make their eyes water, so we don't force feed."[^onion]
 
+The word is theirs too. In the 1998 conversation Goodman asks Fisher about the network they are in the middle of inventing:
+
+> SG: . . . in this white magic, rhizomaniac web?
+>
+> MF: Yes, he is the spider at the center of that web.
+
+The "he" is Stephens, a character in their mythos, and what Fisher gives him is a shape worth noticing: "Most people who work for the AOE, i.e. virtually everyone who is in a position of power on the planet, don't know about the AOE. It has operatives in the middle of organizations, and not at the top levels. The top levels are too unstable for them, and they think you don't really run anything from up there."
+
 When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling. In 2006 Fisher and the writer, philosopher and sound artist **Justin Barton** had walked a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo, with "Oh, Whistle, and I'll Come to You, My Lad" at the centre of what they were doing. And six months before the interview he had begun publishing it. "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007.[^suffolk]
 
 Given the connection between the two via Kode9, it's possible Burial had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, him. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
