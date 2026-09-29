@@ -4,7 +4,7 @@ There is a moment in Mark Fisher's interview with Burial that is genuinely eerie
 
 > "*Burial* is the kind of album I've dreamt of for years; literally."[^kpunk]
 
-But this is their first meeting, and during the interview Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little. One of them stands out.
+But this is their first meeting, and during the interview Burial tells Fisher he found a book of M.R. James stories on the South Bank the year before, bunked the day off work and read them. His dad used to read them to him when he was little.
 
 > "There's a few ghost stories, the one that fucked me up when I was little. 'Oh Whistle and I'll Come To You My Lad'. Something can betray how sinister it is even at a distance."
 
@@ -22,7 +22,7 @@ And Burial says:
 
 "Oh, Whistle, and I'll Come to You, My Lad" was published in 1904. It is about a Cambridge professor of Ontography (a fictitious field invented by James) named Parkins, who takes a golfing holiday at a village on the Suffolk coast, probably based on Felixstowe. Parkins is asked, as a favour, to look over the site of a Knights Templar preceptory while he is there. He digs a bronze whistle out of the masonry. It is inscribed **QUIS EST ISTE QUI UENIT**, who is this who is coming. He blows it.
 
-Fisher was living in Felixstowe. He died there on 13 January 2017.[^felixstowe]
+Fisher was living in Felixstowe, East Anglia. He died there on 13 January 2017.[^felixstowe]
 
 ## Burials
 
@@ -30,7 +30,7 @@ M.R. James was at King's College, Cambridge, a medievalist and manuscript catalo
 
 In 1902 and 1903 he excavated at Bury St Edmunds after finding a reference to the burial site of twelfth-century abbots. On New Year's Day 1903 they opened the chapter house and found six graves exactly where he said they would be.[^bury]
 
-And in 1889 he exhumed the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*.[^james-ms] The William in question was a "child of unusual innocence" murdered in 1144, and the earliest recorded accusation of ritual murder in Europe, the seed of the blood libel. The murder was blamed, in Thomas of Monmouth's telling, on local Jews for whom he worked, on dubious evidence, motivated *in odium fidei*, out of hatred of the faith. James believed that no one had read the text in four hundred years, and that even at the time it was not circulated outside East Anglia, where it had remained buried.[^buried]
+And in 1889 he exhumed the only known manuscript of Thomas of Monmouth's *The Life and Miracles of St William of Norwich*.[^james-ms] The William in question was a "child of unusual innocence" murdered in 1144, and the earliest recorded accusation of ritual murder in Europe, the seed of the blood libel. The murder was blamed, in Thomas of Monmouth's telling, on local Jews for whom he worked, on dubious evidence and motivated *in odium fidei*, out of hatred of the faith. James believed that no one had read the text in four hundred years, and that even at the time it was not circulated outside East Anglia, where it had remained buried.[^buried]
 
 M.R. James sent extracts to the Australian-born historian and folklorist Joseph Jacobs, who published them in his book *The Jews of Angevin England* (1893), and later in the *Jewish Encyclopedia*, which he contributed to and helped edit.
 
@@ -38,9 +38,9 @@ M.R. James sent extracts to the Australian-born historian and folklorist Joseph 
 
 James translated, edited and published the manuscript with commentary alongside fellow ghost-story writer and clergyman Augustus Jessopp three years later, in 1896.[^edition]
 
-The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald is the one who gives him the reason: wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
+The manuscript re-introduced a long forgotten character called Theobald of Cambridge, a Jew turned monk. Thomas of Monmouth arrives at the scene of the crime years after it took place, and Theobald tells him that the murder was part of an international conspiracy. Wealthy Spanish Jews assemble at Narbonne every year and cast lots for which nation of Europe must furnish that year's Christian child for a Passover sacrifice. In 1144 the lot fell on England. The English communities then drew lots among themselves, and Norwich got it. Without the blood, he says, they cannot obtain their freedom or return to their fatherland.[^theobald]
 
-What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln, and thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was money. Edward came home from France heavily in debt, his earls refused him, and Parliament would only grant the tax if the Jews went. The accusation was the justification, not the cause.[^expulsion]
+What James unearthed was the only surviving statement as to why the supposed ritual murder of William of Norwich had occurred, a conspiracy that had persisted throughout medieval times without a primary source. A century later the murder of Little Saint Hugh was blamed on the Jewish community of Lincoln, and thirty five years after that, on 18 July 1290, Edward I issued the Edict of Expulsion, the first permanent expulsion of its kind by a European state. The driver was war debt. Edward came home from France, and Parliament would only grant the tax if the Jews went. The accusation was part of the justification for the expulsion, not the cause.[^expulsion]
 
 At the time of James's discovery there were multiple blood libels circulating throughout Europe, and James and Jacobs both thought the discovery would shed light on its origins. Jacobs, reviewing the edition in 1897:
 
@@ -54,51 +54,41 @@ And on the case itself:
 
 > "It is seemingly not until Thomas has conceived the project of writing the life of St William that any attempt is made to ascertain the precise place and manner of the murder... At present, the evidence for a ritual murder is simply nil."[^james-nil]
 
-## It escaped the containment of academia
+## Escaping Containment
 
-But Theobald escaped containment. The account that Jacobs and James both believed would disarm the accusation instead fell into the hands of Arnold Leese, founder of the Imperial Fascist League. On 4 July 1936, twenty two days after M.R. James died, Leese's paper *The Fascist* ran an article titled "Jewish Ritual Murder." He was prosecuted for it and sent to prison.
+But Theobald escaped containment. The account that Jacobs and James both believed would disarm the accusation instead fell into the hands of Arnold Leese, founder of the Imperial Fascist League. On 4 July 1936, twenty two days after M.R. James died, Leese's paper *The Fascist* ran an article titled "Jewish Ritual Murder." He was prosecuted for spreading blood libel and sent to prison for "effecting a public mischief".
 
-Writing it all out again afterwards, in *My Irrelevant Defence: Meditations Inside Gaol and Out on Jewish Ritual Murder*, he quotes the *Jewish Encyclopedia* that Jacobs had worked on almost word for word. He cites that encyclopedia eighteen times. He never names Jacobs, or James, or the manuscript.[^leese][^leese2]
+In his book *My Irrelevant Defence: Meditations Inside Gaol and Out on Jewish Ritual Murder*, written afterwards, he quotes the *Jewish Encyclopedia* that Jacobs had worked on almost word for word. The encyclopedia had relied on M.R. James's East Anglian manuscript, the same manuscript in which James sets out his case that the Narbonne conspiracy is Theobald's fabrication.[^leese][^leese2] But instead of ending the conspiracy it provided it with a twelfth-century primary source to cite. It is not clear whether Leese read M.R. James and Jessopp's book, but he and many others certainly did not ingest the academic critique James lays out in it.
 
-Leese's book is a response to his imprisonment for "effecting a public mischief", spreading blood libel. The Narbonne conspiracy persists to this day. The ghost of Theobald, dug up from its parish resting place in East Anglia, did not end the conspiracy but provided it with new fire.
+'Oh, Whistle, and I'll Come to You, My Lad' is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. The "intensely horrible, face of *crumpled linen*" that is summoned when he blows the whistle escapes out of the window into the night.
 
-'Oh, Whistle, and I'll Come to You, My Lad' is surely a parable of the risk of disturbing the dead, unknowable chaos can be unleashed for which the curious ontographer has no control. The "intensely horrible, face of *crumpled linen*" escapes out of the window into the night.
+## Exhumation
 
-## Things buried and uncovered
-
-Burial, his own chosen pseudonym, under which he has kept a notoriously private persona, had a shared connection in Kode9 (Steve Goodman) when Fisher interviewed him in 2007. Kode9 had been at the philosophy faculty at Warwick University with Fisher, where they had been members of the CCRU, the Cybernetic Culture Research Unit. They had also had a short lived record label together, Katasonix, which released one record in 1999, with a track by Kode9 and a track by Fisher on it.[^katasonix] In 2000 Kode9 set up Hyperdub as a webzine.[^webzine] In 2005 it put out its first record, Burial's *South London Boroughs*. *Burial* came the next year and *Untrue* the year after. Kode9 describes how this happened:
+Burial had a shared connection in Kode9 (Steve Goodman) when Fisher interviewed him in 2007. Kode9 had been at the philosophy faculty at Warwick University with Fisher, where they had been members of the CCRU, the Cybernetic Culture Research Unit. They had also had a short lived record label together, Katasonix, which released one record in 1999, with a track by Kode9 and a track by Fisher on it.[^katasonix] In 2000 Kode9 set up Hyperdub as a webzine.[^webzine] In 2005 it put out its first record, Burial's *South London Boroughs*. *Burial* came the next year and *Untrue* the year after. Kode9 describes how this happened:
 
 > "Burial used to send me letters with drawings and CDRs of tunes from back in 2002. There was quite a few CDRs, actually. I noticed in 2004 that I was still listening to some of them, and was playing 'South London Boroughs' in my sets, and was listening to 'Broken Homes' a lot."[^letters]
 
-Kode9 also released *On Vanishing Land*, Fisher and Justin Barton's audio-essay, on his Flatlines label, a Hyperdub imprint named after Fisher's PhD *Flatline Constructs*, in 2019. The piece is built on that 2006 walk from Felixstowe, and pairs "Oh, Whistle" with Brian Eno's *On Land*. It's worth listening to.[^ovl]
-
-[Listen to *On Vanishing Land* on Bandcamp](https://flatlines-hyperdub.bandcamp.com/album/on-vanishing-land)
-
-Kode9 has described how the Hyperdub label works. Andy Beckett, writing on the Warwick diaspora, says Hyperdub put out "skeletal, ominous dubstep records, by the lauded south London artist Burial among others, sometimes with accelerationist messages deep within." Kode9's answer:
+Kode9 describing the Hyperdub mythology:
 
 > "It's like an onion. Our audience are welcome to peel off as many layers as they want, some will make their eyes water, so we don't force feed."[^onion]
 
 ## Trolling
 
-When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling.
-
-Because Fisher was already in it. In 2006 he and the writer, philosopher and sound artist **Justin Barton** had walked a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo, with "Oh, Whistle, and I'll Come to You, My Lad" at the centre of what they were doing. And six months before the interview he had begun publishing it. "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007.[^suffolk]
+When Burial brings James' ghost story into the interview he is introducing something of the eerie, deliberately, but he is perhaps trolling. In 2006 Fisher and the writer, philosopher and sound artist **Justin Barton** had walked a stretch of the Suffolk coastline from Felixstowe container port to the Anglo-Saxon burial ground at Sutton Hoo, with "Oh, Whistle, and I'll Come to You, My Lad" at the centre of what they were doing. And six months before the interview he had begun publishing it. "Suffolk hauntology (some provisional notes)" went up on k-punk on 16 June 2007.[^suffolk]
 
 Given the connection between the two via Kode9, it's possible Burial had intel on Fisher's interest in the story, and was constructing a mythology that would resonate with, and perhaps spook, him. The year before, Fisher had done something similar to Burial: "*Burial* is the kind of album I've dreamt of for years; literally." Layers of an onion, or something like that.
 
 Oh whistle and I'll come to you is a parable of the risks involved with digging up buried secrets. And the CCRU has a buried text of its own.
 
-In the spring of 1994, at a conference at Warwick called Virtual Futures, at ten in the morning, to a room full of people wrecked from a rave in the student union the night before, Nick Land read a paper called "Meltdown". It contains the line he is still famous for: "nothing human makes it out of the near future." By 1998 Land had burnt out, left academia and dropped off the map, surfacing in Shanghai in the early 2000s editing travel guides. The paper went into the ground with him.
+In the spring of 1994, at a conference at Warwick called Virtual Futures, Nick Land read a paper called "Meltdown". It contains the line he is still famous for: "nothing human makes it out of the near future." By 1998 Land had burnt out, left academia, surfacing in Shanghai in the early 2000s editing travel guides.
 
-It came back up in the hinterlands of blogs in the early 2010s, and in 2012 Land gave the thing a name: the Dark Enlightenment. Marc Andreessen now calls him his favourite philosopher, and named him among the "Patron Saints of Techno-Optimism" in *The Techno-Optimist Manifesto*, posted 16 October 2023. In October 2025 the CCRU numogram appeared on the Tucker Carlson Show, where Carlson and the self-described amateur theologian Conrad Flynn discussed Land's ideas for close to half an hour. [IMAGE: Carlson holding up the numogram.] Elon Musk routinely interacts with Land on X, and perhaps most curiously of all, Musk reportedly has a child named after a Burial track.
+There was a renewed interest in Land and the CCRU, fuelled by blogs in the early 2010s, and in 2012 Land gave the thing a name: the Dark Enlightenment. Marc Andreessen now calls him his favourite philosopher, and named him among the "Patron Saints of Techno-Optimism" in *The Techno-Optimist Manifesto*, posted 16 October 2023. In October 2025 the CCRU numogram appeared on the Tucker Carlson Show, where Carlson and the self-described amateur theologian Conrad Flynn discussed Land's ideas for close to half an hour. [IMAGE: Carlson holding up the numogram.] Elon Musk routinely interacts with Land on X, and perhaps most curiously of all, Musk reportedly has a child named after a Burial track.
 
-Land's philosophy is inhumane and bleak, and the less said about his posting on X the better. [NOTE TO SELF: keep the racism stuff nebulous, just that it's ugly.] Fisher went the other way out of the same room, and spent the rest of his life arguing that this stuff could be turned towards something better.
-
-In 1993 Land described capitalism as "an invasion from the future" by an artificial intelligence that had come back in time to assemble itself out of "enemy resources", meaning us. Which is, more or less word for word, Colonel Wilson in a Felixstowe hotel: "There seemed to be absolutely nothing material about it save the bed-clothes of which it had made itself a body."
+Land's philosophy is inhumane and bleak, and the less said about his posting on X the better. In 1993 Land described capitalism as "an invasion from the future" by an artificial intelligence that had come back in time to assemble itself out of "enemy resources", meaning humans.
 
 In February 2026 the *New Yorker* sent a writer to a mansion in San Francisco where Land was holding court in front of a hundred people from OpenAI, Anthropic and Midjourney. Late in the evening Grimes sat down beside him at a fire pit and asked what happens when AI becomes self-improving and humans are locked out of the loop. "I feel an incredible urge to make it stop and see beauty more." Land's answer: "My prediction is that A.I. will persuade you that technology eating the universe is more beautiful." The piece's verdict on the whole scene: "Clearly, these ideas, and the political energy they carry, have escaped containment."
 
-A lot of people seem to be taking this very seriously. But the conversation Kode9 posted, transcribed from a minidisc recorded in November 1998, makes the absurdity of their mythology clear in its original context. This stuff has escaped containment. I never saw the new fans of CCRU at FWD>> or DMZ, and it seems they take it a lot more seriously than Fisher and Kode9 did at the time.
+A lot of people seem to be taking this very seriously. But the conversation Kode9 posted, transcribed from a minidisc recorded in November 1998, the year of Land's meltdown, makes the absurdity of their mythology clear in its original context.
 
 > SG: (laughing)
 >
@@ -115,8 +105,6 @@ A lot of people seem to be taking this very seriously. But the conversation Kode
 > SG: What is the numogram?
 >
 > MF: It's the standard mythos maze, or syzygy diagram. Obviously we don't want to say that she invented it, because its obviously aeonically . . . since it's only abstract numerics, anyone could have found it, at any time. But it's called the Stillwell numogram, because of her commentary on it, to do with hydrocycles.
-
-This probably wasn't what Fisher and Kode9 had in mind.
 
 ## Notes and sources
 
