@@ -95,6 +95,10 @@
 
   <!-- DDS soft-body icon engine (dependency-free) — deferred too; the Icons view is click-away, never first paint -->
   <script defer="" src="/dds-icon-engine.js"></script>
+  <!-- Umami analytics. Privacy-friendly, cookieless, no consent banner needed. `defer` so it never blocks
+       first paint. NOTE: the deployed pages are PRE-RENDERED snapshots (task #84) — this tag only reaches
+       visitors after `node publish/prerender.mjs` regenerates prerendered/. -->
+  <script defer="" src="https://cloud.umami.is/script.js" data-website-id="9455bdef-764e-41fe-bc0e-72d7b64e613a"></script>
 
   <style>
     :root {
